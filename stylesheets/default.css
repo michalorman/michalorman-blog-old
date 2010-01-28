@@ -1,12 +1,26 @@
 body {
-	font: 15px Helvetica, Verdana, sans-serif;
+	font: 16px Helvetica, Verdana, sans-serif;
 	margin: 0;
 	padding: 0;
 	color: #555;
 }
 
+a, a:visited {
+	color: #125AA7;
+}
+
+a:hover {
+	color: #0b9df0;
+}
+
 p {
 	margin-top: 0;
+}
+
+pre {
+	background: #eee;
+	-moz-border-radius: 0.3em;
+	padding: 0.5em 0.7em;
 }
 
 #header {
@@ -29,6 +43,7 @@ p {
 	background: #aaa;
 	padding: 0.2em 6em;
 	color: #555;
+	font-weight: bold;
 }
 
 #navbar a {
@@ -40,11 +55,11 @@ p {
 }
 
 #navbar a:hover {
-	color: #888;
+	color: #777;
 }
 
 #content {
-	padding-left: 6em;
+	padding: 0 6em;
 }
 
 #footer {
