@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+    "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+    	
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl">
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+		<title>Michał Orman - {{ page.title }}</title>
+		<link rel="stylesheet" href="/stylesheets/default.css" type="text/css" media="screen" charset="utf-8"/>{% if page.description %}
+		<meta name="description" content="{{ page.description }}"/>{% endif  %}{% if page.keywords %}
+		<meta name="keywords" content="{{ page.keywords }}"/>{% endif  %}
+	</head>
+	
+	<body>
+		<div id="header-wrapper">
+			<h1><a href="/">michalorman.pl</a></h1>
+			<h2>inżynieria oprogramowania z mojego punktu widzenia</h2>
+		</div>
+		
+		<div id="content-wrapper">
+			{{ content }}
+		</div>
+		
+		<div id="footer-wrapper">
+			&copy; 2010 Michał Orman
+		</div>
+	</body>
+</html>
