@@ -17,6 +17,10 @@ p {
 	margin-top: 0;
 }
 
+img {
+	border: none;
+}
+
 pre {
 	background: #eee;
 	-moz-border-radius: 0.3em;
@@ -46,24 +50,97 @@ pre {
 	font-weight: bold;
 }
 
-#navbar a {
+#navbar a, #navbar a:visited {
+	color: #555;
 	text-decoration: none;
 }
 
-#navbar a, #navbar a:visited {
-	color: #555;
-}
-
 #navbar a:hover {
-	color: #777;
+	color: #222;
+	text-decoration: underline;
 }
 
-#content {
+#main {
 	padding: 0 6em;
+	overflow: hidden;
 }
 
 #footer {
 	padding: 1em 6em;
 	background: #2C2A25;
 	color: #ddd;
+	text-align: center;
+	font-size: 0.8em;
+}
+
+#footer a, #footer a:visited {
+	color: #999;
+	text-decoration: none;
+}
+
+#footer a:hover {
+	color: #777;
+	text-decoration: underline;
+}
+
+.post-wrapper h1 {
+	margin-bottom: 0;
+}
+
+.post-wrapper h2 {
+	margin: 0 0 1em 0;
+	font-size: 1em;
+	color: #999;
+	font-weight: normal;
+}
+
+.label {
+	color: #555;
+}
+
+#content {
+	float: left;
+	width: 83%;
+	margin-right: -230px;
+	padding: 1em 3% 1em 0;
+	border-right: 230px solid #ddd;
+	min-height: 300px;
+}
+
+#sidebar {
+	width: 190px;
+	background-color: #ddd;
+	float: left;
+	margin-right: -230px;
+	padding: 1em;
+	height: 100%;
+	font-size: 0.9em;
+}
+
+#sidebar h1 {
+	font-size: 1em;
+	margin: 0;
+}
+
+#sidebar ul {
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#sidebar ul ul {
+	padding-left: 0.7em;
+	margin-bottom: 1em;
+}
+
+#sidebar a, #sidebar a:visited {
+	text-decoration: none;
+	color: #555;
+}
+
+#sidebar a:hover {
+	color: #222;
+	text-decoration: underline;
 }

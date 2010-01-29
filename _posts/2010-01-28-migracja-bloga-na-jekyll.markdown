@@ -1,7 +1,10 @@
 ---
 layout: post
 title: Migracja bloga z Wordpress na Jekyll
-categories: [blog, wordpress, jekyll]
+categories: [Blog]
+tags: [wordpress, jekyll]
+description: Post o migracji bloga z platformy Wordpress na Jekyll
+keywords: wordpress jekyll Michał Orman blog
 ---
 No i dałem się namówić. Porzucam publikacje postów na Wordpress na rzecz [Jekyll](http://github.com/mojombo/jekyll/). Co prawda Jekyll nie jest platformą do publikowania postów, jest to jedynie narzędzie, które generuje pliki statyczne z plików tekstowych na podstawie szablonu.
 

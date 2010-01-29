@@ -3,6 +3,9 @@ layout: default
 ---
 <div class="post-wrapper">
   <h1>{{ page.title }}</h1>
-  <p class="post-date">{{ page.date | date_to_string }}</p>
-  {{ content }}
+  <h2>{{ page.date | date_to_string }}{% for category in page.categories %} &middot; {{ category }}{% endfor %}</h2>
+	<div class="post-content-wrapper">
+    {{ content }}
+	</div>
+	<h2><span class="label">Tagi:</span> {% for tag in page.tags %} {{ tag }} &middot; {% endfor %}</h2>
 </div>
