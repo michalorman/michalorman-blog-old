@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Konfiguracja serwera JBoss AS 4.2.3.GA pod Debianem
-categories: [JBoss AS]
 tags: [J2EE, JBoss AS]
 description: Opis procesu konfiguracji serwera JBoss AS 4.2.3.GA pod systemem Debian
 keywords: jboss as 4.2.3.ga debian

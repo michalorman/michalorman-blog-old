@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Baza wiedzy i narzędzia do analizy pod kątem SEO
-categories: [SEO]
 tags: [seo, www]
 description: Spis narzedzi do analizy witryny pod kontem optymalizacji wyszukiwania SEO
 keywords: seo www

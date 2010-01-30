@@ -120,6 +120,16 @@ td {
 	font-weight: normal;
 }
 
+.post-wrapper h1 a, .post-wrapper h1 a:visited {
+	text-decoration: none;
+	color: #555;
+}
+
+.post-wrapper h1 a:hover {
+  text-decoration: underline;
+  color: #555;
+}
+
 .label {
 	color: #555;
 }
