@@ -1,11 +1,4 @@
 ---
 layout: default
 ---
-<div class="post-wrapper">
-  <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
-  <h2>{{ page.date | date_to_string }}{% for category in page.categories %}{% unless category == 'blog' and page.categories.size > 1 %} &middot; <a href="{% unless category == 'blog' %}/blog{% endunless %}/{{category}}/">{{ category }}</a>{% endunless %}{% endfor %}</h2>
-	<div class="post-content-wrapper">
-    {{ content }}
-	</div>
-	<h2><span class="label">Tagi:</span> {% for tag in page.tags %} {{ tag }}{% unless forloop.last %} &middot; {% endunless %}{% endfor %}</h2>
-</div>
+{% assign post = page %}{% include post.html %}

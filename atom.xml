@@ -1,0 +1,30 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+ <title>Michał Orman Blog</title>
+ <link href="http://michalorman.pl/atom.xml" rel="self"/>
+ <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <id>http://michalorman.pl/</id>
+ 
+ <author>
+   <name>Michał Orman</name>
+   <email>michal.orman@gmail.com</email>
+ </author>
+ 
+ {% for post in site.posts limit:10 %}
+ <entry>
+   <title>{{ post.title | xml_escape }}</title>
+   <id>{{ site.url }}{{ post.id }}</id>
+   <link href="{{ site.url }}{{ post.url }}"/>
+   <content type="html">{{ post.content | xml_escape }}</content>
+   <updated>{{ post.date | date_to_xmlschema }}</updated>
+	 {% for tag in post.categories %}
+   <category scheme="http://michalorman.pl/" term="{{ tag }}" label="{{ tag }}" />
+	 {% endfor %}
+ </entry>
+ {% endfor %}
+ 
+</feed>

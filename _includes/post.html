@@ -1,0 +1,7 @@
+<div class="post-wrapper">
+  <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+  <h2>{{ post.date | date_to_string }}{% for category in post.categories %}{% unless category == 'blog' and post.categories.size > 1 %} &middot; <a href="{% unless category == 'blog' %}/blog{% endunless %}/{{category}}/">{{ category }}</a>{% endunless %}{% endfor %}</h2>
+  <div class="post-content-wrapper">
+    {{ post.content }}
+  </div>
+</div>

@@ -1,5 +1,5 @@
 body {
-	font: 16px Helvetica, Verdana, sans-serif;
+	font: 16px Palatino, "Times New Roman", Times, serif;
 	margin: 0;
 	padding: 0;
 	color: #555;
@@ -55,7 +55,7 @@ td {
 
 #header {
 	background: #2C2A25;
-	height: 3.8em;
+	height: 4.2em;
 	padding: 2em 6em 1.5em 6em;
 	color: #ddd;
 }
@@ -63,6 +63,10 @@ td {
 #header a, #header a:active, #header a:hover, #header a:visited {
 	color: white;
 	text-decoration: none;
+}
+
+#header h1 {
+	font-size: 2.5em;
 }
 
 #header h1, #header p {
@@ -89,6 +93,10 @@ td {
 #main {
 	padding: 0 6em;
 	overflow: hidden;
+}
+
+#recent-posts h1 {
+	margin-top: 2em;
 }
 
 #footer {

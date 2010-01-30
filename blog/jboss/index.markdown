@@ -5,4 +5,4 @@ description: Posty w kategorii JBoss
 keywords: jboss as
 ---
 # Posty w kategorii JBoss
-{% for post in site.categories.jboss %}{% include post-link.html %}{% endfor %}
+{% assign category = site.categories.jboss %}{% include post-link.html %}
