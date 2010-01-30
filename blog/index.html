@@ -6,5 +6,5 @@ keywords: Michał Michal Orman Blog Java J2EE EE Ruby Rails Inżynieria Oprogram
 ---
 <ul>{% for post in site.posts %}<li><a href="{{ post.url }}">{{ post.title }}</a></li>{% endfor %}</ul>
 <div id="recent-posts">
-{% for post in site.posts limit:5 %}{% include post.html %}{% endfor %}
+{% for post in site.posts limit:10 %}{% include post.html %}{% endfor %}
 </div>
