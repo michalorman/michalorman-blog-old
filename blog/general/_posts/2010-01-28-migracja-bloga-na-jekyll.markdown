@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Migracja bloga z Wordpress na Jekyll
-categories: [Blog]
-tags: [wordpress, jekyll]
 description: Post o migracji bloga z platformy Wordpress na Jekyll
 keywords: wordpress jekyll Michał Orman blog
 ---

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Sprint backlog i burndown chart
-tags: [scrum, sprint backlog, burndown chart]
 description: Porównanie sposobów realizacji sprint backlog z metodyki scrum, oraz sposoby tworzenia burndown chart.
 keywords: scrum sprint backlog burndown chart
 ---

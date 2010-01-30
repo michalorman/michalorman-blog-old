@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Problemy z Eclipse po aktualizacji Ubuntu do wersji 9.10
-tags: [eclipse, ubuntu, ide]
 description: Problemy z Eclipse po aktualizacji Ubuntu do wersji 9.10
 keywords: ubuntu 9.10 eclipse ide
 ---

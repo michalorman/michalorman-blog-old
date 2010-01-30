@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Analiza bezpieczeństwa serwera WWW z Nitko
-tags: [nitko, security, www]
 description: Przedstawienie procesu analizy bezpieczeństwa serwera WWW z wykorzystaniem narzędzia Nitko
 keywords: www security bezpieczeństwo nitko
 ---
