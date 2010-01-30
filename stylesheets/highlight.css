@@ -2,7 +2,16 @@
 	font-weight: bold;
 }
 
-.s2 {
+.s, .s1, .s2 {
 	color: blue;
+}
+
+.c {
+	font-style: italic;
+	color: #999;
+}
+
+.nd {
+	color: #888;
 }
 
