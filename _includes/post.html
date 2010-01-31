@@ -1,6 +1,6 @@
 <div class="post-wrapper">
   <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
-  <h2>{{ page.date | date_to_string }}{% for category in page.categories %}{% unless category == 'blog' and page.categories.size > 1 %} &middot; <a href="{% unless category == 'blog' %}/blog{% endunless %}/{{category}}/">{{ category }}</a>{% endunless %}{% endfor %}</h2>
+  <h2>{{ page.date | date_to_string }}{% for category in page.categories %}{% unless category == 'blog' and page.categories.size > 1 %} &middot; <a href="{% unless category == 'blog' %}/blog{% endunless %}/{{category}}/">{{ category }}</a>{% endunless %}{% endfor %} &middot; <a href="{{ page.url }}/#disqus_thread">Komentuj</a></h2>
   <div class="post-content-wrapper">
     {{ body }}
   </div>

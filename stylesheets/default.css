@@ -148,11 +148,10 @@ td {
 	margin-right: -230px;
 	padding: 1em 3% 1em 0;
 	border-right: 230px solid #ddd;
-	min-height: 500px;
 }
 
 #sidebar {
-	width: 190px;
+	width: 200px;
 	background-color: #ddd;
 	float: left;
 	margin-right: -230px;
@@ -187,4 +186,11 @@ td {
 #sidebar a:hover {
 	color: #222;
 	text-decoration: underline;
+}
+
+.avatar {
+	height: 200px;
+	width: 300px;
+	float: left;
+	margin: 0 1em 1em 0;
 }

@@ -2,19 +2,74 @@
 layout: nil
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url> 
-    <loc>http://andrzejsliwa.com/</loc>
+    <loc>http://michalorman.pl/</loc>
     <changefreq>daily</changefreq> 
     <priority>1</priority> 
   </url>
-  <url>
-    <loc>http://andrzejsliwa.com/about/</loc>
-    <changefreq>weekly</changefreq>
-  </url> 
+  <url> 
+    <loc>http://michalorman.pl/blog/</loc>
+    <changefreq>daily</changefreq> 
+    <priority>1</priority> 
+  </url>
+	<url> 
+    <loc>http://michalorman.pl/blog/o-blogu/</loc>
+    <changefreq>monthly</changefreq> 
+    <priority>0.8</priority> 
+  </url>
+	<url> 
+    <loc>http://michalorman.pl/blog/o-mnie/</loc>
+    <changefreq>monthly</changefreq> 
+    <priority>0.8</priority> 
+  </url>
+	<url> 
+    <loc>http://michalorman.pl/blog/o-mnie/neosoft/</loc>
+    <changefreq>monthly</changefreq> 
+    <priority>0.8</priority> 
+  </url>
+	<url> 
+    <loc>http://michalorman.pl/blog/o-mnie/moje-projekty/</loc>
+    <changefreq>monthly</changefreq> 
+    <priority>0.8</priority> 
+  </url>
+	
+  <url> 
+    <loc>http://michalorman.pl/blog/2009</loc>
+    <changefreq>weekly</changefreq> 
+    <priority>0.5</priority> 
+  </url>
+  <url> 
+    <loc>http://michalorman.pl/blog/2009/10</loc>
+    <changefreq>weekly</changefreq> 
+    <priority>0.5</priority> 
+  </url>
+  <url> 
+    <loc>http://michalorman.pl/blog/2009/11</loc>
+    <changefreq>weekly</changefreq> 
+    <priority>0.5</priority> 
+  </url>
+  <url> 
+    <loc>http://michalorman.pl/blog/2009/12</loc>
+    <changefreq>weekly</changefreq> 
+    <priority>0.5</priority> 
+  </url>
+	
+  <url> 
+    <loc>http://michalorman.pl/blog/2010</loc>
+    <changefreq>weekly</changefreq> 
+    <priority>0.5</priority> 
+  </url>
+  <url> 
+    <loc>http://michalorman.pl/blog/2010/01</loc>
+    <changefreq>weekly</changefreq> 
+    <priority>0.5</priority> 
+  </url>
+	
 {% for page in site.posts %}  <url>
-    <loc>http://andrzejsliwa.com{{ page.url }}</loc>
+    <loc>http://michalorman.pl{{ page.url }}</loc>
     <lastmod>{{ page.date | date: "%Y-%m-%d" }}</lastmod>
     <changefreq>monthly</changefreq>
+    <priority>0.9</priority> 
   </url>
 {% endfor %}</urlset>
