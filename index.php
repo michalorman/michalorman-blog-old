@@ -1,5 +1,4 @@
-<?php 
-header("HTTP/1.1 301 Moved Permanently"); 
-header("Location: http://www.michalorman.pl/blog/"); 
-exit(); 
+<?
+Header( "HTTP/1.1 301 Moved Permanently" ); 
+Header( "Location: http://michalorman.pl/blog/" ); 
 ?>

@@ -1,5 +1,5 @@
 body {
-	font: 16px Palatino, "Times New Roman", Times, serif;
+	font: 18px Palatino, "Times New Roman", Times, serif;
 	margin: 0;
 	padding: 0;
 	color: #555;
@@ -21,10 +21,23 @@ img {
 	border: none;
 }
 
+code {
+  background-color: #f0f0f0;
+  border: 1px solid #e0e0e0;
+  padding: 0 0.2em 0 0.2em;
+	font-size: 0.9em;
+}
+
 pre {
 	background-color: #eee;
 	-moz-border-radius: 0.3em;
 	padding: 0.5em 0.7em;
+}
+
+pre code {
+	background-color: none;
+	border: none;
+	padding: 0;
 }
 
 blockquote {
@@ -97,6 +110,10 @@ td {
 
 #recent-posts h1 {
 	margin-top: 2em;
+}
+
+#disqus_thread {
+	margin-top: 4em;
 }
 
 #footer {
