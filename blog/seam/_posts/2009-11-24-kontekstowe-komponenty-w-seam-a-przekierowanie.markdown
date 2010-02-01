@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Kontekstowe komponenty w Seam a przekierowanie
-tags: [seam, context, component, conversation]
 description: Problem z komponentami w kontekście konwersacji po przekierowaniu w Seam Framework.
 keywords: seam framework contextual comnponents conversation redirect
 ---
