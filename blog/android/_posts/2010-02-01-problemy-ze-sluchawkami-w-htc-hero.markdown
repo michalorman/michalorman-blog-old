@@ -9,7 +9,7 @@ kiedy z nich korzystam, ale akurat mi się nawinęły pod rękę jeszcze nierozp
 Wrzuciłem sobie nieco muzyki na telefon podłączam słuchawki a tu mała niespodzianka.
 Dźwięk zamiast przes słuchawki wydobywa się z głośnika telefonu. Na nic zdało się
 odłączanie i ponowne podłączanie słuchawek (ani nawet kręcenie nimi). Pomyślałem, że
-to niemożliwe aby w gdzieś była ukryta opcja przełączania dźwięku.
+to niemożliwe aby gdzieś była ukryta opcja przełączania dźwięku.
 
 Systuacja zaczęła się robić dość poważna i trzeba było zasięgnąć rady u kochanego
 wujka. Natrafiłem na [ten wątek](http://androidforums.com/htc-hero/7102-htc-hero-headphone-jack-problem.html).

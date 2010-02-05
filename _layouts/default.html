@@ -32,20 +32,7 @@
 				<ul>
 					<li>
 					  <h1>Kategorie</h1>
-						<ul>
-							<li><a href="/blog/android/">Android ({{ site.categories.android.size }})</a></li>
-							<li><a href="/blog/certyfikaty/">Certyfikaty ({{ site.categories.certyfikaty.size }})</a></li>
-							<li><a href="/blog/general/">General ({{ site.categories.general.size }})</a></li>
-							<li><a href="/blog/javaee/">Java EE ({{ site.categories.javaee.size }})</a></li>
-							<li><a href="/blog/jboss/">JBoss ({{ site.categories.jboss.size }})</a></li>
-							<li><a href="/blog/oop/">OOP ({{ site.categories.oop.size }})</a></li>
-							<li><a href="/blog/ruby/">Ruby ({{ site.categories.ruby.size }})</a></li>
-							<li><a href="/blog/scrum/">Scrum ({{ site.categories.scrum.size }})</a></li>
-							<li><a href="/blog/seam/">Seam ({{ site.categories.seam.size }})</a></li>
-							<li><a href="/blog/security/">Security ({{ site.categories.security.size }})</a></li>
-							<li><a href="/blog/seo/">SEO ({{ site.categories.seo.size }})</a></li>
-							<li><a href="/blog/tools/">Tools ({{ site.categories.tools.size }})</a></li>
-						</ul>
+						{% include categories.html %}
 					</li>
 					<li>
 						<h1>Odnośniki</h1>
@@ -110,6 +97,7 @@
 			//]]>
 		</script>
 		
+		{% unless page.skip_analytics %}
 		<script type="text/javascript">
 		  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
 		  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
@@ -121,6 +109,7 @@
 		    pageTracker._trackPageview();
 		  } catch(err) {}
 		</script>
+		{% endunless %}
 
 	</body>
 </html>

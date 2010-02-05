@@ -3,8 +3,8 @@ layout: nil
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-	
-	<!-- Blog/About -->
+  
+  <!-- Blog/About -->
   <url> 
     <loc>http://michalorman.pl/</loc>
     <changefreq>daily</changefreq> 
@@ -15,126 +15,95 @@ layout: nil
     <changefreq>daily</changefreq> 
     <priority>1</priority> 
   </url>
-	<url> 
+  <url> 
     <loc>http://michalorman.pl/blog/o-blogu/</loc>
     <changefreq>monthly</changefreq> 
     <priority>0.8</priority> 
   </url>
-	<url> 
+  <url> 
     <loc>http://michalorman.pl/blog/o-mnie/</loc>
     <changefreq>monthly</changefreq> 
     <priority>0.8</priority> 
   </url>
-	<url> 
+  <url> 
     <loc>http://michalorman.pl/blog/o-mnie/neosoft/</loc>
     <changefreq>monthly</changefreq> 
     <priority>0.8</priority> 
   </url>
-	<url> 
+  <url> 
     <loc>http://michalorman.pl/blog/o-mnie/moje-projekty/</loc>
     <changefreq>monthly</changefreq> 
     <priority>0.8</priority> 
   </url>
-	
-	<!-- Archives -->
+  
+  <!-- Categories -->
   <url> 
-    <loc>http://michalorman.pl/blog/2009/</loc>
-    <changefreq>weekly</changefreq> 
-    <priority>0.5</priority> 
-  </url>
-  <url> 
-    <loc>http://michalorman.pl/blog/2009/10/</loc>
-    <changefreq>weekly</changefreq> 
-    <priority>0.5</priority> 
-  </url>
-  <url> 
-    <loc>http://michalorman.pl/blog/2009/11/</loc>
-    <changefreq>weekly</changefreq> 
-    <priority>0.5</priority> 
-  </url>
-  <url> 
-    <loc>http://michalorman.pl/blog/2009/12/</loc>
-    <changefreq>weekly</changefreq> 
-    <priority>0.5</priority> 
-  </url>
-  <url> 
-    <loc>http://michalorman.pl/blog/2010/</loc>
-    <changefreq>weekly</changefreq> 
-    <priority>0.5</priority> 
-  </url>
-  <url> 
-    <loc>http://michalorman.pl/blog/2010/01/</loc>
-    <changefreq>weekly</changefreq> 
-    <priority>0.5</priority> 
-  </url>
-	<url> 
-    <loc>http://michalorman.pl/blog/2010/02/</loc>
-    <changefreq>weekly</changefreq> 
-    <priority>0.5</priority> 
-  </url>
-	
-	<!-- Categories -->
-	<url> 
     <loc>http://michalorman.pl/blog/android/</loc>
     <changefreq>weekly</changefreq> 
     <priority>0.7</priority> 
   </url>
-	<url> 
+  <url> 
+    <loc>http://michalorman.pl/blog/blog/</loc>
+    <changefreq>weekly</changefreq> 
+    <priority>0.7</priority> 
+  </url>
+  <url> 
     <loc>http://michalorman.pl/blog/certyfikaty/</loc>
     <changefreq>weekly</changefreq> 
     <priority>0.7</priority> 
   </url>
-	<url> 
+  <url> 
     <loc>http://michalorman.pl/blog/general/</loc>
     <changefreq>weekly</changefreq> 
     <priority>0.7</priority> 
   </url>
-	<url> 
+  <url> 
     <loc>http://michalorman.pl/blog/javaee/</loc>
     <changefreq>weekly</changefreq> 
     <priority>0.7</priority> 
   </url>
-	<url> 
+  <url> 
     <loc>http://michalorman.pl/blog/jboss/</loc>
     <changefreq>weekly</changefreq> 
     <priority>0.7</priority> 
   </url>
-	<url> 
+  <url> 
     <loc>http://michalorman.pl/blog/oop/</loc>
     <changefreq>weekly</changefreq> 
     <priority>0.7</priority> 
   </url>
-	<url> 
+  <url> 
     <loc>http://michalorman.pl/blog/ruby/</loc>
     <changefreq>weekly</changefreq> 
     <priority>0.7</priority> 
   </url>
-	<url> 
+  <url> 
     <loc>http://michalorman.pl/blog/scrum/</loc>
     <changefreq>weekly</changefreq> 
     <priority>0.7</priority> 
   </url>
-	<url> 
+  <url> 
     <loc>http://michalorman.pl/blog/seam/</loc>
     <changefreq>weekly</changefreq> 
     <priority>0.7</priority> 
   </url>
-	<url> 
+  <url> 
     <loc>http://michalorman.pl/blog/security/</loc>
     <changefreq>weekly</changefreq> 
     <priority>0.7</priority> 
   </url>
-	<url> 
+  <url> 
     <loc>http://michalorman.pl/blog/seo/</loc>
     <changefreq>weekly</changefreq> 
     <priority>0.7</priority> 
   </url>
-	<url> 
+  <url> 
     <loc>http://michalorman.pl/blog/tools/</loc>
     <changefreq>weekly</changefreq> 
     <priority>0.7</priority> 
   </url>
-	
+  
+    <!-- Entries -->
 {% for page in site.posts %}  <url>
     <loc>http://michalorman.pl{{ page.url }}</loc>
     <lastmod>{{ page.date | date: "%Y-%m-%d" }}</lastmod>
