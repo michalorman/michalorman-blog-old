@@ -21,18 +21,25 @@ img {
 	border: none;
 }
 
+pre {
+  background-color: #eee;
+  -moz-border-radius: 0.3em;
+  padding: 0.5em 0.7em;
+  font-size: 0.9em;
+  display: block;
+  word-wrap: break-word;
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+}
+
 code {
+	font-family: Courier, monospace;
   background-color: #f0f0f0;
   border: 1px solid #e0e0e0;
   padding: 0 0.2em 0 0.2em;
-	font-size: 0.9em;
-}
-
-pre {
-	background-color: #eee;
-	-moz-border-radius: 0.3em;
-	padding: 0.5em 0.7em;
-	font-size: 0.9em;
+	font-size: 1em;
 }
 
 pre code {
@@ -40,6 +47,7 @@ pre code {
 	border: none;
 	padding: 0;
 	background-color: #eee;
+	display: block;
 }
 
 blockquote {
