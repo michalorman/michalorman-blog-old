@@ -36,6 +36,43 @@ layout: nil
     <priority>0.8</priority> 
   </url>
   
+  <!-- Archives -->
+  <url>
+    <loc>http://michalorman.pl/blog/2009/</loc>
+    <changefreq>weekly</changefreq> 
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>http://michalorman.pl/blog/2009/10/</loc>
+    <changefreq>weekly</changefreq> 
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>http://michalorman.pl/blog/2009/11/</loc>
+    <changefreq>weekly</changefreq> 
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>http://michalorman.pl/blog/2009/12/</loc>
+    <changefreq>weekly</changefreq> 
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>http://michalorman.pl/blog/2010/</loc>
+    <changefreq>weekly</changefreq> 
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>http://michalorman.pl/blog/2010/01/</loc>
+    <changefreq>weekly</changefreq> 
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>http://michalorman.pl/blog/2010/02/</loc>
+    <changefreq>weekly</changefreq> 
+    <priority>0.4</priority>
+  </url>
+
   <!-- Categories -->
   <url> 
     <loc>http://michalorman.pl/blog/android/</loc>

@@ -225,8 +225,33 @@ layout: nil
     <priority>0.8</priority> 
   </url>
   
-  <!-- Categories -->
+  <!-- Archives -->
   END
+  
+  Dir["#{ROOT}/[0-9]*"].sort.each do |year|
+    if (File.directory?(year))
+      content += <<-END
+  <url>
+    <loc>http://michalorman.pl/#{year}/</loc>
+    <changefreq>weekly</changefreq> 
+    <priority>0.4</priority>
+  </url>
+      END
+      Dir["#{year}/[0-9]*"].sort.each do |month|
+        if (File.directory?(month))
+          content += <<-END
+  <url>
+    <loc>http://michalorman.pl/#{month}/</loc>
+    <changefreq>weekly</changefreq> 
+    <priority>0.4</priority>
+  </url>
+          END
+        end
+      end
+    end
+  end
+  
+  content += "\n  <!-- Categories -->\n"
   
   categories.sort.each do |category, post|
     content += <<-END
@@ -250,6 +275,7 @@ layout: nil
 {% endfor %}</urlset>
   END
 end
+
 
 def rebuild_sitemap
   rebuild_file(SITEMAP) do |categories|
