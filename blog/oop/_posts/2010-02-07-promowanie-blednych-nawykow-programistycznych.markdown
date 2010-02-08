@@ -12,15 +12,15 @@ walczyć, ale walka ta jest raczej skazana na porażkę i w myśl indiańskiego 
 trzeba wroga polubić, skoro nie można go pokonać.
 
 Można się zastanawiać co jest powodem takiego stanu rzeczy. Oczywiście jako pierwsze
-narzuca się niedouczenie naszych "koderów", jednakże jest to jedyny uzasadniony powód
+narzuca się niedouczenie naszych "koderów", i jest to jedyny uzasadniony powód
 takiej radosnej twórczości. Jedyny uzasadniony dlatego, że nie każdy miał czas i ochotę
 zapoznać się z teorią. Jednakże niedouczenie rokuje, że ów delikwent w końcu przeglądnie conieco
-materiału na temat OOP. Gorzej, jeżeli te zachowania wynikają stąd, że wiele takich
-rozwiązań pojawia się co rusz w różnego rodzaju książkach, a w nich raczej spodziewamy
+materiału na temat OOP i się poprawi. Gorzej, jeżeli te zachowania wynikają stąd, że wiele takich
+rozwiązań pojawia się w różnego rodzaju książkach, a w nich raczej spodziewamy
 się rzetelnej wiedzy! W takiej sytuacji ów delikwent może nie tyle nie wiedzieć,
 że robi źle, ale wręcz bronić takiego rozwiązania! Jeszcze gorzej jak owe praktyki
 występują w API bibliotek standardowych (a o takie w bibliotece standardowej
-Javy nie trudno) albo oba naraz!
+Javy nie trudno) albo w obu naraz!
 
 Oto przykład kodu, na który natknąłem się czytawszy książkę Kathy Sierry do SCJP
 czyli książki, którą przeczytalo tak na oko 99% osób przygotowujących się do egzaminu.
@@ -62,8 +62,12 @@ Dlaczego tak **nie wolno** robić tłumaczyć chyba nie muszę.
 
 Kolejna rzecz to zamykanie strumienia. Taka rzecz **musi** odbywać się w bloku
 ``finally``! Zrozumiałbym, gdyby ten kod był w rozdziale przed omawianiem tego bloku,
-ale nie jest! To już jest po prostu ignorancja! A co w ogóle ciekawe, często taki blok
-pisany jest zwyczajnie źle. Prawidłowo powinien wyglądać on tak:
+ale nie jest! To już jest po prostu ignorancja! Po co kilka rozdziałów wcześniej całe
+pitolenie o bloku ``finally`` jako jedynym słusznym miejscu gdzie należy zwalniać zasoby,
+skoro pare stron dalej się te informacje zwyczajnie olewa? 
+
+Co w ogóle ciekawe, często taki blok pisany jest zwyczajnie źle. Prawidłowo powinien 
+wyglądać on mniej więcej tak:
 
 {% highlight java %}
 ObjectOutputStream os = null;
@@ -79,8 +83,8 @@ try {
 {% endhighlight %}
 
 Często programiści zapominają o sprawdzeniu czy odpowiednia zmienna nie ma czasem
-wartości ``null`` a przecież tworzenie strumienia może spowodować wyjątek, a wtedy
-zmienna nie jest zainicjalizowana (i dostajemy ``NullPointerException``).
+wartości ``null`` a przecież tworzenie strumienia może spowodować wyjątek, wtedy
+zmienna nie jest zainicjalizowana i dostajemy ``NullPointerException``.
 
 Co ciekawe takie błędne zamykanie strumienia wystepuje nawet w [oficjalnej dokumentacji](http://java.sun.com/j2se/1.4.2/docs/api/java/io/ObjectOutputStream.html)
 Javy dla klasy ObjectOutputStream. Zauważmy również, że w cytowanym przykładzie 
@@ -100,8 +104,8 @@ Miska Hevery'ego na ten temat.
 
 No dobra przebrneliśmy przez błędy wynikające z zaniedbań (albo ignorancji) autorów
 książki. Jednak cytowany kod ma jeszcze błędy wynikające ze złego zaprojektowania API.
-Niestety twórcy API Javy w wielu miejscach się nie popisali a niestety nawyki te są
-potem przenoszone na nasze projekty.
+Niestety twórcy API Javy w wielu miejscach się nie popisali a nawyki te są
+potem przenoszone na nasze projekty (w końcu wszyscy uczą się na przykładach m.in. z API).
 
 Przyglądnijmy się jak jest serializowany nasz obiekt. Algorytm możemy opisać w następujących
 krokach:
@@ -117,7 +121,10 @@ tak:
 
 1. Serializowanie obiektu
 
-Cała reszta to tylko zbędne czynności. Na szczęście rzadko kiedy potrzebujemy robić
+Cała reszta to tylko zbędne czynności. Wydaje się, że twórcy API chcieli wymyśleć coś
+super uniwersalnego, ale nie do końca chyba przemyśleli czy będzie to komuś potrzebne, a
+jeśli już to niewielu programistom (zato wszystkim utrudnia życie). 
+Na szczęście rzadko kiedy potrzebujemy robić
 serializację ręcznie, ale gdybyśmy musieli to głowę daję, że znaczna większość tego
 typu kodu wyglądała by tak jak zacytowany (oczywiście z poprawnym zamykaniem strumieni ;)).
 Dlaczego zatem musimy się tak trudzić? Wynika to ze złego wydzielenia odpowiedzialności.
@@ -147,9 +154,10 @@ stan. Nie żadne obiekty "utilsowe"! Ba, domyślna implementacja powinna już by
 gotowa (np. w klasie Object) a jeżeli chcemy to zmienić to używamy, **jedynego
 najsensowniejszego** mechanizmu służącego do tego celu, czyli nadpisywania (ang. overriding)!
 Po co nam jakieś bzdetne dekoratory i interfejsy markery (które notabene nic nie
-znaczą)? Mechanizm serializacji Javy to jakaś pomyłka (mam na myśli tylko jej design
-a nie działanie) i antywzorzec projektowy! Obiekty powinny być z założenia serializowalne
-a jeżeli tego nie chcemy oznaczamy je jako ``transient`` i tyle.
+znaczą)? Obiekty powinny być z założenia serializowalne
+a jeżeli tego nie chcemy oznaczamy je jako ``transient`` i tyle. Analogicznie
+obiekt powinien umieć zdeserializować swój stan, bez ujawniania swoich flaków
+obiektom zewnętrznym (no chyba, że są one zagregowane wewnątrz).
 
 Niestety to jest najczęstszy błąd z jakim się spotykam, czyli błedne przypisanie
 odpowiedzialności. Pół biedy jak wynika ono z ograniczeń języka (nie można zmienić już
@@ -159,8 +167,8 @@ występować (tak jak nie powinni ich robić programiści API mając dostęp do 
 
 Jest kilka prostych sposobów zauważenia, że klasa jaką tworzymy nie ma sensu i
 prawdopodobnie popełniliśmy błąd gdzieś w projekcie. Pierwszym symptomem jest brak pól
-egzemplarza (ang. instance variables). Prawidłowo zaimplementowana klasa powinna mieć
-zarówno stan jak i metody. Jeżeli posiada tylko metody to jest to klasa tzw. utilsowa, której
+egzemplarza (ang. instance variables) w klasie. Prawidłowo zaimplementowana klasa powinna mieć
+zarówno stan jak i odpowiedzialności (metody). Jeżeli posiada tylko metody to jest to klasa tzw. utilsowa, której
 metody możemy spokojnie przenieść do dowolnie innej klasy albo zrobić statycznymi
 co jest kolejnym elementem mówiącym nam, że klasa jest źle zaprojektowana. Z drugiej
 strony, jeżeli klasa ma tylko pola (czyli stan) i żadnych metod biznesowych, to taka
@@ -169,8 +177,9 @@ potrzebna do jakiejkolwiek logiki (no chyba, że do przesyłania danych).
 
 Jak zatem określić do jakiej klasy powinna należeć metoda? Wystarczy przyglądnąć
 się jej kodowi. Jeżeli taka metoda nie przyjmuje, żadnego argumentu, oznacza to, że
-albo zwraca stałą, albo zwraca coś co pobiera statycznie (co w ogóle oznacza, że jest
-źle zaimplementowana). Jeżeli jednak przyjmuje jakiś argument(y) to należy sprawdzić,
+albo zwraca stałą, albo zwraca coś co pobiera statycznie lub z globalnego stanu co w ogóle oznacza, że jest
+źle zaimplementowana. No chyba, że to jest getter ujawniający stan obiektu, co w wielu sytuacjach
+również wskazuje na zły design. Jeżeli jednak przyjmuje jakiś argument(y) to należy sprawdzić,
 co robimy z takim argumentem. Czy odpytujemy go o jakieś pola poczym robimy operacje
 aby wynik zwrócić albo zapisać w tym samym obiekcie? To znaczy, że dana metoda jest odpowiedzialnością
 tego obiektu. Rzućmy okiem na przykład:
