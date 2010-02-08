@@ -114,6 +114,10 @@ td {
 	text-decoration: underline;
 }
 
+#navbar .separator {
+	margin: 0 0.2em;
+}
+
 #main {
 	padding: 0 6em;
 	overflow: hidden;
