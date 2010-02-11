@@ -1,114 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
-    "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-    	
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl">
-	<head>
-		<meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
-		<title>Michał Orman - {{ page.title }}</title>
-		<link rel="alternate" type="application/atom+xml" href="/atom.xml" />
-		<link rel="stylesheet" href="/stylesheets/default.css" type="text/css"/>
-		<link rel="stylesheet" href="/stylesheets/highlight.css" type="text/css"/>{% if page.description %}
-		<meta name="description" content="{{ page.description }}"/>{% endif  %}{% if page.keywords %}
-		<meta name="keywords" content="{{ page.keywords }}"/>{% endif  %}
-	</head>
-	
-	<body>
-		<div id="header">
-			<h1><a href="/blog/">michalorman.pl</a></h1>
-			<p>inżynieria oprogramowania z mojego punktu widzenia</p>
-		</div>
-		
-		<div id="navbar">
-			{% include navbar.html %}
-		</div>
-		
-		<div id="main">
-			<div id="content">
-		    {{ content }}
-			</div>
-			<div id="sidebar">
-				<ul>
-					<li>
-					  <h1>Kategorie</h1>
-						{% include categories.html %}
-					</li>
-					<li>
-						<h1>Odnośniki</h1>
-						<ul>
-						  <li><a href="http://michalorman.pl/wiki/index.php?title=Strona_g%C5%82%C3%B3wna">Moje wiki</a></li>
-						  <li><a href="http://github.com/michalorman">Profil na GitHub</a></li>
-						  <li><a href="http://www.javablackbelt.com/UserView.wwa?userId=9242332">Profil na JavaBlackBelt</a></li>
-						</ul>
-					</li>
-					<li>
-            <h1>Archiwa</h1>
-						<ul>
-							<li><a href="/blog/2009/10">10/2009</a></li>
-							<li><a href="/blog/2009/11">11/2009</a></li>
-							<li><a href="/blog/2009/12">12/2009</a></li>
-							<li><a href="/blog/2010/01">01/2010</a></li>
-							<li><a href="/blog/2010/02">02/2010</a></li>
-						</ul>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+    <title>Michał Orman - {{ page.title }}</title>
+    <link rel="alternate" type="application/atom+xml" href="/atom.xml" />
+    <link rel="stylesheet" href="/stylesheets/default.css" type="text/css"/>
+    <link rel="stylesheet" href="/stylesheets/highlight.css" type="text/css"/>
+    {% if page.description %}
+    <meta name="description" content="{{ page.description }}"/>
+    {% endif  %}{% if page.keywords %}
+    <meta name="keywords" content="{{ page.keywords }}"/>
+    {% endif %}
+  </head>
+  <body>
+    <div id="header">
+      <h1><a href="/blog/">michalorman.pl</a></h1>
+      <p>
+        inżynieria oprogramowania z mojego punktu widzenia
+      </p>
+    </div>
+    <div id="navbar">
+      {% include navbar.html %}
+    </div>
+    <div id="main">
+      <div id="content">
+        {{ content }}
+      </div>
+      <div id="sidebar">
+        <ul>
+          <li>
+            <h1>Kategorie</h1>
+            {% include categories.html %}
           </li>
-				  <li>
-				  	<h1>Różne</h1>
-						<ul>
-							<li>
-								<a href="http://www.javablackbelt.com/UserView.wwa?userId=9242332">
-									<img width="89" height="57" src="http://www.javablackbelt.com/imgs/level/belt4_L.gif" alt="Michal's belt at JavaBlackBelt"/>
-								</a>
-							</li>
-							<li>
-								<a href="http://validator.w3.org/check?uri=referer">
-									<img src="http://www.w3.org/Icons/valid-xhtml11-blue" alt="Valid XHTML 1.1" height="31" width="88" />
-								</a>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<h1>Subskrypcje</h1>
-						<a id="feed_link" href="/atom.xml">
-							<img src="/images/feed.png" alt="Subskrybuj" />
-						</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-		
-		<div id="footer">
-			<div>&copy; 2010 Michał Orman</div>
-			<div>Powered by <a href="http://github.com/mojombo/jekyll">Jekyll</a> and <a href="http://disqus.com/comments/">Disqus</a>. Inspired by <a href="http://srinig.com/wordpress/themes/fluid-blue/">Fluid Blue theme</a>.</div>
-		</div>
-		
-		<script type="text/javascript">
-			//<![CDATA[
-			(function() {
-			  var links = document.getElementsByTagName('a');
-			  var query = '?';
-			  for(var i = 0; i < links.length; i++) {
-			  if(links[i].href.indexOf('#disqus_thread') >= 0) {
-			    query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
-			  }
-			  }
-			  document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/michalormanblog/get_num_replies.js' + query + '"></' + 'script>');
-			})();
-			//]]>
-		</script>
-		
-		{% unless page.skip_analytics %}
-		<script type="text/javascript">
-			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-		</script>
-		<script type="text/javascript">
-			try {
-				var pageTracker = _gat._getTracker("UA-10392759-3");
-				pageTracker._trackPageview();
-			} catch(err) {}
-		</script>
-		{% endunless %}
-
-	</body>
+          <li>
+            <h1>Odnośniki</h1>
+            <ul>
+              <li>
+                <a href="http://michalorman.pl/wiki/index.php?title=Strona_g%C5%82%C3%B3wna">Moje wiki</a>
+              </li>
+              <li>
+                <a href="http://github.com/michalorman">Profil na GitHub</a>
+              </li>
+              <li>
+                <a href="http://www.javablackbelt.com/UserView.wwa?userId=9242332">Profil na JavaBlackBelt</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <h1>Archiwa</h1>
+            <ul>
+              <li>
+                <a href="/blog/2009/10">10/2009</a>
+              </li>
+              <li>
+                <a href="/blog/2009/11">11/2009</a>
+              </li>
+              <li>
+                <a href="/blog/2009/12">12/2009</a>
+              </li>
+              <li>
+                <a href="/blog/2010/01">01/2010</a>
+              </li>
+              <li>
+                <a href="/blog/2010/02">02/2010</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <h1>Różne</h1>
+            <ul>
+              <li>
+                <a href="http://pl.linkedin.com/in/michalorman"><img src="/images/linkedin.gif" alt="Mój profil na LinkedIn" /></a>
+              </li>
+              <li>
+                <a href="http://www.javablackbelt.com/UserView.wwa?userId=9242332"><img src="http://www.javablackbelt.com/imgs/level/belt4_L.gif" alt="Michal's belt at JavaBlackBelt"/></a>
+              </li>
+              <li>
+                <a href="http://validator.w3.org/check?uri=referer"><img src="http://www.w3.org/Icons/valid-xhtml11-blue" alt="Valid XHTML 1.1" height="31" width="88" /></a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <h1>Subskrypcje</h1>
+            <a id="feed_link" href="/atom.xml"><img src="/images/feed.png" alt="Subskrybuj" /></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="footer">
+      <div>
+        &copy; 2010 Michał Orman
+      </div>
+      <div>
+        Powered by <a href="http://github.com/mojombo/jekyll">Jekyll</a>
+        and <a href="http://disqus.com/comments/">Disqus</a>. Inspired by <a href="http://srinig.com/wordpress/themes/fluid-blue/">Fluid Blue theme</a>.
+      </div>
+    </div>
+    <script type="text/javascript">
+      //<![CDATA[
+      (function(){
+          var links = document.getElementsByTagName('a');
+          var query = '?';
+          for (var i = 0; i < links.length; i++) {
+              if (links[i].href.indexOf('#disqus_thread') >= 0) {
+                  query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+              }
+          }
+          document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/michalormanblog/get_num_replies.js' + query + '"></' + 'script>');
+      })();
+      //]]>
+    </script>
+    {% unless page.skip_analytics %}
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      try {
+          var pageTracker = _gat._getTracker("UA-10392759-3");
+          pageTracker._trackPageview();
+      } 
+      catch (err) {
+      }
+    </script>
+    {% endunless %}
+  </body>
 </html>
