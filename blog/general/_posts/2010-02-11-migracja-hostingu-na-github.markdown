@@ -38,7 +38,7 @@ problem ten nie był tak dokuczliwy, ale przy Jekyll już strasznie wnerwiał. T
 podziękowałem panom z OVH i specjalnie nie będę za nimi tęsknił. Teraz publikacja
 bloga sprowadza się do wykonania jednego polecenia:
 
-  git push origin master
+    git push origin master
   
 Działą szybko i bezproblemowo. Trzeba przyznać, że panowie od GitHub odwalili
 kawał naprawdę niezłej roboty.
