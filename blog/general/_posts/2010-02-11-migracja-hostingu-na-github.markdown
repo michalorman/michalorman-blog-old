@@ -9,7 +9,7 @@ pomyślnie :). GitHub to platforma pozwalająca na trzymanie i zarządzanie kode
 wersjonowanym z użyciem narzędzia Git. Platforma ta cały czas nie przestaje mnie
 zaskakiwać. Co ciekawe, każdy kto posiada tam konto ma do dyspozycji hosting
 niejako gratis. Każdy ma możliwość hostingu swojej strony głównej (tj. blog czy portfolio),
-oraz strony projektów. Po szczegóły odsyłam (do dokumentacji)[http://pages.github.com/].
+oraz strony projektów. Po szczegóły odsyłam [do dokumentacji](http://pages.github.com/).
 
 Aby stworzyć stronę hostowaną na GitHub należy poczynić 2 kroki. Pierwszy krok
 to utworzenie repozytorium o nazwie: ``username.github.com`` gdzie ``username`` to
