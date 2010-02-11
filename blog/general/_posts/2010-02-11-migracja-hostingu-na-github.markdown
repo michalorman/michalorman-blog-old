@@ -40,5 +40,5 @@ bloga sprowadza się do wykonania jednego polecenia:
 
     git push origin master
   
-Działą szybko i bezproblemowo. Trzeba przyznać, że panowie od GitHub odwalili
+Działa szybko i bezproblemowo. Trzeba przyznać, że panowie od GitHub odwalili
 kawał naprawdę niezłej roboty.
