@@ -25,7 +25,8 @@ Javy nie trudno) albo w obu naraz!
 Oto przykład kodu, na który natknąłem się czytając książkę Kathy Sierry do SCJP
 czyli książki, którą przeczytało tak na oko 99% osób przygotowujących się do egzaminu.
 Na temat samego egzaminu nie będę się wypowiadał (teraz), ale ogólnie wiadomo, że przydatność
-zdobytej tam wiedzy jest co najmniej wątpliwa. No ale cóż, trzeba zdać, aby nie być w tyle.
+zdobytej tam wiedzy jest co najmniej wątpliwa. No ale cóż, trzeba zdać, aby nie być w tyle
+(i mieć dostęp do kolejnych egzaminów).
 W każdym razie, oto wspomniany kod:
 
 {% highlight java %}
