@@ -92,6 +92,6 @@ Aby zrozumieć co się tutaj stało kluczowe okazują się następujące linijki
   /usr/lib/ruby/gems/1.8/<strong>gems/sqlite3-0.0.8</strong>/lib/sqlite3/database.rb:66:in `initialize'
 </pre>
 
-Otóż okazuje się, że jeżeli mamy zainstalowany gem ``sqlite3`` bez ``-ruby`` to wpływa on w jakiś sposób na procedurę inicjalizacji bazy co w konsekwencji
-powoduję zgłoszenie wyjątku. Subtelna różnica w nazwie a może narobić takich irytujących problemów. W każdym razie odinstalowanie tego gema powoduje,
+Otóż okazuje się, że jeżeli mamy zainstalowany gem ``sqlite3`` (bez ``-ruby``) to wpływa on w jakiś sposób na procedurę inicjalizacji bazy co w konsekwencji
+powoduje zgłoszenie wyjątku. Subtelna różnica w nazwie a może narobić takich irytujących problemów. W każdym razie odinstalowanie tego gema powoduje,
 że nasza aplikacja działa prawidłowo.
