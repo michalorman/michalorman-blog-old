@@ -4,7 +4,7 @@ title: Migracja hostingu na github.
 description: Migracja hostingu bloga z OVH na GitHub
 keywords: hosting ovh github
 ---
-Jeżeli czytasz tego bloga to znaczy, że migracja hostingu z OVH na GitHub przebiegła
+Jeżeli czytasz ten post to znaczy, że migracja hostingu z OVH na GitHub przebiegła
 pomyślnie :). GitHub to platforma pozwalająca na trzymanie i zarządzanie kodem
 wersjonowanym z użyciem narzędzia Git. Platforma ta cały czas nie przestaje mnie
 zaskakiwać. Co ciekawe, każdy kto posiada tam konto ma do dyspozycji hosting
