@@ -84,7 +84,7 @@ try {
 {% endhighlight %}
 
 Często programiści zapominają o sprawdzeniu czy odpowiednia zmienna nie ma czasem
-wartości ``null`` a przecież tworzenie strumienia może spowodować wyjątek, wtedy
+wartości ``null`` a przecież tworzenie strumienia może spowodować wyjątek, a wtedy
 zmienna nie jest zainicjalizowana i dostajemy ``NullPointerException``.
 
 Co ciekawe takie błędne zamykanie strumienia występuje nawet w [oficjalnej dokumentacji](http://java.sun.com/j2se/1.4.2/docs/api/java/io/ObjectOutputStream.html)
