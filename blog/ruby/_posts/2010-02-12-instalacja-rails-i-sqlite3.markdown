@@ -8,6 +8,7 @@ Każdy rozpoczynający pracę z frameworkiem Rails może wpaść w pewną pułap
 zbieżności nazw pakietów dla silnika bazy danych [SQLite](http://www.sqlite.org/). Jeżeli zaczynamy zabawę z Rails
 i używamy właśnie tej bazy (np. wtedy gdy naukę zaczynamy od [tej](http://pragprog.com/titles/rails3/agile-web-development-with-rails-third-edition) książki)
 musimy uważać na gemy jakie instalujemy. Prawidłowa lista gemów to:
+  
 * ``rails`` oczywiście, oraz
 * ``sqlite3-ruby``
 
