@@ -15,3 +15,5 @@ Mam nadzieję, że nie zapomniałem o zmianie żadnego elementu. Parę rzeczy je
 wymaga poprawy, ale aktualny stan nadaje się na tyle aby go opublikować. Kolejnym
 etapem będą listingi. Obecnie trochę są mało kolorowe chociaż z drugiej strony
 taka prostota jest całkiem fajna. Będę musiał wypracować jakiś kompromis.
+
+W razie problemów proponuję odświeżenie strony (Ctrl+R lub F5).
