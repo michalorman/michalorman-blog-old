@@ -1,16 +1,21 @@
 body {
-	font: 18px Palatino, "Times New Roman", Times, serif;
+	font: 16px Palatino, Linotype, Verdana, Helvetica, Arial, sans-serif;
 	margin: 0;
 	padding: 0;
-	color: #555;
+	color: #444;
+}
+
+h1, h2, h3, h4 {
+	color: #669900;
+	font-weight: normal;
 }
 
 a, a:visited {
-	color: #125AA7;
+	color: #669900;
 }
 
 a:hover {
-	color: #0b9df0;
+	color: #91d900;
 }
 
 p {
@@ -78,19 +83,21 @@ td {
 }
 
 #header {
-	background: #2C2A25;
-	height: 4.2em;
-	padding: 2em 6em 1.5em 6em;
-	color: #ddd;
+	margin-top: 4.5em;
+	background-color: #eee;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	padding: 6.5em 0 3.5em 20em;
 }
 
 #header a, #header a:active, #header a:hover, #header a:visited {
-	color: white;
+	color: #669900;
 	text-decoration: none;
 }
 
 #header h1 {
 	font-size: 2.5em;
+	font-weight: normal;
 }
 
 #header h1, #header p {
@@ -98,19 +105,47 @@ td {
 }
 
 #navbar {
-	background: #aaa;
-	padding: 0.2em 6em;
-	color: #555;
-	font-weight: bold;
+	padding-left: 22em;
+	overflow: hidden;
+	position: relative;
+	top: -1px;
+	margin-bottom: 3em;
+}
+
+.navbar-1 {
+	background: url(/images/navbars.png) 21em 0 no-repeat;
+}
+
+.navbar-2 {
+  background: url(/images/navbars.png) 21em -30px no-repeat;
+}
+
+.navbar-3 {
+  background: url(/images/navbars.png) 21em -60px no-repeat;
+}
+
+.navbar-4 {
+  background: url(/images/navbars.png) 21em -90px no-repeat;
+}
+
+.navbar-5 {
+  background: url(/images/navbars.png) 21em -120px no-repeat;
 }
 
 #navbar a, #navbar a:visited {
-	color: #555;
+	height: 25px;
+	width: 133px;
 	text-decoration: none;
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+	margin-right: 22px;
+	padding-top: 5px;
+	float: left;
+	color: #669900;
 }
 
 #navbar a:hover {
-	color: #222;
 	text-decoration: underline;
 }
 
@@ -119,8 +154,19 @@ td {
 }
 
 #main {
-	padding: 0 6em;
+	padding: 0 20em;
 	overflow: hidden;
+}
+
+#recent {
+	margin-top: 0;
+}
+
+#feed_img {
+	vertical-align: middle;
+	height: 24px;
+	width: 24px;
+	margin-left: 0.25em;
 }
 
 #recent-posts-list {
@@ -135,16 +181,23 @@ td {
 	margin-top: 2em;
 }
 
+.post-date {
+	font-weight: bold;
+	color: #999;
+}
+
 #disqus_thread {
 	margin-top: 4em;
 }
 
 #footer {
-	padding: 1em 6em;
-	background: #2C2A25;
-	color: #ddd;
+	padding: 3em 0 5em 0;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	background: #eee;
 	text-align: center;
 	font-size: 0.8em;
+	margin: 3em 0 4.5em 0;
 }
 
 #footer a, #footer a:visited {
@@ -158,7 +211,7 @@ td {
 }
 
 .post-wrapper h1 {
-	margin-bottom: 0;
+	margin: 0;
 }
 
 .post-wrapper h2 {
@@ -170,12 +223,12 @@ td {
 
 .post-wrapper h1 a, .post-wrapper h1 a:visited {
 	text-decoration: none;
-	color: #555;
+	color: #669900;
 }
 
 .post-wrapper h1 a:hover {
   text-decoration: underline;
-  color: #555;
+  color: #669900;
 }
 
 .label {
@@ -183,21 +236,18 @@ td {
 }
 
 #content {
+	width: 80%;
+	margin-right: -250px;
 	float: left;
-	width: 83%;
-	margin-right: -230px;
-	padding: 1em 3% 1em 0;
-	border-right: 230px solid #ddd;
+	border-right: 200px solid white;
 }
 
 #sidebar {
-	width: 200px;
-	background-color: #ddd;
+	margin-left: 4em;
 	float: left;
-	margin-right: -230px;
-	padding: 1em;
+	margin-right: -250px;
 	height: 100%;
-	font-size: 0.9em;
+	width: 200px;
 }
 
 #sidebar h1 {

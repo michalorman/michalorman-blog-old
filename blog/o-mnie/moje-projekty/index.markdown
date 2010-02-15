@@ -3,6 +3,7 @@ layout: default
 title: Michał Orman - Moje projekty
 description: Projekty realizaowane przez Michała Ormana
 keywords: michał orman blog projekty
+navbar_pos: 5
 ---
 Tutaj krótko o projektach w których brałem udział. Niestety większość tych projektów nie jest publicznie dostępna, ale kilka jest (i liczę, że ta liczba znacznie się powiększy, bo na razie nie jest imponująca :)).
 

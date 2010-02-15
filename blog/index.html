@@ -3,9 +3,10 @@ layout: default
 title: Michał Orman
 description: Michał Orman - Prywatna strona i blog dotyczący technik programowania
 keywords: Michał Michal Orman Blog Java J2EE EE Ruby Rails Inżynieria Oprogramowania Design Patterns Object Oriented Programming Analysis
+navbar_pos: 1
 ---
-<h1>Najnowsze wpisy</h1>
-<ul id="recent-posts-list">{% for post in site.posts limit: 15 %}<li>{{ post.date | date_to_string }} &middot; <a href="{{ post.url }}">{{ post.title }}</a></li>{% endfor %}</ul>
+<h1 id="recent">Najnowsze wpisy <a href="/atom.xml"><img id="feed_img" src="/images/feed.png" alt="Subskrybuj" /></a></h1>
+<ul id="recent-posts-list">{% for post in site.posts limit: 15 %}<li><span class="post-date">{{ post.date | date_to_string }}</span> &middot; <a href="{{ post.url }}">{{ post.title }}</a></li>{% endfor %}</ul>
 <div id="recent-posts">
 {% for page in site.posts limit:5 %}{% assign body = page.content %}{% include post.html %}{% endfor %}
 </div>

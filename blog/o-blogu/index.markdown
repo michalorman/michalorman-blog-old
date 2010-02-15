@@ -3,6 +3,7 @@ layout: default
 title: Michał Orman - O Blogu
 description: Tematyka blogu.
 keywords: michał orman blog
+navbar_pos: 2
 ---
 Tematyka tego blogu związana jest ściśle z IT. Znaleźć tutaj można zarówno moje luźne przemyślenia jak i bardziej techniczne wpisy oraz sprawozdania z placu boju. Zasadniczo blog ten służy mi to utrwalania wiedzy i dzielenia się moimi przemyśleniami oraz rozwiązaniami problemów, które napotkałem w pracy zawodowej lub prywatnie.
 

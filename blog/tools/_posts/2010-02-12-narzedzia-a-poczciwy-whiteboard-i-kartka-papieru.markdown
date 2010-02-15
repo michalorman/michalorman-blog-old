@@ -3,6 +3,7 @@ layout: post
 title: Narzędzia a poczciwy whiteboard i kartka papieru
 description: Dlaczego preferuję ręczne projektowanie niż użycie do tego celu wymyślnych narzędzi.
 keywords: whiteboard backlog use case wymagania
+published: false
 ---
 W dzisiejszych czasach mamy do dyspozycji niezliczoną ilość narzędzi do wspomagania
 projektowania aplikacji. Jedne pozwalają nam programować z wykorzystaniem UML-a

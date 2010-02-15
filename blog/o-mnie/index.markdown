@@ -3,6 +3,7 @@ layout: default
 title: Michał Orman - O Mnie
 description: Kim jest Michał Orman
 keywords: michał orman blog profil
+navbar_pos: 3
 ---
 [<img src="/images/avatar.jpg" class="avatar" />](/images/avatar.jpg) Nazywam się **Michał Orman** a urodziłem się 21 maja 1984 roku. Pasjonuję się inżynierią oprogramowania i metodykami prowadzenia projektów a także nowoczesnymi technologiami wytwarzania oprogramowania. Rzeczy, które mnie ciekawią jest tak wiele, że nie potrafię dłużej zajmować się jednym. Do wymienionych rzeczy dochodzą jeszcze: systemy operacyjne (mam plan napisać własny prosty system), bezpieczeństwo, technologie internetowe (i to nie tylko kolejne frameworki pozwalające tworzyć aplikacjie webowe, ale i zagadnienia takie jak web analytics, czy optymalizacja) czy programowanie gier. Trochę tego jest, na wszystko nie mam czasu (niestety doba trwa tylko 24 godziny).
 
