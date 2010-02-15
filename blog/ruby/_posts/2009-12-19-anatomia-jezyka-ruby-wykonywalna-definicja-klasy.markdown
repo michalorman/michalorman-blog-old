@@ -18,7 +18,7 @@ self.komunikat  # j.w.
 
 Kluczem do zrozumienia wykonywalności definicji klasy jest zrozumienie kto będzie odbiorcą komunikatu. Rzućmy okiem na poniższy rysunek:
 
-<a href="/images/wykonywalne_sekcje.png"><img src="/images/wykonywalne_sekcje.png" alt="wykonywalne_sekcje" title="wykonywalne_sekcje" width="587" height="360" class="alignnone size-full wp-image-529" /></a>
+<a href="/images/wykonywalne_sekcje.png" rel="colorbox"><img src="/images/wykonywalne_sekcje.png" alt="wykonywalne_sekcje" title="wykonywalne_sekcje" width="587" height="360" class="alignnone size-full wp-image-529" /></a>
 
 Na obrazku tym zaznaczone zostały pewne przestrzenie oznaczające kto będzie domyślnym odbiorcą komunikatu wysłanego z danego miejsca. Głównym odbiorcą komunikatu jest obiekt klasy `Object` (kolor pomarańczowy), jeżeli zdefiniujemy klasę to w jej ciele odbiorcą komunikatu jest obiekt klasy `Class` (zielony) a wewnątrz metody obiekt klasy `Foo` (żółty). Czerwona strzałka oznacza kierunek w jakim deklaracje będą przetwarzane przez interpreter.
 

@@ -225,6 +225,10 @@ td {
   color: #669900;
 }
 
+.post-wrapper img {
+	max-width: 1000px;
+}
+
 .label {
 	color: #555;
 }

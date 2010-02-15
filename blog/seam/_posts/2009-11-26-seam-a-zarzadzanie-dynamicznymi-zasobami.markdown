@@ -46,7 +46,7 @@ Tutaj Seam znów przychodzi nam z pomocą (chociaż zamiast ratunkowego koła po
 
 Wystarczy, że pod atrybut `value` (czyli to co znajduje się pod zmienną kontekstową `image` w tym przykładzie) damy ciąg bajtów w postaci tablicy (`byte[]`), czyli dokładnie to co zamapowaliśmy w encji i zapisaliśmy w bazie, i będziemy raczyć się pięknym widokiem naszego obrazka. Tak więc sprawa jest trywialna, ściągamy encję `Image` z bazy, wystrzliwujemy pod zmienną kontekstową `image` zawartość pola `data` i niczym się nie martwimy, servlet automatycznie ustawi odpowiedni content-type itp. Standardowo komponent ten nadaje losową nazwę (dziwną z resztą), jeżeli chcemy to zmienić to dorzucamy atrybut `fileName` i po sprawie. No miodzio, łatwizna wszystko się praktycznie robi samo. To zobaczmy sobie teraz podgląd obrazka, klikamy prawym klawiszem myszki, na naszym upragnionym obrazku, wybieramy opcję "Pokaż obrazek" w naszym najnowszym Firefox-ie (czy innej Operze) i...
 
-<a href="/images/jboss_404.png"><img title="jboss-404" src="/images/jboss_404.png" alt="404" width="830" height="175" /></a>
+<a href="/images/jboss_404.png" rel="colorbox"><img title="jboss-404" src="/images/jboss_404.png" alt="404" width="830" height="175" /></a>
 
 Nie no głupie IDE/serwer aplikacji na pewno coś źle zdeployowało, zrestartujmy - to zawsze pomaga! Niestety próbujesz dalej a tu ciągle 404, dla pewności restartujesz kompa, ale obrazek jak nie chciał się wyświetlić tak dalej nie chce! Ale dlaczego? Przecież zrobiliśmy wszystko jak <a href="http://docs.jboss.com/seam/latest/reference/en-US/html/index.html">dokumentacja</a> i <a href="http://www.manning.com/dallen/">Seam in Action</a> każą! Co jest!?
 

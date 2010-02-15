@@ -19,6 +19,6 @@ Wszystkie testy zdałem w ciągu jeden po drugim a przygotowaniem było właści
 
 Oto potwierdzenie zdobycia pasa:
 
-<a href="/images/jbb_green.png"><img src="/images/jbb_green.png" alt="jbb_green" title="jbb_green" width="1117" height="579" class="alignnone size-full wp-image-596" /></a>
+<a href="/images/jbb_green.png" rel="colorbox"><img src="/images/jbb_green.png" alt="jbb_green" title="jbb_green" width="1117" height="579" class="alignnone size-full wp-image-596" /></a>
 
 Niestety w tym momencie skończył się cykl "darmowych" egzaminów i teraz trzeba będzie nabić nieco punktów wsparcia. Będę musiał wrzucić parę pytań z Seama, OO i Ruby'ego :).
