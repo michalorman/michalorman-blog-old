@@ -43,6 +43,7 @@ layout: default
 title: Michał Orman - 
 description: Posty w kategorii 
 keywords:
+navbar_pos: 1
 ---
 # Posty w kategorii 
 {% assign category = site.categories.#@name %}{% include post-link.html %}
@@ -87,6 +88,7 @@ layout: post
 title: 
 description: 
 keywords: 
+navbar_pos: 1
 ---
     END
   end
@@ -132,6 +134,7 @@ private
 layout: default
 title: Michał Orman - Archiwum @#year
 description: Posty z roku #@year
+navbar_pos: 1
 ---
 {% assign year = '#@year' %}{% include archive-year.html %}
     END
