@@ -7,11 +7,21 @@
     <link rel="alternate" type="application/atom+xml" href="/atom.xml" />
     <link rel="stylesheet" href="/stylesheets/default.css" type="text/css"/>
     <link rel="stylesheet" href="/stylesheets/highlight.css" type="text/css"/>
+    <link rel="stylesheet" href="/stylesheets/colorbox.css" type="text/css"/>
     {% if page.description %}
     <meta name="description" content="{{ page.description }}"/>
     {% endif  %}{% if page.keywords %}
     <meta name="keywords" content="{{ page.keywords }}"/>
     {% endif %}
+    <script src="/pub/js/jquery.colorbox.js" type="text/javascript">
+    </script>
+    <script src="/pub/js/jquery-1.4.1.min.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+          $("a[rel='colorbox']").colorbox();
+      });
+    </script>
   </head>
   <body>
     <div id="header">
