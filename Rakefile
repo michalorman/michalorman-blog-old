@@ -177,7 +177,7 @@ end
 def categories_content(categories)
   content = "<ul>\n"
   categories.sort.each do |category, post|
-    content += "  <li><a href=\"/blog/#{category}/\">#{category} ({{ site.categories.#{category}.size }})</a></li>\n" unless category =~ /^#{ROOT}/
+    content += "  <li><a href=\"/blog/#{category}/\" title=\"Zobacz wszystkie posty w kategorii #{category}\">#{category} ({{ site.categories.#{category}.size }})</a></li>\n" unless category =~ /^#{ROOT}/
   end
   content += "</ul>\n"
 end
