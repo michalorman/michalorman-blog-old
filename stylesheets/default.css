@@ -88,7 +88,8 @@ td {
 	background-color: #eee;
 	border-bottom: 1px solid #ccc;
 	border-top: 1px solid #ccc;
-	padding: 6.5em 0 3.5em 20em;
+	padding: 5.5em 0 1.5em 20em;
+	overflow: hidden;
 }
 
 #header a, #header a:active, #header a:hover, #header a:visited {
@@ -99,10 +100,19 @@ td {
 #header h1 {
 	font-size: 2.5em;
 	font-weight: normal;
+	padding: 0.75em 0 0 3em;
 }
 
 #header h1, #header p {
 	margin: 0;
+}
+
+#logo {
+	float: left;
+}
+
+#img-logo {
+	vertical-align: middle;
 }
 
 #navbar {
@@ -228,6 +238,43 @@ td {
 
 .post-wrapper img {
 	max-width: 1000px;
+}
+
+.post-wrapper .post-date {
+	float: left;
+	width: 64px;
+	height: 59px;
+	background: url(/images/calendar.png) top left no-repeat;
+	padding: 0.75em 0 0 0.5em;
+}
+
+.post-wrapper .post-date {
+}
+
+.post-wrapper .post-date p {
+	margin: 0;
+	font: 16px Palatino, "Times New Roman", Times, serif;
+	font-weight: bold;
+}
+
+.post-wrapper p.post-month {
+	color: white;
+	float: left;
+	font-size: 0.75em;
+	margin-right: 0.4em;
+}
+
+.post-wrapper p.post-year {
+	color: white;
+	font-size: 0.75em;
+}
+
+.post-wrapper p.post-day {
+	color: #666;
+	font-size: 1.5em;
+	height: 25px;
+	width: 50px;
+	text-align: center;
 }
 
 .label {
