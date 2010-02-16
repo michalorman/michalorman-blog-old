@@ -1,12 +1,17 @@
-.k, .kd, .kt {
+.k, .kd, .kt, .kn {
 	font-weight: bold;
+	color: #558000;
 }
 
-.s, .s1, .s2 {
-	color: blue;
+.o {
+	color: #558000;
 }
 
-.c {
+.s, .s1, .s2, .ss, .sh {
+	color: #669900;
+}
+
+.c, .c1 {
 	font-style: italic;
 	color: #999;
 }

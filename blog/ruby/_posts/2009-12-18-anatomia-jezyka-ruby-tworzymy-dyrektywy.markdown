@@ -14,7 +14,7 @@ Załóżmy, że chcielibyśmy mieć pewne słowo kluczowe (dyrektywę) w języku
 require 'test/unit'
 
 class TestClass
-  bean :foo, :bar;
+  bean :foo, :bar
 end
 
 class JavaBeansTest < Test::Unit::TestCase
