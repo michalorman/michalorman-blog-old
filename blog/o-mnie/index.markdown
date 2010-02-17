@@ -2,17 +2,36 @@
 layout: default
 title: Michał Orman - O Mnie
 description: Kim jest Michał Orman
-keywords: michał orman blog profil
+keywords: Michał Orman blog profil
 navbar_pos: 3
 ---
-<a href="/images/avatar.jpg" rel="colorbox"><img src="/images/avatar.jpg" class="avatar" alt="Michał Orman" /></a> Nazywam się **Michał Orman** a urodziłem się 21 maja 1984 roku. Pasjonuję się inżynierią oprogramowania i metodykami prowadzenia projektów a także nowoczesnymi technologiami wytwarzania oprogramowania. Rzeczy, które mnie ciekawią jest tak wiele, że nie potrafię dłużej zajmować się jednym. Do wymienionych rzeczy dochodzą jeszcze: systemy operacyjne (mam plan napisać własny prosty system), bezpieczeństwo, technologie internetowe (i to nie tylko kolejne frameworki pozwalające tworzyć aplikacjie webowe, ale i zagadnienia takie jak web analytics, czy optymalizacja) czy programowanie gier. Trochę tego jest, na wszystko nie mam czasu (niestety doba trwa tylko 24 godziny).
+<a href="/images/avatar.jpg" rel="colorbox" title="Powiększ zdjęcie"><img src="/images/avatar.jpg" class="avatar" alt="Michał Orman" /></a>
+Jak nazwa blogu sugeruje nazywam się **Michał Orman**. Moją pasją jest inżynieria
+oprogramowania, czyli wszelkiego rodzaju metodyki i techniki pozwalające nam
+tworzyć dobry i działający kod. Obecnie moje zainteresowania oscylują wokół
+tworzenia oprogramowania w korporacyjnej wersji Javy EE oraz skryptowego
+języka Ruby.
 
-Zabawę z programowaniem zacząłem już w liceum, gdzie bawiłem się w pisanie gier (zaczynając od Pascala z wstawkami Assemblerowymi, przez C na C++ kończąc). Gierki przeważnie były proste, bo co chwila odkrywałem nowy sposób tworzenia pewnych rzeczy i trzeba było zaczynać prace od nowa (z resztą nie liczyłem na to, że napiszę grę i zarobie na tym miliony, niestety te czasy minęły tak z 10 lat wcześniej :)).
+Moje zainteresowania wykraczają poza ramy inżynierii oprogramowania, jednak
+ograniczenia czasowe nie pozwalają mi rozwijać się we wszystkich dziedzinach.
+Interesuję (bądź interesowałem ;)) się systemami operacyjnymi, bezpieczeństwem,
+e-commerce i web analytics oraz programowanie gier.
 
-Zajmowałem się też oprogramowywaniem urządzeń wbudowanych do zastosowań telekomunikacyjnych. To było moje pierwsze zetknięcie się z profesjonalnym programowaniem i muszę przyznać, że wiele mnie to nauczyło. Do tego fajnie było pisać własne moduły do kernela linuxa, działające na jakiś urządzeniach do których podłączane były modemy ADSL :). Niestety po 2 latach mnie to znudziło (nie dostawałem specjalnie nowych rzeczy, a tkwienie w miejscu jest nie dla mnie).
+Obecnie zajmuję się tak zwanym konsultingiem, głównie dotyczącym technologii
+Java EE oraz e-commerce. Prywatnie przygotowuję się do narodzin mojego pierworodnego
+syna o nieznanym jeszcze imieniu wraz z moją partnerką Emilią. Ponoć chwila ta
+przewraca świat do góry nogami, ale zobaczymy jak to wyjdzie w praktyce.
+Jak w każdym problemie trzeba będzie zapoznać się metodykami i wzorcami projektowymi
+wychowania dziecka :).
 
-Obecnie zajmuję się bardziej biznesową stroną programowania. Założyłem firmę o niezbyt ambitnej nazwie <strong>Neosoft</strong>. Aktualnie zajmuję się Javą korporacyjną (tzw. Javą EE), i frameworkiem Seam. Obecnie prowadzę projekt tworzony w tych technologiach i implementuję metodykę Scrum.
+Na tę chwilę założyłem działalność gospodarczą pod bardzo oryginalną nazwą
+**Neosoft** (z każdym dniem nazwa ta coraz bardziej mi się nie podoba ;)) i
+współpracuję z firmą <a href="http://consileon.pl">Consileon</a>. Prowadzę różne
+prace badawcze na temat technologii i frameworków, oraz czekam na genialny
+pomysł, który pozwoli mi rzucić wszystko i zamieszkać gdzieś na egzotycznych
+wyspach :).
 
-W międzyczasie lubię sobie wyjść na piwo albo pograć w piłkę (w amatorskiej lidze piłkarskiej). Jeszcze muszę znaleźć czas dla mojej ukochanej dziewczyny Emilii (która codziennie domaga się masażu, więc pewnie za parę lat przebranżowię się i założę jakieś SPA ;)) no i naszego nienarodzonego jeszcze dziecka (a to dopiero będzie wyzwanie, planowany czas porodu to początek marca 2010, czyli na 2 lata przed planowanym końcem świata ;)).
-
-To tyle prywaty, gdyby ktoś dotarł do tego miejsca, to może napisać mi <a href="mailto:michal.orman@gmail.com">maila</a> (np. z pozdrowieniami) ;).
+Mój bardziej techniczny profil można obejrzeć na portalach
+<a href="http://pl.linkedin.com/in/michalorman" title="Mój profil LinkedIn">LinkedIn</a> czy
+<a href="http://www.goldenline.pl/michal-orman" title="Mój profil GoldenLine">GoldenLine</a>, a skontaktować się
+można najlepiej droga <a href="mailto:michal.orman@gmail.com">mailową</a>.
