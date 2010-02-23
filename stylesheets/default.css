@@ -223,11 +223,11 @@ td {
 	margin: 3em 0 4.5em 0;
 }
 
-.post-wrapper h1 {
+h1.post-title {
 	margin: 0;
 }
 
-.post-wrapper h2 {
+h2.post-subtitle {
 	margin: 0 0 1em 0;
 	font-size: 1em;
 	color: #999;
