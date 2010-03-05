@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Enkapsulacja a modyfikowanie stanu obiektów
-description: W jaki sposób obiekty powinny zmieniać swój stan i jak poprawnie powinno się zachowywać enkapsulację.
+description: W jaki sposób obiekty powinny zmieniać swój stan i jak poprawnie powinno się zachowywać enkapsulację. Opis reguł tworzenia dobrej enkapsulacji.
 keywords: enkapsulacja obiekt stan modyfikacja
 navbar_pos: 1
 ---

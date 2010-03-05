@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Anatomia języka Ruby - wykonywalna definicja klasy
-description: W jaki sposób Ruby realizuje wykonywalność ciała klasy.
+description: Czym jest ciało klasy w Ruby i dlaczego jest ono wykonywalne. Jak można wykorzystać tę cechę jezyka w praktyce.
 keywords: Ruby Klasa Definicja Deklaracja Ciało Kod wykonywalność
 ---
 Niniejszy wpis stanowi wytłumaczenie znaczenia wykonywalności definicji klasy w języku Ruby dla programistów programujących w takich językach jak Java. W pierwszej chwili zrozumienie iż definicja klasy (jej ciało) jest kodem wykonywalnym jest trudne. Jednakże zrozumienie tego zagadnienia otwiera nam szeroki wachlarz możliwości i ciekawych rozwiązań chociażby związanych z tworzeniem języka specyficznego dla konkretnej domeny (<a href="http://en.wikipedia.org/wiki/Domain-specific_language">DSL</a>).

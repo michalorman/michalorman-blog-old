@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Problemy ze słuchawkami w HTC Hero
-description: Problem z podłączeniem słuchawek do HTC Hero
+description: Problemy z wykryciem słuchawek po podłączeniu do telefonu HTC Hero. Problemem okazuje się być znany błąd tkwiący w systemie Android.
 keywords: HTC Hero Android Google
 ---
 Chciałem sobie przetestować działanie słuchawek w moim HTC Hero. Zasadniczo rzadko

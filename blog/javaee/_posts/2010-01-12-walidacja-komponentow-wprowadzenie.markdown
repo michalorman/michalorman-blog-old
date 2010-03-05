@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Walidacja komponentów w J2EE 6 - Wprowadzenie
-description: Wrowadzenie do cyklu wpisów dotyczących specyfikacji JSR-303 Bean Validation
+description: Wrowadzenie do cyklu wpisów dotyczących specyfikacji JSR-303 Bean Validation. Jest to jedna z najbardziej oczekiwanych specyfikacji Javy EE 6.
 keywords: Java J2EE Enterprise Edition JSR-303 Bean Validation
 ---
 Walidacja komponentów (ziaren) w platformie Java EE to jak dotąd nieporozumienie. Przede wszystkim nie znajduje się ona tam gdzie być powinna, czyli w modelu, za to umieszczana jest w warstwie widoku czy to w postaci jakiś walidatorów podpinanych jako komponenty JSF, albo w jakiś backing beanach (które nie robiły nic innego jak przechowywały wartość formularza). Podejście to łamało podstawowe zasady wzorca <a href="http://en.wikipedia.org/wiki/Model–view–controller">MVC</a>. We wzorcu tym część odpowiedzialna za V czyli za widok powinna służyć jedynie do prezentacji wyników działania aplikacji i udostępniania formularzy, a nie do realizowania logiki biznesowej! Logika ta jest częścią modelu i tam się powinna znaleźć! Inn a sprawą jest to czy owe ograniczenia powinny być zapisywane tylko na poziomie modelu czy również odzwierciedlane na poziomie bazy (moim zdaniem wystarczy w samym modelu, ale to temat na inną dyskusję).

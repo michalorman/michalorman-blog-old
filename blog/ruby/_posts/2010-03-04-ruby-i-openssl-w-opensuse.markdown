@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ruby i OpenSSL w OpenSUSE
-description: Problemy z OpenSSL po instalacji Ruby'ego ze źródeł.
+description: Problemy z OpenSSL po instalacji Ruby'ego ze źródeł. Zduplikowane nazwy pakietów przyczyną problemół z kompilacją interpretera Ruby.
 keywords: Ruby RVM Version Manager SUSE OpenSUSE OpenSSL libopenssl libopenssl-devel
 navbar_pos: 1
 ---

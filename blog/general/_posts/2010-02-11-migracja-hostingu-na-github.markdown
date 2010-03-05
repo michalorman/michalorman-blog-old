@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Migracja hostingu na github.
-description: Migracja hostingu bloga z OVH na GitHub
+description: Migracja hostingu bloga z OVH na GitHub.
 keywords: hosting ovh github
 ---
 Jeżeli czytasz ten post to znaczy, że migracja hostingu z OVH na GitHub przebiegła

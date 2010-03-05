@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Kontekstowe komponenty w J2EE 6 - Zakresy i konteksty
-description: Opis zakresów i kontekstów zdefiniowanych w specyfikacji JSR-299
+description: Opis zakresów i kontekstów zdefiniowanych w specyfikacji CDI (Contexts and Dependency Injection for the Java).
 keywords: Context Dependency Injection JSR-299 WebBeans session request conversation application zakres CDI Java EE J2EE
 ---
 "Zakresy i konteksty" - taki tytuł nosi 6-ta sekcja specyfikacji JSR-299. Zakresy określają długość życia komponentu, na przykład komponent należący do zakresu sesji będzie żył przez czas trwania tej sesji. Oznacza to tyle, że każdy komponent, który deklaruje ów sesyjny komponent jako zależność i należy do tej samej sesji (niekoniecznie jako zakresu) będzie posiadał referencję do tego samego obiektu. Na początku zaznaczę, iż nie wiem jaka jest różnica między kontekstem i zakresem w myśl specyfikacji WebBeans, dlatego będę używał tych nazw naprzemiennie, ale dla mnie ich znaczenie jest takie samo.

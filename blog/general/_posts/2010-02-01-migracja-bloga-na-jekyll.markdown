@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Migracja bloga z Wordpress na Jekyll
-description: Post o migracji bloga z platformy Wordpress na Jekyll
+description: Migracja bloga z systtemu Wordpress na statyczne strony generowane z użyciem narzędzia Jekyll.
 keywords: wordpress jekyll Michał Orman blog
 ---
 No i dałem się namówić. Przeniosłem swojego bloga z kontroli Wordpress'a na rzecz

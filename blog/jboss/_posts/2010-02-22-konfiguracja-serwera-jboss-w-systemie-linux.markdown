@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Konfiguracja serwera aplikacyjnego JBoss w systemie Linux
-description: Opis procesu konfiguracji serwera aplikacyjnego JBoss AS w systemie Linux (OpenSUSE)
+description: Instalacja aplikacyjnego JBoss AS w systemie Linux (OpenSUSE). Instalacja serwera oraz skryptów startowych, a także konfigurowanie systemu.
 keywords: konfiguracja jbossas JBoss Application Server serwer aplikacyjny ubuntu debian open suse
 navbar_pos: 1
 ---

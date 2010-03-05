@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Promowanie błędnych nawyków programistycznych
-description: Jak to w książkach i bibliotekach promowane są błędne zwyczaje programistyczne
+description: O tym jak to w książkach i bibliotekach promowane są błędne zwyczaje programistyczne i jak starać się ich unikać.
 keywords: object oriented programming design analysis design patterns high cohesion low coupling
 ---
 Smutną prawdą jest to, że jest wśród nas gro programistów - nazwijmy ich radosnymi koderami - którzy

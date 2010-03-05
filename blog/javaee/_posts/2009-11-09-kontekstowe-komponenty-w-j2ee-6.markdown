@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Kontekstowe komponenty w J2EE 6 - ziarna, komponenty i kwalifikatory
-description: Podstawowe zagadnienia dotyczące komponentów w specyfikacji Java EE CDI
+description: Czym są komponenty i jak działają kwalifikatory w nowej specyfikacji Javy EE CDI (Contexts and Dependency Injection for the Java).
 keywords: java ee j2ee cdi jsr jsr-299 contextual components dependency injection
 ---
 Ci którzy jej nie znają patrzą na nią z politowaniem, ci którzy jej używali nie potrafią sobie wyobrazić życia bez niej. O czym mowa? O kontekstowości komponentów. Zaczęło się od frameworka [Seam](http://seamframework.org/) (ok. może się i mylę, ale ja pierwszy raz się w tym frameworku z kontekstowością spotkałem). Zjednoczone komponenty, które żyły niezależnie od warstwy aplikacji i kontenera, który tą warstwą zarządzał jednocześnie nie tracąc nic z funkcjonalności dostarczanej przez dany kontener. Ten kto tworzył aplikację w tym frameworku powinien się zgodzić, że był to duży skok jakościowy w kontekście tego co oferuje nam standardowa (czasami aż do bólu!) Java EE. Kontekstowość komponentów tak mnie wciągnęła, że już nie wyobrażam sobie robienia żadnej aplikacji webowej w technologii Java EE bez niej. Pewnie i wiele osób ma tak jak ja, więc naturalnym było, aby te wszelkie udogodnienia wkroczyły w szeregi standardów Javy korporacyjnej. W istocie tak się stało i prace nad [JSR-299: Contexts and Dependency Injection for the Java EE platform](://jcp.org/en/jsr/detail?id=299) są już niemal skończone. Ale czy wiemy o co w tym tak naprawdę chodzi?

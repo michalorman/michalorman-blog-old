@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Poprawność nazw komponentów w Seam
-description: Jakie są ograniczenia co do poprawnej nazwy komponentu w Seam-ie
+description: Jakie są ograniczenia co do poprawnej nazwy komponentu w Seam-ie. Jakie są dozwolone znaki w nazwach komponentów i dlaczego nie jest to udokumentowane.
 keywords: Seam Framework komponent nazwa @Name ograniczenia
 ---
 Ostatnio jakoś tak natchnęło mnie na eksperymentowanie (związane również z wymyślaniem pytań na <a href="http://www.javablackbelt.com/Home.wwa">JavaBlackBelt</a>). Zastanowiło mnie jak właściwie powinna wyglądać prawidłowa nazwa komponentu <a href="http://seamframework.org/">Seam</a>. Czy są jakieś ograniczenia co do znaków? Intuicja podpowiada mi, że są (podpowiada nawet jakie to mogą być ograniczenia), jednakże moja intuicja potrafi być zawodna toteż postanowiłem przeglądnąć co na ten temat mówi dokumentacja.

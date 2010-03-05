@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Seam a zarządzanie dynamicznymi zasobami
-description: O tym jak źle zaimplementowane jest zarządzanie zasobami w frameworku Seam i dlaczego należy omijać je z daleka
+description: O tym jak źle zaimplementowane jest zarządzanie zasobami w frameworku Seam i dlaczego należy omijać je z daleka.
 keywords: Seam Framework Komponent Obrazek BLOB SeamResourceServlet Servlet web.xml Mapping
 ---
 Wyobraźmy sobie taki scenariusz. Jesteśmy na portalu, wchodzimy na profil jakiegoś użytkownika lub na szczegóły jakiejś oferty. Przeglądamy obrazki, w niektóre klikamy bo chcemy zobaczyć je w oryginalnym rozmiarze a na niektórych klikamy prawym klawiszem myszki bo chcemy zapisać na dysku. Scenariusz niezbyt wyrafinowany. Tak oczywisty przypadek użycia, że w XXI wieku, w dobie wszechobecnego Ajaxu i aplikacji RIA niemożliwe jest aby jakikolwiek system nie udostępniał takiej funkcjonalności. Ba, nie do pomyślenia jest, aby jakaś platforma nie udostępniała takiej funkcjonalności out of box. Nie po raz pierwszy przekonałem się, że platforma JEE to dziwna platforma...

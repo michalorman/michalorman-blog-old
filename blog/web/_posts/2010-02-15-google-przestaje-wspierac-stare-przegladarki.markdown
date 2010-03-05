@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Google przestaje wspierać stare przeglądarki
-description: Google ogłosiło, że przestaje wspierać stare przeglądarki.
+description: Google ogłosiło, że przestaje wspierać stare przeglądarki. Programiści aż pieją z zachwytu na tę wiadomość.
 keywords: Google Internet Explorer Mozilla Firefox Chrome Safari
 navbar_pos: 1
 ---

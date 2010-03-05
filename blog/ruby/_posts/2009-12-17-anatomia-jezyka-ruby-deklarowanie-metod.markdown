@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Anatomia języka Ruby - deklarowanie metod
-description: Opis w jaki sposób w języku Ruby dodawane są metody i na jakie sposoby można je dodawać nawet w czasie wykonywania skryptu.
+description: W jaki sposób w języku Ruby dodawane są metody i na jakie sposoby można je dodawać nawet w czasie wykonywania skryptu.
 keywords: Ruby TDD BDD Metoda Klasa Object Class Module define_method send test behavioral driven development
 ---
 Ostatnimi czasy postanowiłem odetchnąć nieco od platformy Java i nauczyć się wreszcie jakiegoś języka skryptowego. Kiedyś bawiłem się Perlem, ale nie sprawiało mi to specjalnej frajdy tak więc wybór padł na język Ruby. Python będzie musiał jeszcze poczekać, a Groovy należy do platformy Java do której nie chcę się szufladkować.

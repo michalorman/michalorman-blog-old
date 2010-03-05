@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Kontekstowe komponenty w J2EE 6 - tworzenie, inicjalizacja i wstrzykiwanie komponentów
-description: Opis sposobów tworzenia, inicjalizacji oraz wstrzykiwania zależności w specyfikacji JSR-299 CDI
+description: Sposoby tworzenia komponentów, inicjalizacji oraz wstrzykiwania zależności w specyfikacji CDI (Contexts and Dependency Injection for the Java).
 keywords: java ee j2ee cdi jsr jsr-299 contextual components dependency injection
 ---
 W <a href="http://michalorman.pl/blog/2009/11/kontekstowe-komponenty-w-j2ee-6/">poprzednim</a> poście wstępnie opisałem ideę jaka przyświecała specyfikacji JSR-299. Wstępnie opisałem czym są komponenty, jak je deklarować i wstrzykiwać oraz jak je identyfikować. Teraz przyszedł czas na nieco bardziej dogłębną analizę. Na początek jednak muszę napisać małą dygresję na temat nazewnictwa używanego w specyfikacji.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Anatomia języka Ruby - tworzymy dyrektywy
-description: Tworzymy własną dyrektywę dla języka Ruby tworzącą zmienne egzemplarza i metody w konwencji JavaBeans.
+description: Tworzenie własnej dyrektywy - dla języka Ruby - tworzącą zmienne egzemplarza i metody w konwencji JavaBeans.
 keywords: Ruby JavaBeans Module Class Object define_method dyrektywa bean instance_method_get instance_method_set
 ---
 W <a href="http://michalorman.pl/blog/2009/12/anatomia-jezyka-ruby-deklarowanie-metod/">poprzednim poście</a> pisałem o tym w jaki sposób interpreter Ruby dodaje metody do klas. Pokazałem także na jakie sposoby możemy tworzyć metody i to zarówno w momencie pisania kodu jak i podczas działania skryptu. Przyszedł czas aby wykorzystać tę wiedzę w praktyce.

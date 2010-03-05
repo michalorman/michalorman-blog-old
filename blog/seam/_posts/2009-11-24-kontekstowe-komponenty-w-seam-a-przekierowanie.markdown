@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Kontekstowe komponenty w Seam a przekierowanie
-description: Problem z komponentami w kontekście konwersacji po przekierowaniu w Seam Framework.
+description: Problem z komponentami w kontekście konwersacji po przekierowaniu w Seam Framework. Dlaczego komponenty w konwersacji nie przeżywają przekierowania.
 keywords: seam framework contextual comnponents conversation redirect
 ---
 Ci co znają framework <a href="http://www.seamframework.org/">Seam</a> zapewne wiedzą, że główną cechą komponentów umieszczonych w kontekście konwersacji jest to, że przeżywają one przekierowanie. Tak więc renderując widok po przekierowaniu mamy dostęp do danych umieszczonych w tych komponentach przed przekierowaniem. Otóż okazuje się, że nie jest tak zawsze.

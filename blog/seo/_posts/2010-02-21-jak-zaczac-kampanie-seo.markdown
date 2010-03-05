@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Jak zacząć kampanię SEO
-description: W jaki sposób zabrać się i zaplanować kampanię SEO
+description: W jaki sposób zabrać się i zaplanować kampanię SEO. Od czego zacząć wdrażanie kampanii SEM we własnej witrynie.
 keywords: kampania SEO search engine optimization Google wyszukiwarka konwersja ścieżki konwersji
 navbar_pos: 1
 ---

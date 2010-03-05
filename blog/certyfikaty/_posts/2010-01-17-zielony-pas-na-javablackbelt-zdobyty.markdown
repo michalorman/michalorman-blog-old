@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Zielony Pas na JavaBlackBelt zdobyty
-description: O zdobyciu zielonego pasa w portalu JavaBlackBelt
+description: Zielony pas na JavaBlackBelt zdobyty. Teraz trzeba zdobyć nieco punktów kolaboracji, aby posiąść niebieski pas.
 keywords: Green Yellow Orange Belt Java Black JavaBlackBelt OO API
 ---
 Heh, kontynuując temat certyfikowania się z SCJP postanowiłem odświeżyć mój profil w <a href="http://www.javablackbelt.com/Home.wwa">JavaBlackBelt</a>. Miałem tam, żółty pas a ostatni test jaki robiłem to 'Java SE Core - Intermed', który zdałem 13 lutego 2009 roku :). Trzeba przyznać, że to kawał czasu, ale sam siebie zadziwiłem jak od tej daty moja wiedza się zwiększyła. W przeciągu jednego wieczoru zdałem następujące egzaminy:

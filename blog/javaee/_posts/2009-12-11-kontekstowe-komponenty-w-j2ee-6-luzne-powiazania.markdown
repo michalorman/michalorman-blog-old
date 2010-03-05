@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Kontekstowe komponenty w J2EE 6 - Luźne powiązania
-description: W jaki sposób specyfikacja JSR-299 rozluźnia powiązania w aplikacjach.
+description: W jaki sposób specyfikacja CDI rozluźnia powiązania w aplikacjach, czyli dekoratory, eventy i interceptory w specyfikacji CDI.
 keywords: Luźne powiązania loose coupling WebBeans CDI JSR-299 decorator event interceptor
 ---
 Zasadniczo generalne koncepcje specyfikacji JSR-299 mamy już za sobą. Jednakże specyfikacja ta definiuje także kilka ciekawych elementów pozwalających na rozluźnianie powiązań w naszej aplikacji. Jeden taki mechanizm już poznaliśmy, były to metody produkujące (oznaczone adnotacją `@Produces`). Metody te służą do produkowania konkretnych danych, czyli na widoku albo w innym komponencie zamiast zależności do komponentu, który dostarczy nam dane mamy zależność do samych danych, a dostarczeniem ich zajmie się kontener. Niby funkcjonalnie to samo, ale jest to dużo bardziej elastyczne na zmiany dostawcy danych (inaczej musielibyśmy stworzyć jakiś odpowiedni interfejs).

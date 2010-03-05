@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Programiści obiektowi a programiści obiektowi
-description: Dlaczego osoby, które używały języka obiektowego nie mogą uważać się za programistów obiektowych.
+description: Dlaczego osoby, które używały języka obiektowego nie mogą uważać się za programistów obiektowych, czyli kiedy wiem, że programuję obiektowo.
 keywords: Programowanie obiektowe SOLID GRASP wzorce projektowe klasa obiekt instancja egzemplarz
 ---
 Co jakiś czas spotykam się ze stwierdzeniem:

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Kontekstowe komponenty w J2EE 6 - komponenty produkujące
-description: Definiowanie i zastosowanie komponentów produkujących w specyfikacji JSR-299 CDI
+description: Definiowanie i zastosowanie komponentów produkujących w specyfikacji CDI (Contexts and Dependency Injection for the Java).
 keywords: java ee j2ee cdi jsr jsr-299 contextual components dependency injection
 ---
 Ten post jest niejako uzupełnieniem <a href="http://michalorman.pl/blog/2009/11/kontekstowe-komponenty-w-j2ee-6-tworzenie-inicjalizacja-i-wstrzykiwanie-komponentow/">poprzedniego</a> postu (aby poprzedni nie zrobił się czasem zbyt długi). Opisuje on nieco zaawansowanych zagadnień wymienionych w specyfikacji JSR-299.

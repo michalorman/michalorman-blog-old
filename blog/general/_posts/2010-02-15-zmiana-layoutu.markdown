@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Zmiana layoutu bloga
-description: Zmiana wyglądu bloga.
+description: Wraz z migracją bloga na strony statyczne postanowiłem zmienić jego wygląd.
 keywords: blog layout css html xhtml
 navbar_pos: 1
 ---

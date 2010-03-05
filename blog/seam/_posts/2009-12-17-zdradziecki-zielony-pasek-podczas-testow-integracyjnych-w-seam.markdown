@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Zdradziecki zielony pasek podczas testów integracyjnych w Seam
-description: O tym dlaczego nie można ufać zielonemu paskowi w testach integracyjnych w Seam framework.
+description: O tym dlaczego nie można ufać zielonemu paskowi w testach integracyjnych w Seam framework. Dlaczego przechodzące testy niekoniecznie oznaczają sukces.
 keywords: Seam framework testy integracyjne ExceptionFilter SeamPhaseListener
 ---
 Uruchamiając testy integracyjne w Seam framework nie możemy ufać zielonemu paskowi w naszym wypieszczonym Eclipse z pluginem TestNG. Niestety, zielony nie zawsze oznacza, że wszystko poszło zgodnie z planem. Niestety część problemów jest przez Seam (chcąc nie chcąc) ukrywana i daj boże jeżeli niektóre z tych sytuacji pozostawiają jakiś ślad w konsoli. Czasami może być tak, że jakaś faza naszego symulowanego cyklu JSF po prostu się nie odpaliła i cała logika w ogóle nie została przetestowana. Innym razem przeglądając logi konsoli możemy natknąć się na:

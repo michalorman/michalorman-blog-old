@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Anatomia języka Ruby - wyrażenia, wyrażenia...
-description: Jakie możliwości i konsekwencje daje w języku Ruby to, że niemal wszystko jest wyrażeniem.
+description: Jakie możliwości i konsekwencje daje w języku Ruby to, że niemal wszystko jest wyrażeniem. Jak wykorzystać tę cechę w praktyce.
 keywords: Ruby wyrażenia zmienna tablica warunek logiczny
 ---
 No i mamy nowy rok 2010. Pozostały nam tylko jeszcze <a href="http://www.orion2012.pl/patrick_geryl">dwa do końca świata</a> ;). W każdym razie święta się skończyły czas wziąć się za robotę. 

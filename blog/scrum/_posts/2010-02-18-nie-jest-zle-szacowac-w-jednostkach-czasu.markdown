@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Nie jest źle szacować w jednostkach czasu
-description: O tym dlaczego szacowanie relatywne cierpi na te same i inne problemy jak szacowanie w jednostkach czasu
+description: O tym dlaczego szacowanie relatywne cierpi na te same i inne problemy jak szacowanie w jednostkach czasu.
 keywords: szacowanie estimation relatywne relative czas time unit man hours weeks scrum
 navbar_pos: 1
 ---

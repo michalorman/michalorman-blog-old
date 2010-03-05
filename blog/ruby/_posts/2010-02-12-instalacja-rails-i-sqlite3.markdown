@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Instalacja Rails i sqlite3
-description: Problemy z konfiguracją Rails wraz z sqlite3
+description: Problemy z konfiguracją Rails wraz z sqlite3. Które biblioteki i gemy należy zainstalować aby poprawnie skonfigurować Rails.
 keywords: ruby rails sqlite3
 ---
 Każdy rozpoczynający pracę z frameworkiem Rails może wpaść w pewną pułapkę, taką na jaką ja się nadziałem. Wynika ona ze

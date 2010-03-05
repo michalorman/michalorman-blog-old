@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Kontekstowe komponenty w J2EE 6 - Wstrzykiwanie zależności
-description: Wstrzykiwanie zależności w specyfikacji JSR-299 CDI
+description: Wstrzykiwanie zależności w specyfikacji CDI (Contexts and Dependency Injection for the Java).
 keywords: java ee j2ee cdi jsr jsr-299 contextual components dependency injection
 ---
 <a href="http://pl.wikipedia.org/wiki/Wstrzykiwanie_zależności">Wstrzykiwanie zależności</a> (ang. dependency injection) jest obecnie jednym z bodaj najczęściej używanych wzorców projektowych w świecie korporacyjnej Javy. Jest całe mnóstwo frameworków, które w różny sposób realizują to samo zadanie, które polega na wstrzyknięciu do komponentu referencji do wszelkiego rodzaju serwisów i zasobów, zwalniając tym samym komponent z potrzeby tworzenia i wyszukiwania ich na własną rękę. Wstrzykiwanie zależności jest częścią większego wzorca zwanego odwróceniem kontroli (ang. <a href="http://en.wikipedia.org/wiki/Inversion_of_control">inversion of control</a>).
