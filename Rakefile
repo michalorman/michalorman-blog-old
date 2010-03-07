@@ -132,7 +132,7 @@ private
     <<-END
 ---
 layout: default
-title: Michał Orman - Archiwum @#year
+title: Archiwum @#year
 description: Posty z roku #@year
 navbar_pos: 1
 ---
@@ -144,8 +144,9 @@ navbar_pos: 1
     <<-END
 ---
 layout: default
-title: Michał Orman - Archiwum #@month/#@year
+title: Archiwum #@month/#@year
 description: Posty z miesiąca #@month/#@year
+navbar_pos: 1
 ---
 {% assign month = '#@month/#@year' %}{% include archive-year-month.html %}
     END

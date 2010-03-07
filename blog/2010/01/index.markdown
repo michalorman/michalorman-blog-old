@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Michał Orman - Archiwum 01/2010
+title: Archiwum 01/2010
 description: Posty z miesiąca 01/2010
 navbar_pos: 1
 ---

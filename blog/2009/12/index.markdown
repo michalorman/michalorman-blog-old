@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Michał Orman - Archiwum 12/2009
+title: Archiwum 12/2009
 description: Posty z miesiąca 12/2009
 navbar_pos: 1
 ---
