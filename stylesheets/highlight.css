@@ -1,5 +1,4 @@
 .k, .kd, .kt, .kn {
-	font-weight: bold;
 	color: #558000;
 }
 
@@ -24,3 +23,6 @@
 	font-weight: bold;
 }
 
+.vi {
+	color: #888;
+}
