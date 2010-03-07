@@ -15,7 +15,7 @@ Gdzie zatem mogą się kryć niebezpieczeństwa w naszych aplikacjach railsowych
 przyjrzyjmy się poniższej komendzie:
 
 <pre>
-curl -d “user[login]=hacked&user[is_admin]=true&user[password]=password&user[password_confirmation]=password&user[email]=hacked@by.me” http://url_not_shown/users
+curl -d “user&#91;login&#93;=hacked&amp;user&#91;is_admin&#93;=true&amp;user&#91;password&#93;=password&amp;user&#91;password_confirmation&#93;=password&amp;user&#91;email&#93;=hacked@by.me” http://url_not_shown/users
 </pre>
 
 Przyjrzyjcie się uważnie i skonfrontujcie to z waszymi aplikacjami. Coś mi się
