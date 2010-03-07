@@ -42,7 +42,7 @@ Zaczynamy od pobrania serwera:
 Sam serwer zajmuje około 150MB zatem czas w jakim będzie się ściągał wykorzystamy
 na kolejne zadania.
 
-Uruchamianie serwera z uprawnieniami super <s>użyszkodnika</s> użytkownika
+Uruchamianie serwera z uprawnieniami super <span class="striked">użyszkodnika</span> użytkownika
 (tzw. root-a) nie jest dobrym pomysłem. W sytuacji gdyby jakiś zły użytkownik przejął
 kontrolę nad serwerem miałby pełne uprawnienia w naszym systemie. Zwykle do takich
 celów jak uruchamianie serwera tworzy się osobne konto użytkownika i nadaje mu się
