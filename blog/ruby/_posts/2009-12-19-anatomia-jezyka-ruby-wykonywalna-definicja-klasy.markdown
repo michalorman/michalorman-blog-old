@@ -143,6 +143,6 @@ $ ruby -w class.rb
 
 ### Podsumowanie
 
-Ruby to język w dużo większym stopniu obiektowy od takich języków jak Java. Tutaj zasadniczo nie ma deklaracji, są one synonimami wywoływań odpowiednich komunikatów. Zależnie od tego kto jest odbiorcą tego komunikatu wykonywane są jakieś akcie (dodawanie metody, tworzenie instancji klasy itp.). To co pozornie wygląda na metody i zmienne globalne to de facto metody i zmienne dodane do klasy `Object` a ponieważ klasa ta jest rozszerzana przez inne klasy i one mają dostęp do tych metod i zmiennych.
+Ruby to język w dużo większym stopniu obiektowy od takich języków jak Java. Tutaj zasadniczo nie ma deklaracji, są one synonimami wywoływań odpowiednich komunikatów. Zależnie od tego kto jest odbiorcą tego komunikatu wykonywane są jakieś akcje (dodawanie metody, tworzenie instancji klasy itp.). To co pozornie wygląda na metody i zmienne globalne to de facto metody i zmienne dodane do klasy `Object` a ponieważ klasa ta jest rozszerzana przez inne klasy i one mają dostęp do tych metod i zmiennych.
 
 W Rubym zasadniczo nic się nie marnuje. Nawet ciało klasy jest miejscem wykonywalnym gdzie możemy wysyłać komunikaty. Deklaracje jako takie nie istnieją. Pamiętajmy, że nie jest ważne co i gdzie zdefiniowaliśmy, ale kto jest odbiorcą odpowiedniego komunikatu i czy odbiorca ten jest w stanie obsłużyć ten komunikat. To jest istota programowania w Rubym.
