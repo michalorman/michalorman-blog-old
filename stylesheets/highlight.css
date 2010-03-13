@@ -1,28 +1,36 @@
-.k, .kd, .kt, .kn {
-	color: #558000;
+.k, .kd, .kt, .kn, .nb {
+    color: #cdb178;
+}
+
+.nc, .no {
+    color: #927d94;
 }
 
 .o {
-	color: #558000;
+    color: #b98b60;
 }
 
-.s, .s1, .s2, .ss, .sh, .sr {
-	color: #669900;
+.s, .s1, .s2, .sh, .sr {
+    color: #8c9967;
 }
 
-.c, .c1 {
-	font-style: italic;
-	color: #999;
+.ss {
+    color: #DFD999;
 }
 
-.nd {
-	color: #777;
-}
-
-.nt {
-	font-weight: bold;
+.si {
+    color: #B1CF81;
 }
 
 .vi {
-	color: #888;
+    color: #7587A6;
+}
+
+.c, .c1 {
+    color: #5d575d;
+    font-style: italic;
+}
+
+.mi {
+    color: #9d5c49;
 }

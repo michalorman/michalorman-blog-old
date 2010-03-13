@@ -1,11 +1,13 @@
 ---
-layout: default
+layout: page
 title: Michał Orman - O Mnie
-description: Kim jest Michał Orman
+description: Informacje o tym kim jest i czym się zajmuje Michał Orman.
 keywords: Michał Orman blog profil
 navbar_pos: 3
 ---
-<a href="/images/avatar.jpg" rel="colorbox" title="Powiększ zdjęcie"><img src="/images/avatar.jpg" class="avatar" alt="Michał Orman" /></a>
+# O Mnie
+
+<a href="/images/avatar.jpg" rel="colorbox" title="Powiększ zdjęcie"><img src="/images/avatar_mid.jpg" class="avatar" alt="Michał Orman" /></a>
 Jak nazwa blogu sugeruje nazywam się **Michał Orman**. Moją pasją jest inżynieria
 oprogramowania, czyli wszelkiego rodzaju metodyki i techniki pozwalające nam
 tworzyć dobry i działający kod. Obecnie moje zainteresowania oscylują wokół

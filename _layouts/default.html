@@ -14,10 +14,8 @@
     <meta name="keywords" content="{{ page.keywords }}"/>
     {% endif %}
     <meta name="y_key" content="c7b778d82bb9a487"/>
-    <script src="/pub/js/jquery-1.4.1.min.js" type="text/javascript">
-    </script>
-    <script src="/pub/js/jquery.colorbox-min.js" type="text/javascript">
-    </script>
+    <script src="/pub/js/jquery-1.4.1.min.js" type="text/javascript"></script>
+    <script src="/pub/js/jquery.colorbox-min.js" type="text/javascript"></script>
     <script type="text/javascript">
       $(document).ready(function(){
           $("a[rel='colorbox']").colorbox();
@@ -25,86 +23,41 @@
     </script>
   </head>
   <body>
+
     <div id="header">
-      <p id="logo">
-        <img src="/images/bulb.png" id="img-logo" alt="Logo" />
-      </p>
-			<h1><a href="/blog/" title="michalorman.pl">michalorman.pl</a></h1>
-      <h2>inżynieria oprogramowania z mojego punktu widzenia</h2>
+        <div class="content-wrapper">
+            {% include navbar.html %}
+        </div>
     </div>
-    <div id="navbar" class="navbar-{{ page.navbar_pos }}">
-      {% include navbar.html %}
+
+    <div id="top-content">
+        <div class="content-wrapper">
+            {% include logo.html %}
+        </div>
     </div>
-    <div id="main">
-      <div id="content">
-        {{ content }}
-      </div>
-      <div id="sidebar">
-        <ul>
-          <li class="section">
-            <h1>Kategorie</h1>
-            {% include categories.html %}
-          </li>
-          <li class="section mid">
-            <h1>Odnośniki</h1>
-            <ul>
-              <li>
-                <a href="http://github.com/michalorman">Profil na GitHub</a>
-              </li>
-              <li>
-                <a href="http://www.javablackbelt.com/UserView.wwa?userId=9242332">Profil na JavaBlackBelt</a>
-              </li>
-            </ul>
-          </li>
-          <li class="section mid">
-            <h1>Archiwa</h1>
-            <ul>
-              <li>
-                <a href="/blog/2009/10/" title="Zobacz wszystkie posty z 10/2009">10/2009</a>
-              </li>
-              <li>
-                <a href="/blog/2009/11/" title="Zobacz wszystkie posty z 11/2009">11/2009</a>
-              </li>
-              <li>
-                <a href="/blog/2009/12/" title="Zobacz wszystkie posty z 12/2009">12/2009</a>
-              </li>
-              <li>
-                <a href="/blog/2010/01/" title="Zobacz wszystkie posty z 01/2010">01/2010</a>
-              </li>
-              <li>
-                <a href="/blog/2010/02/" title="Zobacz wszystkie posty z 02/2010">02/2010</a>
-              </li>
-							<li>
-                <a href="/blog/2010/03/" title="Zobacz wszystkie posty z 03/2010">03/2010</a>
-              </li>
-            </ul>
-          </li>
-          <li class="section mid">
-            <h1>Różne</h1>
-            <ul>
-              <li>
-                <a href="http://pl.linkedin.com/in/michalorman" title="Mój profil na LinkedIn"><img src="/images/linkedin.gif" alt="Mój profil na LinkedIn" /></a>
-              </li>
-              <li>
-                <a href="http://www.javablackbelt.com/UserView.wwa?userId=9242332" title="Mój profil na JavaBlackBelt"><img src="http://www.javablackbelt.com/imgs/level/belt4_L.gif" alt="Michal's belt at JavaBlackBelt"/></a>
-              </li>
-              <li>
-                <a href="http://validator.w3.org/check?uri=referer"><img src="http://www.w3.org/Icons/valid-xhtml11-blue" alt="Valid XHTML 1.1" height="31" width="88" /></a>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </div>
+
+    <div id="main-content">
+        <div class="content-wrapper">
+            {{ content }}
+        </div>
     </div>
+
     <div id="footer">
-      <div>
-        &copy; 2010 Michał Orman
-      </div>
-      <div>
-        Powered by <a href="http://github.com/mojombo/jekyll">Jekyll</a>
-        and <a href="http://disqus.com/comments/">Disqus</a>.
-      </div>
+        <div class="content-wrapper">
+            <div id="footer-panels">
+                <div class="panel-wrapper">{% include recent-posts.html %}</div>
+                <div class="panel-wrapper">{% include links.html %}</div>
+                <div class="panel-wrapper">{% include archives.html %}</div>
+            </div>
+            <div id="copyright">
+                <p>&copy; 2010 Michał Orman</p>
+                <p>Powered by <a href="http://github.com/mojombo/jekyll">Jekyll</a> and <a href="http://disqus.com/comments/">Disqus</a>.</p>
+            </div>
+        </div>
     </div>
+
+    <!-- *********      SCRIPTS         *********************** -->
+
     <script type="text/javascript">
       //<![CDATA[
       (function(){
@@ -128,7 +81,7 @@
       try {
           var pageTracker = _gat._getTracker("UA-10392759-3");
           pageTracker._trackPageview();
-      } 
+      }
       catch (err) {
       }
     </script>
