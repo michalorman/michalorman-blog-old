@@ -146,16 +146,14 @@ th {
 }
 
 #header a, #header a:visited {
-    color: white;
-}
-
-#header a {
-    margin-right: 1.5em;
+    color: #999;
     text-decoration: none;
+    margin-right: 1.5em;
 }
 
 #header a:hover {
-    border-bottom: 2px solid #666;
+    color: #aaa;
+    text-decoration: none;
 }
 
 .content-wrapper {
