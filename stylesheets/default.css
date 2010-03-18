@@ -118,9 +118,8 @@ blockquote {
 }
 
 ul, ol {
-    margin-bottom: 1em;
-    list-style-position: inside;
-    padding-left: 0.8em;
+    margin: 0 0 1em 2em;
+    list-style-position: outside;
 }
 
 table {
@@ -248,6 +247,7 @@ th {
 .panel-wrapper {
     float: left;
     margin-right: 4em;
+    max-width: 30em;
 }
 
 .post-wrapper {
