@@ -267,6 +267,12 @@ th {
     font-size: 1em;
 }
 
+.post-content-wrapper img {
+    border: 1px solid #E2D3BB;
+    display: block;
+    margin: 0 auto;
+}
+
 .page-content-wrapper {
     margin-top: 3em;
 }
