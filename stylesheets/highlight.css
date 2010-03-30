@@ -1,4 +1,4 @@
-.k, .kd, .kt, .kn, .nb {
+.k, .kd, .kt, .kn, .nb, .nt {
     color: #cdb178;
 }
 
@@ -6,7 +6,7 @@
     color: #927d94;
 }
 
-.o {
+.o, .cp {
     color: #b98b60;
 }
 
@@ -26,7 +26,7 @@
     color: #7587A6;
 }
 
-.c, .c1 {
+.c, .c1, .x {
     color: #5d575d;
     font-style: italic;
 }
