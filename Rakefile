@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 ROOT = 'blog'
 BLOG_PATH = ROOT + '/'
 POSTS_DIR = '_posts'
@@ -287,6 +288,7 @@ def rebuild_sitemap
   end
 end
 
+desc 'Create new category'
 task :create_category, :name do |t, args|
   category = Category.new(args.name)
   category.create
@@ -298,6 +300,7 @@ task :rebuild_categories do
   rebuild_categories
 end
 
+desc 'Create new post'
 task :create_post, :name, :category do |t, args|
   post = Post.new(args.name, args.category)
   post.create
@@ -305,6 +308,7 @@ task :create_post, :name, :category do |t, args|
   rebuild_sitemap
 end
 
+desc 'Create archive'
 task :create_archive, :month, :year do |t, args|
   archive = Archive.new(args.month, args.year)
   archive.create
