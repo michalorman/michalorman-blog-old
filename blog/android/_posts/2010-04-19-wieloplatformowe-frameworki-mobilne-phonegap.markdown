@@ -8,8 +8,8 @@ navbar_pos: 1
 Platformy mobilne takie jak iPhone czy Android zdobywają coraz większą popularność. Serwisy takie jak Apple App Store czy Google Market
 posiadają już pokaźną bibliotekę aplikacji dostępnych dla tych platform i co chwila pojawiają się nowe. Niestety każdy programista
 chcący tworzyć aplikacje mobilne stoi przed nie lada dylematem. Musi wybrać platformę dla której chce tworzyć aplikacje. Wybór ten nie
-jest taki prosty, choć teraz iPhone jest liderem to Android [depcze mu po piętach](http://feedproxy.google.com/~r/OSnewspl/~3/mNHnKxsQa8w/).
-Dlaczego zatem nie tworzyć aplikacji wieloplatfomowej dającej uruchomić się zarówno na jednej jak i drugie platformie (a także na
+jest taki prosty. Choć teraz iPhone jest liderem to Android [depcze mu po piętach](http://feedproxy.google.com/~r/OSnewspl/~3/mNHnKxsQa8w/).
+Dlaczego zatem nie tworzyć aplikacji wieloplatfomowej dającej uruchomić się zarówno na jednej jak i drugiej platformie (a także na
 Symbianie, Blackberry itd.)?
 
 Istnieje kilka frameworków pozwalających tworzyć wieloplatfomowe aplikacje mobilne. Frameworki te stworzone są z użyciem podobnej
@@ -22,15 +22,15 @@ bezpieczeństwa tych platform).
 ## PhoneGap
 
 [PhoneGap](http://www.phonegap.com/) to framework pozwalający aplikacje webowe napisane za pomocą HTML'a i JavaScriptu osadzić
-wewnątrz platformy mobilnej. Dzięki dołączonej bibliotece JS otrzymujemy dostęp do natywnych funkcjonalności telefonu tj. geolokacja,
-akcelerometr, aparat fotograficzny, wibracje oraz orientacje telefonu czy gesty i multitouch. Pełna lista funkcjonalności i
+wewnątrz platformy mobilnej. Dzięki dołączonej bibliotece JS otrzymujemy dostęp do natywnych funkcjonalności telefonu tj. geolokacji,
+akcelerometru, aparatu fotograficznego, wibracji oraz orientacji telefonu czy gestów i multitouch. Pełna lista funkcjonalności i
 wspieranych platform znajduje się [tutaj](http://wiki.phonegap.com/Roadmap).
 
 Ponieważ aplikacje tworzone przez nas są w istocie web aplikacjami musimy pogodzić się z pewnymi ograniczeniami. Po pierwsze
 wygląd naszej aplikacji (ang. look-and-feel) nie będzie przypominał wyglądu aplikacji natywnych. Dodatkowo nie mamy możliwości użycia
 natywnych kontrolek a także dodatkowych funkcjonalności platformy (np. animacji 3d). Wygląd i działanie naszej aplikacji
 ogranicza się do tego co oferuje nam HTML i JS, tak więc jeżeli planujemy za pomocą tego frameworku pisać gry, to lepiej sobie
-to odpuścić. Framework ten nadaje się do aplikacji typu "wypełnij formularz".
+go odpuścić. Framework ten nadaje się do biznesowych aplikacji typu "wypełnij formularz".
 
 ### Jak zacząć zabawę z PhoneGap i Androidem
 
@@ -55,11 +55,11 @@ Tworzymy nowy "Android Project" w Eclipse:
 
 W kolejnym dialogu zaznaczamy iż chcemy stworzyć projekt z istniejącego źródła ("Create project from existing source") a jako źródło
 wybieramy katalog ``android/framework`` z katalogu w którym ściągnęliśmy PhoneGap. Zaznaczamy jeszcze platformę, przy czym
-aktualna wersja PhoneGap wymaga platformy co najmniej 2.0 (w moim przypadku to 2.1):
+aktualna wersja PhoneGap wymaga platformy co najmniej 2.0 (w moim przypadku użyłem 2.1):
 
 <a href="/images/phonegap/new-android-project.png" rel="colorbox" title="Powiększ obrazek"><img src="/images/phonegap/new-android-project.png" alt="Nowy projekt" /></a>
 
-Jeżeli zaznaczymy platformę w wersji 1.6 nasza aplikacja nie będzie w stanie się zbudować, ponieważ:
+Jeżeli zaznaczymy platformę w wersji 1.6 nasza aplikacja nie będzie w stanie się zbudować:
 
     Unable to resolve target 'android-5'
 
@@ -122,7 +122,7 @@ może stworzę takowy na niniejszym blogu :).
 ## Podsumowanie
 
 Nie ma co ukrywać, że frameworki pozwalające tworzyć wieloplatformowe aplikacje mobilne będą zdobywać coraz
-większą popularność. Aplikacje niejako muszą być tworzone na kilka platform na raz a utrzymywanie kodu dla
+większą popularność. Aplikacje niejako muszą być tworzone na kilka platform jednocześnie a utrzymywanie kodu dla
 każdej platformy z osobna jest tylko stratą pieniędzy.
 
 Jednym z rozwiązań pozwalających nam na tworzenie wieloplatformowych aplikacji mobilnych jest framework
