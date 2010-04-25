@@ -28,14 +28,14 @@ wspieranych platform znajduje się [tutaj](http://wiki.phonegap.com/Roadmap).
 
 Ponieważ aplikacje tworzone przez nas są w istocie web aplikacjami musimy pogodzić się z pewnymi ograniczeniami. Po pierwsze
 wygląd naszej aplikacji (ang. look-and-feel) nie będzie przypominał wyglądu aplikacji natywnych. Dodatkowo nie mamy możliwości użycia
-natywnych kontrolek a także dodatkowych funkcjonalności platformy (np. animacji 3d). Wygląd i działanie naszej aplikacji
+natywnych kontrolek, a także dodatkowych funkcjonalności platformy (np. animacji 3d). Wygląd i działanie naszej aplikacji
 ogranicza się do tego co oferuje nam HTML i JS, tak więc jeżeli planujemy za pomocą tego frameworku pisać gry, to lepiej sobie
 go odpuścić. Framework ten nadaje się do biznesowych aplikacji typu "wypełnij formularz".
 
 ### Jak zacząć zabawę z PhoneGap i Androidem
 
 Generalnie zacząć tworzyć aplikację z PhoneGap jest bardzo prosto, pod warunkiem, że nie korzystamy z opisu dostępnego na stronie
-tego frameworka. Opis ten jest nie dość, że nieprofesjonalnie napisany to jeszcze nieaktualny.
+tego frameworka. Opis ten jest nie dość, że nieprofesjonalnie napisany, to jeszcze nieaktualny.
 
 Zanim zaczniemy zabawę z PhoneGap (i generalnie każdym innym frameworkiem) musimy zainstalować SDK platformy dla jakiej tworzymy
 aplikację. Ponieważ ja tworzyłem dla Androida musiałem zainstalować [Android SDK](http://developer.android.com/sdk/index.html).
@@ -108,12 +108,12 @@ Ok działa. Na bardziej poważne aplikacje przyjdzie jeszcze czas.
 ## Wady i zalety PhoneGap
 
 Niewątpliwą zaletą PhoneGap jest możliwość tworzenia aplikacji za pomocą HTML'a, CSS'a i JavaScript'u. Dzięki temu
-aplikację są wieloplatformowe i jednocześnie nie ma potrzeby uczenia się architektury i API tejże platformy.
+aplikacje są wieloplatformowe i jednocześnie nie ma potrzeby uczenia się architektury i API poszczególnych platform.
 Dodatkowo nasze aplikacje możemy testować w normalnej przeglądarce na naszym laptopie, bez potrzeby uruchamiania
 emulatora. Co ważne możliwość uruchomienia naszej aplikacji poza platformą pozwala nam na stworzenie
 zautomatyzowanych testów np. za pomocą [Selenium](http://seleniumhq.org/).
 
-Do wad tego frameworka należy zaliczyć brak natywnego wyglądu naszych aplikacji a także natywnych kontrolek, przez
+Do wad tego frameworka należy zaliczyć brak natywnego wyglądu naszych aplikacji, a także natywnych kontrolek, przez
 co nasze listy wyboru i inne pola będą wyglądały jak w przeglądarce, a nie w aplikacjach natywnych. Kolejną wadą
 tej platformy jest dość słaba i często nieaktualna dokumentacja, także bardzo często trzeba będzie wspierać się
 pomocą wujka Google. Brakuje takiego opisu krok po kroku omawiającego zagadnienia tego frameworka (kto wie,
@@ -129,7 +129,7 @@ Jednym z rozwiązań pozwalających nam na tworzenie wieloplatformowych aplikacj
 PhoneGap. Potrafi on osadzić naszą aplikację webową w lokalnym środowisku platformy co daje wrażenie
 uruchamiania aplikacji natywnej. Zaletą tego frameworka jest użycie powszechnie znanych webowych technologii
 tj. HTML i JavaScript-u. Niestety korzystając z tego frameworka musimy pogodzić się, że nasze aplikacje
-nie będą wykorzystywać natywnych kontrolek a ich wygląd nie będzie przypominał prawdziwych aplikacji
+nie będą wykorzystywać natywnych kontrolek, a ich wygląd nie będzie przypominał prawdziwych aplikacji
 napisanych na konkretną platformę. Framework ten nadaje się do tworzenia wszelkich aplikacji biznesowych
 opartych o wypełnianie formularzy i przeglądanie kolekcji danych.
 

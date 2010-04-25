@@ -5,12 +5,12 @@ description: Wzorzec projektowy Model-Widok-Kontroler (MVC) to obecnie najczęś
 keywords: MVC Model View Controller Widok Kontroler Wzorce Projektowe Wzorzec Projektowy Design Pattern Patterns
 navbar_pos: 1
 ---
-Model-Widok-Kontroler to w tej chwili najczęściej używany wzorzec projektowy. Niemal każda aplikacja, a zwłaszcza aplikacje
+Model-Widok-Kontroler to w tej chwili chyba najczęściej używany wzorzec projektowy. Niemal każda aplikacja, a zwłaszcza aplikacje
 webowe, wykorzystują go (często pod przykrywką jakiegoś frameworka). Niestety rozpowszechnienie użycia tego wzorca nie idzie
 w parze z jego zrozumieniem. Często widzę jak programistom brakuje elementarnej wiedzy na temat MVC przez co traci się
-większość jego zalet. No cóż znajomość podstawowych wzorców projektowych, a także paradygmatów programowania obiektowego
-wciąż pozostawia wiele do życzenia. Co z tego, że korzystamy z super-zwinnych i enterprajsowych frameworków, jak burdel
-w kodzie sprawia, że jest on niemożliwy do ponownego użycia, nie można go rozwijać a wprowadzanie zmian to droga przez mękę. Mam nadzieję,
+większość jego zalet. No cóż, znajomość podstawowych wzorców projektowych, a także paradygmatów programowania obiektowego,
+wciąż pozostawia wiele do życzenia. Co z tego, że korzystamy z super-zwinnych i enterprajsowych frameworków, jeśli burdel
+w kodzie sprawia, że jest on niemożliwy do ponownego użycia, nie można go rozwijać, a wprowadzanie zmian to droga przez mękę. Mam nadzieję,
 że wpisami na swoim blogu na temat wzorców projektowych chociaż trochę przyczynię się do poprawy tej sytuacji (nie wiem
 czy bardziej to robię dla siebie czy innych ;).
 
@@ -37,7 +37,7 @@ J2EE wymyślono jakieś DAO i anemiczne encje, które służą tylko jako worki 
 żadnych odpowiedzialności i logiki, stąd też często programiści J2EE mają problemy ze zrozumieniem literki M skrótu MVC.
 
 Reasumując Model to jest cała logika biznesowa aplikacji wraz z mapowaniem obiektowo-relacyjnym. To jest też stała część
-naszej aplikacji, w tym sensie, że powinniśmy móc dowolnie wymieniać pozostałe części (Widok i Kontrolery) a aplikacja
+naszej aplikacji, w tym sensie, że powinniśmy móc dowolnie wymieniać pozostałe części (Widok i Kontrolery), a aplikacja
 nadal powinna robić to samo (oczywiście nie uwzględniając wszelkich wymagań systemu co do warstwy prezentacji).
 Swoistym efektem ubocznym jest także to, że pewną logikę możemy wykonywać w różnych kontrolerach
 bez powielania kodu (tutaj ucieszą się wszyscy zwolennicy DRY, czyli de facto wszyscy profesjonalni programiści).

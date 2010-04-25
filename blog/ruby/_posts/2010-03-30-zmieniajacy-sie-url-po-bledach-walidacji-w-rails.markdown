@@ -72,8 +72,8 @@ poradzić.
 ## Flash
 
 Flash to jest tymczasowy bufor w Rails, w którym możemy przechować dane pomiędzy kolejnymi żądaniami HTTP (w jednym coś
-wrzucamy a w następnym wyciągamy). Najczęściej flasha używa się do przekazywania komunikatów, jednakże nie tylko tekst
-może być umieszczany w tym buforze.
+wrzucamy a w następnym wyciągamy). Najczęściej flasha używa się do przekazywania komunikatów, w buforze może być umieszczany
+jednakże nie tylko tekst.
 
 Zatem możemy nasze wywołanie metody ``render``, które renderuje tylko wybrany szablon, a nie generuje przekierowania
 zamienić na ``redirect_to``. Ponieważ kolejne żądanie spowoduje utworzenie nowego obiektu kontrolera potrzebujemy sposobu
