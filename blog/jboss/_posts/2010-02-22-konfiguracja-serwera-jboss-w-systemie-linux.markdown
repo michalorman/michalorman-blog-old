@@ -99,8 +99,8 @@ System mamy zainstalowany, możemy przejść do konfiguracji skryptów uruchamia
 
 Tradycyjnie serwer aplikacyjny JBoss przychodzi nam ze zbiorem gotowych skryptów
 służących do uruchamiania serwera dla różnych systemów. Co ciekawe jest wśród nich
-skrypt dla systemu Suse co mnie bardzo ucieszyło. Niestety brakuje skryptu dla systemu 
-Debian (a na nim mi nawet by bardziej zależało). W którymś z przyszłych postów będę 
+skrypt dla systemu Suse co mnie bardzo ucieszyło. Niestety brakuje skryptu dla systemu
+Debian (a na nim mi nawet by bardziej zależało). W którymś z przyszłych postów będę
 musiał opisać stworzenie takiego skryptu, ale na razie skorzystam z gotowca.
 
 Zatem kopiujemy nasz skrypt w odpowiednie miejsce, czyli katalog `/etc/init.d` w

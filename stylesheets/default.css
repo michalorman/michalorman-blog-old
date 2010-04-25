@@ -281,3 +281,7 @@ th {
     float: left;
     margin: 0.4em 1em 1em 0;
 }
+
+.striked {
+    text-decoration: line-through;
+}

@@ -90,6 +90,11 @@ layout: nil
     <priority>0.7</priority> 
   </url>
   <url> 
+    <loc>http://michalorman.pl/blog/architektura/</loc>
+    <changefreq>weekly</changefreq> 
+    <priority>0.7</priority> 
+  </url>
+  <url> 
     <loc>http://michalorman.pl/blog/blog/</loc>
     <changefreq>weekly</changefreq> 
     <priority>0.7</priority> 
