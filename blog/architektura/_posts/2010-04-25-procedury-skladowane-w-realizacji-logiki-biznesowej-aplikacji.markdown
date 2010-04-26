@@ -115,10 +115,10 @@ procedury przed niczym nas nie bronią, jedynie odpowiednie ich wykorzystywanie 
 
 Dokładnie ta sama zasada obowiązuje w przypadku konwencjonalnego kodu. Przekazywanie wcześniej nieobrobionych parametrów
 bezpośrednio od użytkownika do zapytania SQL to zło w czystej postaci. Niezależnie jaki mechanizm wykorzystamy
-zasada ta działa tak samo. Dotego w przypadku języków takich jak Java mamy szereg mechanizmów, które pozwalają nam
+zasada ta działa tak samo. Do tego w przypadku języków takich jak Java mamy szereg mechanizmów, które pozwalają nam
 tworzyć dynamiczne zapytania w bezpieczny sposób nawet jak częścią tych zapytań są parametry wprowadzane
 bezpośrednio od użytkownika. Oczywiście zawsze może znaleźć się jakiś nierozważny programista, który w zły sposób
-skorzysta z możwliości frameworka, jednak czynnik ludzki może mieć negatywny wpływ za równo przy logice umieszczonej
+skorzysta z możliwości frameworka, jednak czynnik ludzki może mieć negatywny wpływ za równo przy logice umieszczonej
 w kodzie jak i procedurach składowanych. Żaden język sam się nie broni przed złym jego wykorzystywaniem.
 
 ## Co tracimy wykorzystując procedury składowane
@@ -190,7 +190,7 @@ składowanych jest złe. Oczywiście jest wiele przypadków, gdy użycie takiej 
 niż manipulowanie danymi w aplikacji (zwłaszcza kiedy chodzi o bardzo dużą kolekcję danych). Problem w tym, że takie
 przypadki będą raczej rzadkie, a upychanie logiki do bazy danych, tylko w imię wątpliwych korzyści jest złe.
 Procedura składowana powinna być użyta tam gdzie faktycznie jest taka potrzeba inaczej niepotrzebnie tylko
-utrudniamy sobie pracę i narażamy sie na kłopoty w przyszłości.
+utrudniamy sobie pracę i narażamy się na kłopoty w przyszłości.
 
 Nie zawsze użycie procedury składowanej powoduje skok wydajnościowy aplikacji. Nie zawsze z resztą brak wydajności
 jest problemem. Dlatego zamiast bawić się w jasnowidztwo i przewidywać potencjalne wąskie gardła lepiej obserwować
