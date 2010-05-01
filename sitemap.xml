@@ -82,6 +82,11 @@ layout: nil
     <changefreq>weekly</changefreq> 
     <priority>0.4</priority>
   </url>
+  <url>
+    <loc>http://michalorman.pl/blog/2010/05/</loc>
+    <changefreq>weekly</changefreq> 
+    <priority>0.4</priority>
+  </url>
 
   <!-- Categories -->
   <url> 

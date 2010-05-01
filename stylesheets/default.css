@@ -268,7 +268,6 @@ th {
 }
 
 .post-content-wrapper img {
-    border: 1px solid #E2D3BB;
     display: block;
     margin: 0 auto;
 }
@@ -284,4 +283,21 @@ th {
 
 .striked {
     text-decoration: line-through;
+}
+
+div.hola {
+    background: url('/images/hola_hola.png') bottom left no-repeat;
+    min-height: 175px;
+    padding: 1em 0 0 205px;
+    margin: 1em 3em 2em 2em;
+    vertical-align: middle;
+}
+
+div.hola p {
+    background-color: #f4eee2;
+    padding: 0.75em;
+    border: 1px solid #e2d3bb;
+    -moz-border-radius: 0.4em;
+    vertical-align: baseline;
+    font-style: italic;
 }
