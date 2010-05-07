@@ -68,7 +68,7 @@ narzucono nam następujące wskaźniki (ograniczenia) wykonania wraz z tolerancj
   </tr>
 </table>
 
-<div class="hola">
+<div class="hola_dog">
 <p>Hola, Hola! Jaki jest sens ustalania ujemnej granicy tolerancji dla kosztów i czasu? Czyż nie jest dobrze, gdy
 projekt szacowany na 2 miliony zrobimy za pół, albo zamiast w 18 miesięcy zrobimy go w 6?</p>
 </div>
