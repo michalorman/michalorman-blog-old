@@ -84,7 +84,11 @@ RentOrder.find_all_by_date(Date.current)
 Jednakże ponownie niszczymy enkapsulację. Zmiana sposobu przechowywania daty (np. zmiana nazwy atrybutu na
 ``order_date``) spowoduje, że powyższy kod przestanie działać (o czym nawet się nie dowiemy nie posiadając testów).
 Jest jednak jeszcze jeden powód, dla którego lepiej utworzyć named scope'a. Mianowicie zakresy te można ze
-sobą łączyć (ang. chaining). Co to w praktyce oznacza? Zobaczmy na przykładzie. Dodajmy kolejnego scope'a. Tym
+sobą łączyć (ang. chaining).
+
+### Łączenie ``named_scope``
+
+Co to w praktyce oznacza? Zobaczmy na przykładzie. Dodajmy kolejnego scope'a. Tym
 razem chcielibyśmy mieć możliwość pobrania wszystkich zamówień, które dotyczą konkretnej marki samochodu. Taki
 scope wyglądałby następująco:
 
@@ -93,7 +97,9 @@ class RentOrder < ActiveRecord::Base
   belongs_to :car
 
   named_scope :current, :conditions => { :date => Date.current }
-  named_scope :for_mark, lambda { |mark| { :joins => [:car], :conditions => ["cars.mark = ?", mark] } }
+  named_scope :for_mark, lambda { |mark|
+    { :joins => :car, :conditions => ["cars.mark = ?", mark] }
+  }
 end
 {% endhighlight %}
 
@@ -106,8 +112,6 @@ poszukać wszystkich zamówień dotyczących samochodu marki Audi w następując
 {% highlight ruby %}
 RentOrder.for_mark('Audi')
 {% endhighlight %}
-
-### Łączenie ``named_scope``
 
 Rails pozwala nam łączyć named scope'y w ciągi. Łącząc dwa nasze named scope'y możemy wyszukać wszystkie bieżące zamówienia samochodów
 dotyczące konkretnej marki. Zrobilibyśmy to tak:
