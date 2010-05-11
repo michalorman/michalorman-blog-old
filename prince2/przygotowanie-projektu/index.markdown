@@ -82,7 +82,7 @@ należy:
 
 Kiedy Kierownik Projektu jest już wybrany może on poznać swoje kompetencje i obowiązki z utworzonego opisu roli (szczególnie w przypadku, gdy
 nie jest zaznajomiony z metodyką PRINCE2). Podobnie, jak w przypadku opisu roli Przewodniczącego, nie musimy tworzyć tego opisu od nowa, jeżeli
-posiadamy już jakiś z wcześniejszych projektów możemy go wykorzystać.
+posiadamy już jakiś z wcześniejszych projektów możemy go wykorzystać. Opisy obu ról wchodzą w skład [Założeń Projektu](/prince2/zalozenia-projektu).
 
 Kierownik Projektu powinien utworzyć [Dziennik Projektu](/prince2/dziennik-projektu) jako miejsce, gdzie od
 tej pory spisywane będą wszelkie zagadnienia dotyczące projektu. Generalnie w Dzienniku Projektu spisywane są wszelkie nieformalne

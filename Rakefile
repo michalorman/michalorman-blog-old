@@ -6,25 +6,36 @@ INCLUDES_PATH = '_includes/'
 CATEGORIES = INCLUDES_PATH + 'categories.html'
 SITEMAP = 'sitemap.xml'
 
+module Normalize
+  def normalized(s)
+    from = %w{  ó ą ę ł ź ś ń ć ż Ó Ą Ę Ł Ź Ś Ń Ć Ż  }
+    to = %w{  o a e l z s n c z O A E L Z S N C Z }
+    from.each_with_index do |c, i|
+      s = s.gsub(/#{c}/, to[i])
+    end
+    s.downcase.gsub(/[ ]/, '-')
+  end
+end
+
 class Category
   require "rubygems"
   require "jekyll"
-  
+
   include Jekyll::Filters
   include FileUtils
-  
+
   attr_reader :name, :posts_path
-  
+
   def initialize(name)
     @name = name
     @dir = BLOG_PATH + @name + "/";
     @posts_path = @dir + POSTS_DIR
   end
-  
+
   def exists?
     File.exists?(BLOG_PATH + @name)
   end
-  
+
   def create
     unless exists?
       puts "creating new category: #@name"
@@ -34,38 +45,38 @@ class Category
       end
     end
   end
-  
-private
-  
+
+  private
+
   def index_content
     <<-END
 ---
 layout: default
-title: Michał Orman - 
-description: Posty w kategorii 
+title: Michał Orman -
+description: Posty w kategorii
 keywords:
 navbar_pos: 1
 ---
-# Posty w kategorii 
-{% assign category = site.categories.#@name %}{% include post-link.html %}
+# Posty w kategorii
+{% assign category = site.categories. #@name  %}{% include post-link.html %}
     END
   end
-  
+
 end
 
 class Post
   attr_reader :post_path
-  
+
   def initialize(name, category_name)
     @name = create_name(name)
     @category = Category.new(category_name)
     @post_path = @category.posts_path + "/#@name"
   end
-  
+
   def exists?
     File.exists?(@post_path)
   end
-  
+
   def create
     unless exists?
       @category.create unless @category.exists?
@@ -75,8 +86,8 @@ class Post
       end
     end
   end
-  
-private
+
+  private
 
   def create_name(name)
     Time.now.strftime('%Y-%m-%d-') + name + '.markdown'
@@ -86,9 +97,9 @@ private
     <<-END
 ---
 layout: post
-title: 
-description: 
-keywords: 
+title:
+description:
+keywords:
 navbar_pos: 1
 ---
     END
@@ -102,15 +113,15 @@ class Archive
     @year_path = BLOG_PATH + "/#@year"
     @path = @year_path + "/#@month"
   end
-  
+
   def exists?
     File.exists?(@path)
   end
-  
+
   def year_path_exists?
     File.exists?(@year_path)
   end
-  
+
   def create
     unless exists?
       puts "creating archive: #@month/#@year"
@@ -126,30 +137,30 @@ class Archive
       end
     end
   end
-  
-private
+
+  private
 
   def year_index_content
     <<-END
 ---
 layout: default
 title: Archiwum @#year
-description: Posty z roku #@year
+description: Posty z roku  #@year
 navbar_pos: 1
 ---
-{% assign year = '#@year' %}{% include archive-year.html %}
+{% assign year = ' #@year ' %}{% include archive-year.html %}
     END
   end
-  
+
   def archive_content
     <<-END
 ---
 layout: default
-title: Archiwum #@month/#@year
-description: Posty z miesiąca #@month/#@year
+title: Archiwum  #@month / #@year
+description: Posty z miesiąca  #@month / #@year
 navbar_pos: 1
 ---
-{% assign month = '#@month/#@year' %}{% include archive-year-month.html %}
+{% assign month = ' #@month / #@year ' %}{% include archive-year-month.html %}
     END
   end
 
@@ -161,9 +172,45 @@ class Site
     @site = Jekyll::Site.new(@options)
     @site.read_directories
   end
-  
+
   def categories
     @site.categories
+  end
+end
+
+class Page
+  include Normalize
+
+  def initialize(dir, title)
+    @path = dir + "/" + normalized(title)
+    @title = title
+  end
+
+  def create
+    puts "creating page #@path"
+    mkdir_p @path, :verbose => false
+    File.open(@path + "/index.markdown", 'w+') do |file|
+      file.puts content
+    end
+  end
+
+  def exists?
+    File.exists?(@path)
+  end
+
+  private
+
+  def content
+    <<-END
+---
+layout: page
+title:  #@title
+description:
+keywords:  #@title
+navbar_pos: 1
+---
+#  #@title
+    END
   end
 end
 
@@ -197,48 +244,48 @@ layout: nil
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
+
   <!-- Blog/About -->
-  <url> 
+  <url>
     <loc>http://michalorman.pl/</loc>
-    <changefreq>daily</changefreq> 
-    <priority>1</priority> 
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
   </url>
-  <url> 
+  <url>
     <loc>http://michalorman.pl/blog/</loc>
-    <changefreq>daily</changefreq> 
-    <priority>1</priority> 
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
   </url>
-  <url> 
+  <url>
     <loc>http://michalorman.pl/blog/o-blogu/</loc>
-    <changefreq>monthly</changefreq> 
-    <priority>0.8</priority> 
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
-  <url> 
+  <url>
     <loc>http://michalorman.pl/blog/o-mnie/</loc>
-    <changefreq>monthly</changefreq> 
-    <priority>0.8</priority> 
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
-  <url> 
+  <url>
     <loc>http://michalorman.pl/blog/o-mnie/neosoft/</loc>
-    <changefreq>monthly</changefreq> 
-    <priority>0.8</priority> 
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
-  <url> 
+  <url>
     <loc>http://michalorman.pl/blog/o-mnie/moje-projekty/</loc>
-    <changefreq>monthly</changefreq> 
-    <priority>0.8</priority> 
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
-  
+
   <!-- Archives -->
   END
-  
+
   Dir["#{ROOT}/[0-9]*"].sort.each do |year|
     if (File.directory?(year))
       content += <<-END
   <url>
-    <loc>http://michalorman.pl/#{year}/</loc>
-    <changefreq>weekly</changefreq> 
+    <loc>http://michalorman.pl/ #{year} /</loc>
+    <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
       END
@@ -246,8 +293,8 @@ layout: nil
         if (File.directory?(month))
           content += <<-END
   <url>
-    <loc>http://michalorman.pl/#{month}/</loc>
-    <changefreq>weekly</changefreq> 
+    <loc>http://michalorman.pl/ #{month} /</loc>
+    <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
           END
@@ -255,27 +302,27 @@ layout: nil
       end
     end
   end
-  
+
   content += "\n  <!-- Categories -->\n"
-  
+
   categories.sort.each do |category, post|
     content += <<-END
-  <url> 
-    <loc>http://michalorman.pl/blog/#{category}/</loc>
-    <changefreq>weekly</changefreq> 
-    <priority>0.7</priority> 
+  <url>
+    <loc>http://michalorman.pl/blog/ #{category} /</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
     END
   end
-  
+
   content += <<-END
-  
+
     <!-- Entries -->
 {% for page in site.posts %}  <url>
     <loc>http://michalorman.pl{{ page.url }}/</loc>
     <lastmod>{{ page.date | date: "%Y-%m-%d" }}</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority> 
+    <priority>0.9</priority>
   </url>
 {% endfor %}</urlset>
   END
@@ -312,6 +359,12 @@ desc 'Create archive'
 task :create_archive, :month, :year do |t, args|
   archive = Archive.new(args.month, args.year)
   archive.create
+end
+
+desc 'Create page'
+task :create_page, :dir, :title do |t, args|
+  page = Page.new(args.dir, args.title)
+  page.create
 end
 
 task :rebuild_sitemap do |t|
