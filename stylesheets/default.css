@@ -320,3 +320,7 @@ div.wise_owl p {
     vertical-align: baseline;
     font-style: italic;
 }
+
+.presentation-wrapper {
+    margin: 0 auto;
+}
