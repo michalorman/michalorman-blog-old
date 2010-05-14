@@ -142,10 +142,34 @@ th {
     background-color: #f9f3eb;
 }
 
+#navbar {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar li {
+    list-style: none;
+    float: left;
+}
+
+#navbar li ul {
+    margin: 0;
+    padding: 0 0.5em 0.5em 0.75em;
+    visibility: hidden;
+    position: absolute;
+    background-color: #222;
+    -moz-border-radius: 0.4em;
+}
+
+#navbar li ul li {
+    float: none;
+}
+
 #header {
     background-color: #222;
     padding: 0.7em 0;
     font-size: 12pt;
+    height: 2em;
 }
 
 #header a, #header a:visited {

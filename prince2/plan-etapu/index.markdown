@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Uzasadnienie Biznesowe
+title:  Plan Etapu
 description:
-keywords:
+keywords:  Plan Etapu
 navbar_pos: 1
 ---
+#  Plan Etapu

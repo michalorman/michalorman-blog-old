@@ -36,4 +36,20 @@ zaleca przeanalizowanie przynajmniej trzech rozwiązań biznesowych:
     * nie robić nic,
     * ograniczyć się do minimum, oraz
     * zrobić coś ponad minimum.
-  * **Oczekiwane korzyści**.
+  * **Oczekiwane korzyści**. Sekcja ta określa mierzalne wartości korzyści w kategoriach jakościowych lub ilościowych, oraz
+wymagania związane z osiąganiem korzyści.
+  * **Przewidywane niepożądane skutki**. Opis rezultatów postrzeganych jako niekorzystne przez jednego lub więcej interesariuszy.
+Niepożądane skutki należy wycenić i uwzględnić w ocenie inwestycji. Niepożadane skutki tym różnią się od ryzyk, że są one faktycznymi
+konsekwencjami podejmowanych działań, podczas gdy te drugie niosą ze sobą niepewność ewentualnego zmaterializowania.
+  * **Terminy**. Terminy w jakich projekt będzie realizowany oraz okres, w którym osiągane będą korzyści. Terminy określone
+w Uzasadnieniu Biznesowym są wykorzystywane podczas tworzenia planów ([Planu Projektu](/prince2/plan-projektu),
+[Planu Etapu](/prince2/plan-etapu) i [Planu Przeglądu Korzyści](/prince2/plan-przegladu-korzysci)).
+  * **Koszty**. Sekcja ta podsumowuje koszty projektu, ewentualne przyszłe koszty działalności operacyjnej i utrzymania produktów
+projektu oraz sposobów ich finansowania.
+  * **Ocena inwestycji**. Porównanie łącznych korzyści i negatywnych skutków z kosztami projektu. Celem tej sekcji jest umożliwienie
+określenia wartości projektu jako inwestycji. Sekcja ta powinna również uwzględniać sposób finansowania projektu. Do analizy można
+wykorzystać rózne techniki, np: rachunek przepływów pieniężnych, zwrot z inwestycji, wartość bieżąca netto, wewnętrzna stopa zwrotu
+i okres zwrotu.
+  * **Główne ryzyka**. Podsumowanie głównych ryzyk (zarówno zagrożeń jak i szans) związanych z projektem, wraz z ich prawdopodobnymi
+skutkami oraz planami na wypadek ich zmaterializowania. Ryzyka tym różnią się od niepożądanych skutków iż ich zmaterializowanie
+jest niepewne a wpływ na projekt może być zarówno negatywny (zagrożenie) jak i pozytywny (szansa).
