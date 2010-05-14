@@ -1,8 +1,0 @@
----
-layout: default
-title: "404: Page not found!"
-skip_analytics: true
----
-# 404: Page not found!
-
-Ooops... wygląda na to, że strona której poszukujesz nie istnieje.
