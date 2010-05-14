@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Proces Inicjowanie Projektu
+title:  Inicjowanie Projektu
 description:
-keywords:
+keywords:  Inicjowanie Projektu
 navbar_pos: 1
 ---
+#  Inicjowanie Projektu

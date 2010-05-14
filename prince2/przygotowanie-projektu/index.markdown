@@ -38,7 +38,7 @@ W ramach procesu Przygotowanie Projektu realizowane są następujące działania
 
 ## Mianowanie Przewodniczącego i Kierownika Projektu
 
-Podstawą metodyki PRINCE2 jest zapewnienie projektowi odpowiedniej decyzyjności. Określeniem osób odpowiedzialnych za podejmowanie decyzji
+Podstawą metodyki PRINCE2 jest zapewnienie projektowi odpowiedniej decyzyjności i organizacji. Określeniem osób odpowiedzialnych za podejmowanie decyzji
 strategicznych oraz bierzących zajmuje się działanie mianowania Przewodniczącego oraz Kierownika Projektu.
 
 Przewodniczący reprezentuje interesy interesariuszy biznesowych. Zajmuje się on zarządzaniem strategicznym projektem i jest główną osobą
@@ -91,6 +91,38 @@ rzeczy dotyczące projektu, stąd umieszcza się je w Dzienniku Projektu a póź
 Projektu to swoisty pamiętnik Kierownika Projektu, w którym zapisuje on wszelkie sprawy dotyczące projektu, aby o nich nie zapomnieć.
 
 ## Zgromadzenie dotychczasowych doświadczeń
+
+Jedną z najważniejszych zasad PRINCE2 (pryncypium) jest korzystanie z doświadczeń. Metodyka ta zaleca aby na każdym etapie i w każdym procesie
+korzystać z doświadczeń nabytych w innych projektach, a doświadczenia zdobyte w aktualnym projekcie dokumentować (celem użycia ich w przyszłych).
+Działanie gromadzenia dotychczasowych doświadczeń ma na celu zebranie raportów z wcześniejszych projektów celem ich przeanalizowania i
+wykorzystania w aktualnym projekcie.
+
+Doświadczenia uzyskane podczas wcześnejszych projektów mogą mieć wpływ na strukturę zespołu zarządzania projektem, treść i formę zarysu
+[Uzasadnienia Biznesowego](/prince2/uzasadnienie-biznesowe), treść i formę [Założeń Projektu](/prince2/zalozenia-projektu), na planowanie
+etapu inicjowania projektu, oraz na pozostałe procesy i produkty w późniejszych etapach realizacji projektu.
+
+Przydatnym może być zorganizowanie cyklu warsztatów czy burzy mózgów jako sposobu gromadzenia doświadczeń. W takich sesjach powinny brać udział
+wszystkie strony zainteresowane wynikiem projektu, oraz osoby, które realizowały podobne projektu, lub projekty zgodnie z metodyką PRINCE2.
+Jeżeli organizacja nie posiada jeszcze doświadczeń pomocne może okazać się włączenie osób spoza organizacji.
+
+Schemat działania pozyskiwania doświadczeń jest przedstawiony na poniższym rysuku:
+
+<a href="/images/prince2/zgromadzenie-dotychczasowych-doswiadczen.png" rel="colorbox" title="Schemat działania gromadzenia dotychczasowych doświadczeń">
+  <img src="/images/prince2/zgromadzenie-dotychczasowych-doswiadczen.png" alt="Schemat działania gromadzenia dotychczasowych doświadczeń" />
+</a>
+
+PRINCE2 zaleca wykonanie następujących czynności:
+
+  * założyć [Dziennik Doświadczeń](/prince2/dziennik-doswiadczen),
+  * dokonać przeglądów [Raportów Doświadczeń](/prince2/raport-doswiadczen) z podobnych projektów, w celu zidentyfikowania doświadczeń, które można wykorzystać
+w obenym projekcie,
+  * dokonać przeglądu doświadczeń kierownictwa organizacji, programu i organizacji zewnętrznych,
+  * przeprowadzić konsultacje z osobami lub zespołami posiadającymi doświadczenia z realizacji podobnych projektów, oraz
+  * zarejestrować zidentyfikowane doświadczenia w [Dzienniku doświadczeń](/prince2/dziennik-doswiadczen).
+
+PRINCE2 zaleca formalne rejestrowanie ważniejszych doświadczeń dotyczących projektu w celu późniejszego wykorzystania. Praktyka ta
+ma na celu zarchiwizowanie najważniejszych kwestii i uwag dotyczących realizacji konkretnego typu projektów, aby wiedza ta była dostępna
+dla zespołów realizujących kolejne projekty.
 
 ## Projektowanie zespołu zarządzania projektem i mianowanie jego członków
 

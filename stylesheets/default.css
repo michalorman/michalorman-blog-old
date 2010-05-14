@@ -122,6 +122,10 @@ ul, ol {
     list-style-position: outside;
 }
 
+li ul {
+    margin-bottom: 0;
+}
+
 table {
     margin-bottom: 1em;
     border-collapse: collapse;
