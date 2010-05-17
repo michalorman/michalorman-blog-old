@@ -26,9 +26,9 @@ PRINCE2 wyróżnia siedem procesów, które określają zbiór działań wymagan
 Metodyka PRINCE2 wyróżnia następujące procesy:
 
   1. [Przygotowanie Projektu](/prince2/przygotowanie-projektu)
-  2. Zarządzanie Strategiczne Projektem
+  2. [Zarządzanie Strategiczne Projektem](/prince2/zarzadzanie-strategiczne-projektem)
   3. [Inicjowanie Projektu](/prince2/inicjowanie-projektu)
-  4. Sterowanie Etapem
+  4. [Sterowanie Etapem](/prince2/sterowanie-etapem)
   5. Zarządzanie Dostarczaniem Produktów
-  6. Zarządzanie Końcem Etapu
-  7. Zamykanie Projektu
+  6. [Zarządzanie Końcem Etapu](/prince2/zarzadzanie-koncem-etapu)
+  7. [Zamykanie Projektu](/prince2/zamykanie-projektu)

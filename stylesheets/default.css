@@ -95,6 +95,8 @@ h1 a, h1 a:visited, h1 a:hover {
 pre {
     background-color: #1f1f1f;
     -moz-border-radius: 0.4em;
+    -webkit-border-radius: 0.4em;
+    border-radius: 0.4em;
     padding: 0.5em 0.7em;
     display: block;
     word-wrap: break-word;
@@ -112,6 +114,8 @@ blockquote {
     background-color: #f4eee2;
     padding: 1.5em 1.5em 0.5em 2em;
     -moz-border-radius: 0.4em;
+    -webkit-border-radius: 0.4em;
+    border-radius: 0.4em;
     margin: 0 1.5em 1em 1em;
     vertical-align: baseline;
     font-style: italic;
@@ -142,6 +146,10 @@ th {
     background-color: #f9f3eb;
 }
 
+img {
+    max-width: 980px;
+}
+
 #navbar {
     margin: 0;
     padding: 0;
@@ -153,12 +161,14 @@ th {
 }
 
 #navbar li ul {
-    margin: 0;
-    padding: 0 0.5em 0.5em 0.75em;
+    margin: 0 0 0 -1em;
+    padding: 0 0.5em 0.5em 1em;
     visibility: hidden;
     position: absolute;
     background-color: #222;
     -moz-border-radius: 0.4em;
+    -webkit-border-radius: 0.4em;
+    border-radius: 0.4em;
 }
 
 #navbar li ul li {
@@ -167,7 +177,7 @@ th {
 
 #header {
     background-color: #222;
-    padding: 0.7em 0;
+    padding: 0.4em 0;
     font-size: 12pt;
     height: 2em;
 }
@@ -328,6 +338,8 @@ div.hola_dog p {
     padding: 0.75em;
     border: 1px solid #e2d3bb;
     -moz-border-radius: 0.4em;
+    -webkit-border-radius: 0.4em;
+    border-radius: 0.4em;
     vertical-align: baseline;
     font-style: italic;
 }
@@ -345,6 +357,8 @@ div.wise_owl p {
     padding: 0.75em;
     border: 1px solid #e2d3bb;
     -moz-border-radius: 0.4em;
+    -webkit-border-radius: 0.4em;
+    border-radius: 0.4em;
     vertical-align: baseline;
     font-style: italic;
 }
