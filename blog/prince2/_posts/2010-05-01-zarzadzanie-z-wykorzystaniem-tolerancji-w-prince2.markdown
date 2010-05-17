@@ -173,8 +173,8 @@ Innym wyjściem mogłaby być zmiana wymagań jakościowych etapu. Tutaj równie
 się w granicach tolerancji dla całego projektu.
 
 Jaką decyzję by nie podjęto Komitet Sterujący zleca Kierownikowi Projektu opracowanie Planu Nadzwyczajnego. Plan ten
-ma na celu zastąpienie aktualnego Planu Etapu albo Planu Projektu (na przykład w zależności od tego, czy zwiększono czas trwania
-tylko etapu czy całego projektu). Plan Nadzwyczajny jest tworzony tak samo jak plan który ma zastąpić (praktycznie aktualizuje
+ma na celu zastąpienie aktualnego Planu Etapu albo Planu Projektu (w zależności od tego, czy zmieniono tolerancje
+tylko dla etapu czy całego projektu). Plan Nadzwyczajny jest tworzony tak samo jak plan który ma zastąpić (praktycznie aktualizuje
 się zastępowany plan) i obowiązuje od momentu wprowadzenia do końca trwania planu zastępowanego.
 
 ## Schemat delegowania tolerancji

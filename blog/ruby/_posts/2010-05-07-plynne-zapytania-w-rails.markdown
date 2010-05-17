@@ -151,7 +151,7 @@ scope = RentOrder.current
 scope = scope.for_mark('Audi')
 {% endhighlight %}
 
-Ponieważ wszystkie komunikaty kierujemy do tego samego obiektu to nie mamy do czynienia z żadnym z wyżej opisanych
+Ponieważ wszystkie komunikaty kierujemy do tego samego obiektu to nie mamy do czynienia z żadnym z wyżej wymienionych
 zjawisk. Ale w ten sposób nie wygląda to tak elegancko jak poprzednio.
 
 ### Problemy z named scope'ami
