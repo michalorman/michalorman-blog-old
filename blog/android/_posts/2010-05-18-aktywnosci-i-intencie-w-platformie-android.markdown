@@ -174,7 +174,7 @@ A tak uruchomiona przez nas aktywność:
 </a>
 
 Jak widać mapa wskazuje na lokalizację, dla której podaliśmy współrzędne w naszej aktywności (tak współrzędne 53.43, 14.529 to współrzędne
-miasta Szczecin). Klikając przycisk powrotu wrócimy do naszej aktywności. Jak widać w tym przypadku nie ma sensu pobieranie rezultatu
+miasta Szczecin). Klikając przycisk powrotu wrócimy do naszej aktywności. W tym przypadku nie ma sensu pobieranie rezultatu
 działania wywołanej aktywności (bo co by miało być takim rezultatem?) stąd aktywność wywołana została za pomocą metody ``startActivity``.
 Gdybyśmy potrzebowali otrzymać wyniki działania aktywności musielibyśmy wywołać metodę ``startActivityForResult`` oraz przeładować metodę
 ``onActivityResult``, która zostanie wywołana kiedy zakończy się uruchomiona aktywność.
