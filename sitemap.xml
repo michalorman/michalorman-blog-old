@@ -115,6 +115,11 @@ layout: nil
     <priority>0.7</priority> 
   </url>
   <url> 
+    <loc>http://michalorman.pl/blog/git/</loc>
+    <changefreq>weekly</changefreq> 
+    <priority>0.7</priority> 
+  </url>
+  <url> 
     <loc>http://michalorman.pl/blog/javaee/</loc>
     <changefreq>weekly</changefreq> 
     <priority>0.7</priority> 
