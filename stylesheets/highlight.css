@@ -38,3 +38,9 @@
 .mi {
     color: #9d5c49;
 }
+
+/* Java */
+
+code.java .nd {
+    color: #888;
+}
