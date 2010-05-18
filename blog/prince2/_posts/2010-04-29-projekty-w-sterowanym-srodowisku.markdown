@@ -15,7 +15,7 @@ Metodyka PRINCE2 jest metodyką zarządczą. Oznacza to, że jest to metodyka um
 poziomie niż np. [Scrum](http://pl.wikipedia.org/wiki/Scrum) (która jest metodyką wytwórczą). W metodyce
 tej nie znajdziemy informacji w jaki sposób szacować czas pracy, jak dzielić zadania, czy w jaki sposób
 zapewniać jakość systemu. PRINCE2 uznaje, że te elementy należy wykonywać, jednak z racji swojej ogólności
-nie daje konkretnych metod (inaczej prowadzi się projekt budowy mostu a inaczej projekt informatyczny).
+nie dostarcza konkretnych metod (inaczej prowadzi się projekt budowy mostu a inaczej projekt informatyczny).
 
 W rozumieniu PRINCE2 projekt to tymczasowa organizacja, nastawiona na stworzenie jakiegoś produktu, albo
 grupy produktów zgodnie z pewnym **Uzasadnieniem Biznesowym**. Metodyka ta definiuje sześć aspektów
@@ -35,7 +35,7 @@ wskaźników wykonania.
 Metodyka PRINCE2 przedstawia zarządzanie projektem jako cztery zintegrowane elementy: **pryncypia**,
 **tematy**, **procesy** oraz **środowisko projektu**. Pryncypia to zbiór nakazów i dobrych praktyk
 determinujących czy projekt jest faktycznie zarządzany zgodnie z metodyką PRINCE2. Tematy określają
-te aspekty zarządzania projektem, którymi należy się stale zajmować i równolegle w trakcie trwania
+te aspekty zarządzania projektem, którymi należy się zajmować stale i równolegle w trakcie trwania
 całego projektu. Tematy objaśniają jakie konkretne postępowanie jest wymagane dla różnych obszarów
 zarządzania projektem. Procesy opisują krok po kroku działania podejmowane w całym cyklu życia projektu,
 od jego przygotowania do zamknięcia. Dostosowanie do środowiska projektu ma na celu odpowiednie
@@ -58,7 +58,7 @@ PRINCE2 to metodologia nastawiona na dostarczanie produktu. Produkt powstaje w w
 jednakże aby móc rozpocząć projekt (i go realizować) musi on posiadać ważne Uzasadnienie Biznesowe. Ciągła
 zasadność biznesowa projektu jest bardzo ważna, ponieważ niejako usprawiedliwia ona nam sens inwestowania
 w projekt. Jeżeli w danym momencie zasadność biznesowa przestaje być ważna należy projekt przerwać i jeżeli
-nie da się tej zasadności przywrócić należy go niezwłocznie przerwać.
+nie da się tej zasadności przywrócić należy go całkowicie zamknąć.
 
 PRINCE2 zaleca, aby w każdym procesie korzystać z już nabytych doświadczeń. Jeżeli w ramach jakiegoś projektu
 mamy już np. szablony dokumentów, czy inny know how, należy z niego korzystać. Metodyka ta zaleca
@@ -74,9 +74,9 @@ i metodyka ta kładzie duży nacisk na odpowiednią decyzyjność w projekcie. I
 odpowiedniej organizacji w projekcie jest skuteczne reprezentowania interesów wszystkich interesariuszy
 projektu, tj.:
 
-* **biznesu**, czyli tych co inwestują swoje pieniądze w projekt,
+* **biznesu**, czyli tych, którzy inwestują swoje pieniądze w projekt,
 * **użytkowników**, czyli tych, którzy będą korzystali z produktów, oraz
-* **dostawców**, czyli tych co dają wiedzę i realizują zadania.
+* **dostawców**, czyli tych, którzy dają wiedzę i realizują zadania.
 
 Zadania PRINCE2 realizuje się w etapach. Każdy etap ma ściśle określone procesy, oraz produkty
 jakie powinien wytworzyć. Produkty powinny spełniać docelowe wskaźniki wykonania, ale dla każdego
@@ -87,7 +87,7 @@ wskaźnika definiuje się odpowiednie tolerancje.
 Tematy PRINCE2 określają te aspekty projektu, którymi należy się stale zajmować w trakcie jego realizowania.
 Tematami w PRINCE2 są:
 
-* **Uzasadnienie Biznesowe**, które określa nam dlaczego realizujemy w projekt i czy warto w niego inwestować.
+* **Uzasadnienie Biznesowe**, które określa nam dlaczego realizujemy projekt i czy warto w niego inwestować.
 * **Organizacja**, która opisuje nam role i obowiązki w powołanym na czas realizacji projektu zespole zarządzania projektem.
 * **Jakość**, określająca atrybuty oraz kryteria, które określają czy uzgodnione wymagania zostały osiągnięte.
 * **Plany**, które są podstawą komunikacji i kontroli w trakcie projektu.
@@ -98,7 +98,7 @@ Tematami w PRINCE2 są:
 Wszystkie tematy powinny zostać zastosowane w projekcie, jednak muszą one zostać dostosowane do skali,
 charakteru oraz złożoności danego projektu. Tematy można odpowiednio poszerzać lub zawężać, przykładowo w
 dużym, bardziej formalnym projekcie możemy wymagać szczegółowej dokumentacji i dyscypliny realizowania
-procesów, natomiast przy mniejszych możemy możemy wprowadzić bardziej nieformalne procesy i dokumenty (ale
+procesów, natomiast przy mniejszych możemy wprowadzić bardziej nieformalne procesy i dokumenty (ale
 nigdy nie rezygnować z procesu).
 
 ## Zarządzanie projektem PRINCE2
@@ -110,21 +110,21 @@ projektem w PRINCE2 wygląda tak:
 <a href="/images/prince2_mgmt.png" rel="colorbox" title="Zarządzanie projektem PRINCE2"><img src="/images/prince2_mgmt.png" alt="Zarządzanie projektem PRINCE2" /></a>
 
 Każdy proces wytwórczy czy zarządczy PRINCE2 powinien zostać najpierw odpowiednio zaplanowany, następnie
-oddelegowany na szczebel odpowiedzialny za jego realizację, powinien być stale monitorowany i sterowany,
+oddelegowany na szczebel odpowiedzialny za jego realizację, następnie stale monitorowany i sterowany,
 aby osiągnąć zamierzone cele. PRINCE2 definiuje szereg sposobów postępowania w wielu aspektach zarządzania
 projektem. Określa kto jest odpowiedzialny za zaplanowanie, realizację czy nadzór nad danym zadaniem
-bądź procesem a także jakie produkty wyjściowe są wymagane na danym etapie.
+bądź procesem, a także jakie produkty wyjściowe są wymagane na danym etapie.
 
 ## Podsumowanie
 
 PRINCE2 to ogólna metodyka zarządcza. Ogólność tej metodyki przejawia się tym, że można ją zastosować
 do szerokiego zakresy projektów. Metodyka ta nie definiuje konkretnych sposobów realizacji aspektów
-zarządzania projektem takich jak szacowanie nakładu pracy, zarządzanie jakością czy ryzykiem. PRINCE
-mówi, że takie aspekty mają być a realizacja zależy od konkretnego projektu.
+zarządzania projektem takich jak szacowanie nakładu pracy, czy zarządzanie jakością lub ryzykiem. PRINCE
+mówi, że takie aspekty mają być, ale sposób ich realizacji zależy od konkretnego projektu.
 
 Metodyka ta kładzie duży nacisk na Uzasadnienie Biznesowe projektu. Jeżeli projekt nie posiada ważnego
-uzasadnienia to nie powinien być kontynuowany, ponieważ nie istnieje powód dla którego warto jest
-inwestować w projekt. PRINCE2 to metodyka zorientowana na wytwarzanie produktu(-ów) utworzonych w granicach
+uzasadnienia to nie powinien być kontynuowany, ponieważ nie istnieje powód dla którego warto w ów
+projekt inwestować. PRINCE2 to metodyka zorientowana na wytwarzanie produktu(-ów) utworzonych w granicach
 docelowych wskaźników wykonania dla czasu, kosztów, zakresu, jakości, korzyści i ryzyk.
 
 Metodyka PRINCE2 została z powodzeniem zastosowana w wielu projektach. Metodyka ta skupia się na

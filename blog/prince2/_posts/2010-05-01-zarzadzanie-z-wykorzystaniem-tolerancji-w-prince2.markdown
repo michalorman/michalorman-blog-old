@@ -192,8 +192,8 @@ zarządzania celem podjęcia działań naprawczych.
 
 ## Podsumowanie
 
-PRINCE2 nakazuje realizację projektu z wykorzystaniem tolerancji. Zdefiniowane wartości tolerancji dla docelowych wskaźników
-projektu mają na celu nadanie pewnych uprawnień dla członków projektu z niższego szczebla, tak aby mogli oni wykonywać
+PRINCE2 nakazuje realizację projektu z wykorzystaniem tolerancji. Zdefiniowanie wartości tolerancji dla docelowych wskaźników
+projektu ma na celu nadanie pewnych uprawnień dla członków projektu z niższego szczebla, tak aby mogli oni wykonywać
 swoją pracę bez ciągłego zapytywania członków wyższego szczebla o zgodę na wprowadzania zmian. Tolerancje mają na celu
 dać w pewnym zakresie wolną rękę Komitetowi Sterującemu, Kierownikowi Projektu czy Kierownikom Zespołów.
 

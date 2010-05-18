@@ -31,7 +31,7 @@ się obalić.
 Mit ten jest najczęstszym poglądem na temat metodyki PRINCE2. Muszę przyznać, że przed tym jak ją poznałem, również postrzegałem
 tą metodykę jako nadmiernie zbiurokratyzowaną. Faktem jest, że metodyka ta wprowadza wiele procesów, różnych rodzajów dokumentów
 (wniosków, rejestrów, raportów, dzienników etc.). Jednakże to, że w tej metodyce występuje tak wiele artefaktów, nie oznacza, że jest ona
-zbiurokratyzowana. Poziom biurokractwa determinuje projekt (a dokładnie poziom formalizmu jaki jest w projekcie wymagany).
+zbiurokratyzowana. Poziom biurokratyzacji determinuje projekt (a dokładnie poziom formalizmu jaki jest w projekcie wymagany).
 
 Kluczowa tutaj okazuje się być jedna z podstawowych zasad metodyki PRINCE2 (tzw. [pryncypium](http://swo.pwn.pl/haslo.php?id=22589)):
 
@@ -60,7 +60,7 @@ projektów. Ogólność polega także na tym, że można integrować tę metodyk
 które posiada już organizacja. Realizujecie projekty za pomocą Scruma? Proszę bardzo, róbcie to dalej a ponad tym
 możecie nadbudować solidną organizację jaką można utworzyć wdrażając metodykę PRINCE2.
 
-Generalnie idea jest taka, że PRINCE zdaje sobie sprawę z tego, że organizacja może posiadać już pewną politykę
+Generalnie idea jest taka, że PRINCE2 bierze pod uwagę, że organizacja może posiadać już pewną politykę
 dotyczącą tego jak na przykład zarządzać jakością w projektach (być może jest ona już związana z jakimiś wymaganiami
 np. ISO). Może też się zdarzyć sytuacja, że konkretny projekt będzie miał jakieś specyficzne wymagania, narzucone
 np. przez klienta. PRINCE2 nie każe tego wszystkiego zmieniać czy duplikować. Metodyka ta sugeruje, aby
@@ -84,16 +84,16 @@ odpowiednia organizacja (co w kontekście PRINCE2 oznacza podział ról i obowi�
 W skrajnym przypadku do zarządzania projektem w PRINCE2 możemy oddelegować 2 osoby. Pierwsza z nich Przewodniczący
 zajmowałaby się Zarządzaniem Strategicznym, druga, czyli Kierownik Projektu, bieżącymi sprawami projektowymi (tzw.
 Zarządzaniem Operacyjnym). No i potrzebny jest oczywiście Zespół, który będzie realizował zadania. Kierownik Projektu
-pełnił by w takiej organizacji jednocześnie rolę Kierownika Zespołu, a także mógłby realizować typowe zadania projektowe
+pełniłby w takiej organizacji jednocześnie rolę Kierownika Zespołu, a także mógłby realizować typowe zadania projektowe
 (poza zadaniami zarządczymi z racji pełnienia roli Kierownika Projektu).
 
-Jak widać nawet do bardzo małych projektów da się dostosować organizację w PRINCE2. Trzeba jednak się zastanowić, czy
-taki podział ról i obowiązków będzie potrafił zapewnić projektowi odpowiednią decyzyjność i skuteczność. Być może ilość
+Jak widać nawet do bardzo małych projektów da się dostosować organizację PRINCE2. Trzeba jednak się zastanowić, czy
+taki podział ról i obowiązków zapewni projektowi odpowiednią decyzyjność i skuteczność. Być może ilość
 obowiązków nałożona na Kierownika Projektu jest zbyt duża. PRINCE2 sugeruje, aby po każdym etapie dokonać przeglądu
 organizacji projektu celem przeanalizowania, czy taka struktura organizacji nadal pozwala na odpowiednie zarządzanie
 projektem. Metodyka ta w niemal każdym aspekcie nakazuje przegląd procedur i upewnienie się, że są one nadal skuteczne
 a w razie potrzeby odpowiednie ich zmodyfikowanie. W tym kontekście PRINCE2 adaptuje się do warunków projektu wraz z
-czasem jak już lepiej poznajemy specyfikę projektu.
+czasem, w miarę jak coraz lepiej poznajemy specyfikę projektu.
 
 ### 4. W PRINCE2 zespołowi narzuca się harmonogram
 
@@ -110,7 +110,7 @@ czyli biznesu (tych co wydają swoje pieniądze na projekt), użytkowników (tyc
 z produktów projektu), oraz dostawców (w tym dostawców oprogramowania, czyli de facto Zespołów realizujących zadania).
 Interesy te reprezentowane są już na najwyższych szczeblach organizacji projektu, czyli w Komitecie Sterującym, który
 zajmuje się Zarządzaniem Strategicznym w projekcie. Oczywiście nie panuje tam demokracja, ponieważ tylko biznes
-wykłada swoje pieniądze na projekt, więc ma prawo mieć najważniejsze zdanie we wszystkich kwestiach, ale taka organizacja
+wykłada swoje pieniądze na projekt, więc ma prawo mieć decydujące zdanie we wszystkich kwestiach, ale taka organizacja
 gwarantuje, że interesy wszystkich członków zespołu projektowego są brane pod uwagę już od samego początku realizacji
 projektu.
 
@@ -147,8 +147,8 @@ porażki. Oczywiście nie zarządzania którymkolwiek z aspektów PRINCE2 nie je
 projektu, ale projekt taki jest na dobrej drodze do spektakularnej klapy.
 
 Podsumowując PRINCE2 nie wymyśla koła od nowa. Metodyka ta po prostu pozbierała dobre praktyki związane z zarządzaniem
-projektami (z jakiś 30 lat) i pokazuje jak to wszystko skutecznie zorganizować. Nie ma tutaj rzeczy, o których nie będzie mowy na pierwszym
-lepszym szkoleniu na temat zarządzania projektem. Inaczej to może być tylko nazwane i zorganizowane.
+projektami (z jakichś 30 lat) i pokazuje jak to wszystko skutecznie zorganizować. Nie ma tutaj rzeczy, o których nie będzie mowy na pierwszym
+lepszym szkoleniu na temat zarządzania projektem. Inaczej może to być tylko nazwane i zorganizowane.
 
 ### 6. Aby korzystać z PRINCE2 trzeba przyswoić dużo wiedzy
 
@@ -161,7 +161,7 @@ uprawnienia. W tym kontekście nie potrzebuje on żadnej wiedzy na temat PRINCE2
 ma zdefiniowane w odpowiednim dokumencie. Oczywiście takiego dokumentu nie trzeba tworzyć z każdym nowym projektem,
 można stworzyć taki jeden dla całej organizacji i odpowiednio zaadaptować go do specyfiki konkretnego projektu.
 
-To, że generalnie wiedza na temat PRINCE2 nie jest wymagana, aby na przykład być Kierownikiem Zespołu, nie zaprzecza, że lepiej takową
+To, że generalnie wiedza na temat PRINCE2 nie jest wymagana, aby na przykład być Kierownikiem Zespołu, nie zaprzecza temu, że lepiej takową
 wiedzę posiadać. PRINCE2 zaleca przeprowadzenie stosownych szkoleń dla poszczególnych ról, tłumaczących im stosowną
 terminologię oraz podstawowe koncepcje i zasady. Oczywiście takie szkolenie powinno być dostosowane do wymagań piastowanej
 roli, tak aby Kierownik Projektu nie musiał zapoznawać się z teorią na temat bycia Przewodniczącym w projekcie. Generalnie
