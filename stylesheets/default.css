@@ -323,6 +323,11 @@ img {
     text-decoration: line-through;
 }
 
+.image-caption {
+    text-align: center;
+    font-size: 0.8em;
+}
+
 /****** ZOO ***************/
 
 div.hola_dog {
