@@ -12,3 +12,33 @@ został opracowany specjalnie w celu umożliwienia kontroli oraz podejmownaia kl
 podczas gdy bieżące zarządzanie projektem jest zadaniem [Kierownika Projektu](/prince2/kierownik-projektu) i jest realizowane z wykorzystaniem
 innych procesów.
 
+Proces ten jest rozpoczyna się, jeszcze w fazie przedprojektowej, z chwilą zakończenia procesu [Przygotowania Proektu](/prince2/przygotowanie-projektu)
+i jest uruchamiany wnioskiem o zezwolenie na zainicjowanie projektu. Stąd pierwszym dzialaniem w tym procesie jest przeglądnięcie
+[Planu Etapu inicjowania](/prince2/plan-etapu) oraz wydanie, lub nie zezwolenia na zainicjowanie projektu.
+
+Proces Zarządzanie Strategiczne Projektem obejmuje działania na szczeblu zarządzania ponad [Kierownikiem Projektu](/prince2/kierownik-projektu), czyli
+[Komitetu Sterującego](/prince2/komitet-sterujacy). Komitet ten monitoruje postępy projektu korzystając z raportów i steruje nim, wykorzystując niewielką
+liczbę punktów decyzyjnych.
+
+Ponieważ członkowie [Komitetu Sterującego](/prince2/komitet-sterujacy) są zwykle zajęci i mogą uczestniczyć w wielu projektach
+jednocześnie, realizacja codziennych zadań projektowych jest delegowana na [Kierownika Projektu](/prince2/kierownik-projektu), stąd ważnym jest, aby poziomy
+uprawnień i procesy podejmowania decyzji były jasno określone. Komitet Sterujący powinien zapewnić Kierownikowi Projektu ujednolicone wytyczne. Jeżeli
+Komitet Sterujący nie potrafi osiągnąć jednolitego stanowiska Kierownik Projektu powinien podpożądkować się wytycznym [Przewodniczącego](/prince2/przewodniczacy).
+
+Proces Zarządzanie Strategiczne Projektem dostarcza Komitetowi Sterującemu mechanizmów do zapewnienie, aby istniało ciągle ważne
+[Uzasadnienie Biznesowe](/prince2/uzasadnienie-biznesowe). Jest to bardzo ważny element każdego projektu.
+
+Ogólny schemat procesu Zarządzania Strategicznego Projektem jest przedstawiony na poniższym rysunku:
+
+### Działania
+
+W ramach procesu Zarządzanie Strategiczne Projektem PRINCE2 wyróznia następujące działania:
+
+  * zezwolenie na zainicjowanie projektu,
+  * zezwolenie na realizację projektu,
+  * zezwolenie na realizację [Planu Etpu](/prince2/plan-etapu) lub [Planu Nadzwyczajnego](/prince2/plan-nadzwyczajny),
+  * podejmowanie decyzji doraźnej, oraz
+  * zezwolenie na zamknięcie projektu.
+
+## Zezwolenie na zainicjowanie projektu
+

@@ -6,10 +6,13 @@ INCLUDES_PATH = '_includes/'
 CATEGORIES = INCLUDES_PATH + 'categories.html'
 SITEMAP = 'sitemap.xml'
 
+# ignore those dirs when rebuilding static pages in sitemap.xml
+IGNORE_DIRS = ["priv/", "images/", "stylesheets/", "pub/", "blog/"]
+
 module Normalize
   def normalized(s)
-    from = %w{  ó ą ę ł ź ś ń ć ż Ó Ą Ę Ł Ź Ś Ń Ć Ż  }
-    to = %w{  o a e l z s n c z O A E L Z S N C Z }
+    from = %w{   ó ą ę ł ź ś ń ć ż Ó Ą Ę Ł Ź Ś Ń Ć Ż   }
+    to = %w{   o a e l z s n c z O A E L Z S N C Z  }
     from.each_with_index do |c, i|
       s = s.gsub(/#{c}/, to[i])
     end
@@ -284,7 +287,7 @@ layout: nil
     if (File.directory?(year))
       content += <<-END
   <url>
-    <loc>http://michalorman.pl/ #{year} /</loc>
+    <loc>http://michalorman.pl/#{year}/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
@@ -293,7 +296,7 @@ layout: nil
         if (File.directory?(month))
           content += <<-END
   <url>
-    <loc>http://michalorman.pl/ #{month} /</loc>
+    <loc>http://michalorman.pl/#{month}/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
@@ -303,12 +306,27 @@ layout: nil
     end
   end
 
+  content += "\n  <!-- Pages -->\n"
+
+  # Select all directories and subdirectories that starts with [a-z] except those which are specified in IGNRE_DIRS array (and their subdirectories)
+  Dir["[a-z]*/**/"].each.select { |dir| result = false; IGNORE_DIRS.each { |i| result ||= (dir =~ /#{i}/) }; !result }.sort.each do |dir|
+    if File.exist?(dir + "/index.markdown")
+      content += <<-END
+  <url>
+    <loc>http://michalorman.pl/#{dir}</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+      END
+    end
+  end
+
   content += "\n  <!-- Categories -->\n"
 
   categories.sort.each do |category, post|
     content += <<-END
   <url>
-    <loc>http://michalorman.pl/blog/ #{category} /</loc>
+    <loc>http://michalorman.pl/blog/#{category}/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -326,6 +344,10 @@ layout: nil
   </url>
 {% endfor %}</urlset>
   END
+end
+
+def parse_pages(dir)
+
 end
 
 
