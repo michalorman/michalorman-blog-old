@@ -207,12 +207,12 @@ class Page
     <<-END
 ---
 layout: page
-title:  #@title
+title: #@title
 description:
-keywords:  #@title
+keywords: #@title
 navbar_pos: 1
 ---
-#  #@title
+# #@title
     END
   end
 end
@@ -387,6 +387,7 @@ desc 'Create page'
 task :create_page, :dir, :title do |t, args|
   page = Page.new(args.dir, args.title)
   page.create
+  rebuild_sitemap
 end
 
 task :rebuild_sitemap do |t|

@@ -323,8 +323,11 @@ img {
     text-decoration: line-through;
 }
 
-.image-caption {
+.image-wrapper {
     text-align: center;
+}
+
+.image-caption {
     font-size: 0.8em;
 }
 
