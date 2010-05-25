@@ -34,4 +34,4 @@ W ramach procesu Przygotowanie Projektu realizowane są następujące działania
   * [zaprojektowanie i mianowanie zespołu zarządzania projektem](/prince2/przygotowanie-projektu/projektowanie-zespolu-zarzadzania-projektem-i-mianowanie-jego-czlonkow),
   * [przygotowanie zarysu Uzasadnienia Biznesowego](/prince2/przygotowanie-projektu/przygotowanie-zarysu-uzasadnienia-biznesowego),
   * [wybranie formuły realizacji projektu i zestawienie Założeń Projektu](/prince2/przygotowanie-projektu/wybranie-formuly-realizacji-projektu-i-zestawienie-zalozen-projektu), oraz
-  * [zaplanowanie etapu inicjowanias](/prince2/przygotowanie-projektu/planowanie-etapu-inicjowania)
+  * [zaplanowanie etapu inicjowania](/prince2/przygotowanie-projektu/planowanie-etapu-inicjowania)
