@@ -20,12 +20,12 @@ PRINCE2 zaleca wykonanie następujących czynności w ramach tego działania:
 
   * podjąć decyzję o opodwiednich mechanizmach sterowania projektem, wystarczających dla zainicjowania projektem (na podstawie formuły
 realizacji projektu), w tym celu należy:
-    * dokonać przeglądu [Dziennika Doświadczeń](/prince2/dziennik-doswiadczen) pod kątem doświadczeń związanych z mechanizmami sterowania
+    * dokonać przeglądu [Dziennika Doświadczeń](/prince2/opisy-produktow-zarzadczych/dziennik-doswiadczen) pod kątem doświadczeń związanych z mechanizmami sterowania
 projektem,
     * określić sposoby raportowania i kontroli dla etapu inicjowania;
-  * zidentyfikować wszelkie ograniczenia czasowe i kosztowe dla etapu inicjowania oraz opracować [Plan Etapu](/prince2/plan-etapu) dla
+  * zidentyfikować wszelkie ograniczenia czasowe i kosztowe dla etapu inicjowania oraz opracować [Plan Etapu](/prince2/opisy-produktow-zarzadczych/plan-etapu) dla
 tego etapu,
-  * dokonać przeglądu wszelkich ryzyk w [Dzienniku Projektu](/prince2/dziennik-projektu) i ocenić ich wpływ na [Plan Etapu](/prince2/plan-etapu)
+  * dokonać przeglądu wszelkich ryzyk w [Dzienniku Projektu](/prince2/opisy-produktow-zarzadczych/dziennik-projektu) i ocenić ich wpływ na [Plan Etapu](/prince2/opisy-produktow-zarzadczych/plan-etapu)
 inicjowania,
-  * dokonać aktualizacji [Dziennika Projektu](/prince2/dziennik-projektu) o ewentualne nowe, zidentyfikowane ryzyka,
+  * dokonać aktualizacji [Dziennika Projektu](/prince2/opisy-produktow-zarzadczych/dziennik-projektu) o ewentualne nowe, zidentyfikowane ryzyka,
   * wystąpić z wnioskiem o zezwolenie na zainicjowanie projektu.

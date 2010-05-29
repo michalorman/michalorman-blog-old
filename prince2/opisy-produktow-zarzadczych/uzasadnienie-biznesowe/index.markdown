@@ -42,8 +42,8 @@ wymagania związane z osiąganiem korzyści.
 Niepożądane skutki należy wycenić i uwzględnić w ocenie inwestycji. Niepożądane skutki tym różnią się od ryzyk, że są one faktycznymi
 konsekwencjami podejmowanych działań, podczas gdy te drugie niosą ze sobą niepewność ewentualnego zmaterializowania.
   * **Terminy**. Terminy w jakich projekt będzie realizowany oraz okres, w którym osiągane będą korzyści. Terminy określone
-w Uzasadnieniu Biznesowym są wykorzystywane podczas tworzenia planów ([Planu Projektu](/prince2/plan-projektu),
-[Planu Etapu](/prince2/plan-etapu) i [Planu Przeglądu Korzyści](/prince2/plan-przegladu-korzysci)).
+w Uzasadnieniu Biznesowym są wykorzystywane podczas tworzenia planów ([Planu Projektu](/prince2/opisy-produktow-zarzadczych/plan-projektu),
+[Planu Etapu](/prince2/opisy-produktow-zarzadczych/plan-etapu) i [Planu Przeglądu Korzyści](/prince2/opisy-produktow-zarzadczych/plan-przegladu-korzysci)).
   * **Koszty**. Sekcja ta podsumowuje koszty projektu, ewentualne przyszłe koszty działalności operacyjnej i utrzymania produktów
 projektu oraz sposobów ich finansowania.
   * **Ocena inwestycji**. Porównanie łącznych korzyści i negatywnych skutków z kosztami projektu. Celem tej sekcji jest umożliwienie

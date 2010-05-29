@@ -11,8 +11,8 @@ Proces **Przygotowanie Projektu** służy do zapewnienia, że zostały spełnion
 poprzez udzielenie odpowiedzi na pytanie: "czy mamy zasadny i wart realizacji projekt?".
 
 Założeniem tego procesu jest dostarczenie minimum informacji potrzebnych do podjęcia decyzji o rozpoczęciu projektu. W ramach tego procesu
-określane są kluczowe role oraz ich obowiązki, opracowywany jest zarys [Uzasadnienia Biznesowego](/prince2/uzasadnienie-biznesowe), oraz zestawiane
-są [Założenia Projektu](/prince2/zalozenia-projektu). Głównym przeznaczeniem tego procesu jest zezwolenie na inicjowanie projektów zasadnych,
+określane są kluczowe role oraz ich obowiązki, opracowywany jest zarys [Uzasadnienia Biznesowego](/prince2/opisy-produktow-zarzadczych/uzasadnienie-biznesowe), oraz zestawiane
+są [Założenia Projektu](/prince2/opisy-produktow-zarzadczych/zalozenia-projektu). Głównym przeznaczeniem tego procesu jest zezwolenie na inicjowanie projektów zasadnych,
 oraz zapobieganie inicjowaniu projektów nieprzemyślanych.
 
 W metodyce PRINCE2 sygnał uruchamiający prace nad projektem jest nazywany **zleceniem przygotowania projektu**. Zlecenie to jest dostarczane

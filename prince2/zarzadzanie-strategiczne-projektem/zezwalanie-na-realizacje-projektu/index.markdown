@@ -7,15 +7,15 @@ navbar_pos: 1
 ---
 # Zezwalanie na realizację projektu
 
-[Kierownik Projektu](/prince2/kierownik-projektu) po zestawieniu [Dokumentacji Inicjowania Projektu](/prince2/dokumentacja-inicjowania-projektu)
-oraz [Planu Przeglądu Korzyści](/prince2/plan-przegladu-korzysci) może wnioskować do [Komitetu Sterującego](/prince2/komitet-sterujacy)
+[Kierownik Projektu](/prince2/kierownik-projektu) po zestawieniu [Dokumentacji Inicjowania Projektu](/prince2/opisy-produktow-zarzadczych/dokumentacja-inicjowania-projektu)
+oraz [Planu Przeglądu Korzyści](/prince2/opisy-produktow-zarzadczych/plan-przegladu-korzysci) może wnioskować do [Komitetu Sterującego](/prince2/komitet-sterujacy)
 o zezwolenie na realizację projektu. Decyzja czy należy przystąpić do realizacji projektu czy nie jest dokonywana w działaniu zezwolenie na realizację
 projektu.
 
 Celem podjęcia decyzji o rozpoczęciu bądź nie prac projektowych, Komitet Sterujący powinien potwierdzić, że:
 
-  * istnieje wystarczające i odpowiednie [Uzasadnienie Biznesowe](/prince2/uzasadnienie-biznesowe) przedstawiające zasadny projekt;
-  * [Plan Projektu](/prince2/plan-projektu) jest wystarczający do zrealizowania Uzasadnienia Biznesowego;
+  * istnieje wystarczające i odpowiednie [Uzasadnienie Biznesowe](/prince2/opisy-produktow-zarzadczych/uzasadnienie-biznesowe) przedstawiające zasadny projekt;
+  * [Plan Projektu](/prince2/opisy-produktow-zarzadczych/plan-projektu) jest wystarczający do zrealizowania Uzasadnienia Biznesowego;
   * strategie projektu i mechanizmy sterowania projektem wspierają realizację Planu Projektu;
   * mechanizmy służące do mierzenia i przeglądu oczekiwanych korzyści zostały ustalone i zaplanowane;
 
@@ -33,23 +33,23 @@ W ramach tego działania PRINCE2 zaleca wykonanie następujących czynności:
   * dokonanie przeglądu i zatwierdzenie Dokumentacji Inicjowania Projektu, w tym celu należy:
     * potwierdzić, że definicja projektu jest dokładna i kompletna oraz że formuła realizacji projektu jest realizowalna,
     * potwierdzić, że dokonano przeglądu i uwzględniono doświadczenia z wcześniejdzych podobnych projektów,
-    * potwierdzić, że [Strategia Zarządzania Jakościa](/prince2/strategia-zarzadzania-jakoscia) jest wystarczająca do zapewnienia,
+    * potwierdzić, że [Strategia Zarządzania Jakościa](/prince2/opisy-produktow-zarzadczych/strategia-zarzadzania-jakoscia) jest wystarczająca do zapewnienia,
 że oczekiwania jakościowe zostaną spełnione, i zatwierdzić ją,
-    * potwierdzić procedury określone w [Strategii Zarządzania Ryzykiem](/prince2/strategia-zarzadzania-ryzykiem) są wystarczające do
+    * potwierdzić procedury określone w [Strategii Zarządzania Ryzykiem](/prince2/opisy-produktow-zarzadczych/strategia-zarzadzania-ryzykiem) są wystarczające do
 utrzymania ryzyk pod kontrolą i zatwierdzić ją. Potwierdzić, że przeprowadzono przegląd ryzyk i że reakcje na ryzyko są właściwie i zaplanowane,
-    * potwierdzić, że [Strategia Zarządzania Konfiguracją](/prince2/strategia-zarzadzania-konfiguracja) przedstawia odpowiedni sposób
+    * potwierdzić, że [Strategia Zarządzania Konfiguracją](/prince2/opisy-produktow-zarzadczych/strategia-zarzadzania-konfiguracja) przedstawia odpowiedni sposób
 kontrolowania statusu produktów projektu, i zatwierdzić ją,
-    * zapewnić, że potrzeby informacyjne interesariuszy i terminy komunikowania się, określone w [Strategii Zarządzania Komunikacją](/prince2/strategia-zarzadznia-komunikacja),
+    * zapewnić, że potrzeby informacyjne interesariuszy i terminy komunikowania się, określone w [Strategii Zarządzania Komunikacją](/prince2/opisy-produktow-zarzadczych/strategia-zarzadznia-komunikacja),
 są odpowiednie i zatwierdzić ją,
     * potwierdzić, że wszyscy członkowie zespołu zarządzania projektem zgodzili się na pełnienie swoich ról i uzgodnić zakres ewentualnego delegowania uprawnień
 Komitetu Sterującego (np. [Obsłudze Zmian](/prince2/obsluga-zmian)),
     * zapewnić, że mechanizmy sterowania projektem są odpowiednie dla specyfuki projektu,
     * potwierdzić słuszność i realność Planu Projektu, łącznie z wszelkimi kamieniami milowymi i poponowanym podziałem na etapy, i zatwierdzić go,
-    * dokonać przeglądu i zatwierdzić [Opisy Produktów](/prince2/opis-produktu),
+    * dokonać przeglądu i zatwierdzić [Opisy Produktów](/prince2/opisy-produktow-zarzadczych/opis-produktu),
     * dokonać przeglądu tolerancji dla projektu w celu zapewnienia, że są one odpowiednie i realistyczne,
     * pozyskać lub zaangażować zasoby potrzebne do realizacji projektu,
     * potwierdzić propozycje dostosowania metodyki zarządzania projektem, oraz wszelkie dostosowania metodyki PRINCE2,
-    * sprawdzić, czy [Uzasadnienie Biznesowe](/prince2/uzasadnienie-biznesowe) przedstawia zasadny projekt i zatwierdzić je;
+    * sprawdzić, czy [Uzasadnienie Biznesowe](/prince2/opisy-produktow-zarzadczych/uzasadnienie-biznesowe) przedstawia zasadny projekt i zatwierdzić je;
   * dokonanie przeglądu i zatwierdzenie Planu Przeglądu Korzyści, oraz potwierdzenie, że obejmuje on wszystkie oczekiwane korzyści
 i spełnia potrzeby kierownictwa firmy lub programu,
   * powiadomienie kierownictwa organizacji lub programu oraz innych zainteresowanych stron, że zezwolono na realizację projektu,

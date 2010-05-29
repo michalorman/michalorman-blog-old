@@ -16,7 +16,7 @@ komitetu się na to zgodzą. Ważne jest, aby [Kierownik Projektu](/prince2/kier
 inicjowania projektu.
 
 [Komitet Sterujący](/prince2/komitet-sterujacy) może wyznaczyć [Nadzór Projektu](/prince2/nadzor-projektu) aby podjął niektóre czynności
-przeglądu i oceny (np. [Planu Etapu](/prince2/plan-etapu) pod względem jego wykonalności).
+przeglądu i oceny (np. [Planu Etapu](/prince2/opisy-produktow-zarzadczych/plan-etapu) pod względem jego wykonalności).
 
 Do podjęcia decyzji o zainicjowaniu projektu nie są potrzebni wszyscy członkowie Komitetu Sterującego. Przykładowo rola
 [Głównego Dostawcy](/prince2/glowny-dostawca) może być do tego momentu w ogóle nie obsadzona.
@@ -29,18 +29,18 @@ Schemat działania zezwolenia na zainicjowanie projektu przedstawia poniższy ry
 
 PRINCE2 zaleca podjęcie następujących czynności w ramach tego działania:
 
-  * dokonanie przeglądu i zatwierdzenia [Założeń Projektu](/prince2/zalozenia-projektu), w tym celu należy:
+  * dokonanie przeglądu i zatwierdzenia [Założeń Projektu](/prince2/opisy-produktow-zarzadczych/zalozenia-projektu), w tym celu należy:
     * potwierdzić definicję projektu (włącznie z kluczowymi kamieniami milowymi),
     * potwierdzić formułę realizacji projektu,
     * oficjalnie potwierdzić nominacje dla zespołu zarządzania projektem i potwierdzić, że wszyscy członkowie
 zgodzili się pełnić swoje role;
-  * dokonanie przeglądu i zatwierdzenia [Opisu Produktu Końcowego Projektu](/prince2/opis-produktu-koncoweg-projektu), w tym celu należy:
+  * dokonanie przeglądu i zatwierdzenia [Opisu Produktu Końcowego Projektu](/prince2/opisy-produktow-zarzadczych/opis-produktu-koncoweg-projektu), w tym celu należy:
     * potwierdzić oczekiwania jakościowe klienta,
     * potwierdzić kryteria akceptacji;
-  * sprawdzenie, czy zarys [Uzasadnienia Biznesowego](/prince2/uzasadnienie-biznesowe) przedstawia zasadny projekt,
-  * dokonanie przeglądu i zatwierdzenia [Planu Etapu](/prince2/plan-etapu) inicjowania, w tym celu należy:
+  * sprawdzenie, czy zarys [Uzasadnienia Biznesowego](/prince2/opisy-produktow-zarzadczych/uzasadnienie-biznesowe) przedstawia zasadny projekt,
+  * dokonanie przeglądu i zatwierdzenia [Planu Etapu](/prince2/opisy-produktow-zarzadczych/plan-etapu) inicjowania, w tym celu należy:
     * zrozumieć wszelkie ryzyka, które mogą mieć wpływ na decyzję o zezwoleniu na rozpoczęcie etapu inicjowania,
-    * pozyskać lub zaangażować zasoby potrzebne do realizacji [Planu Etapu](/prince2/plan-etapu) inicjowania,
+    * pozyskać lub zaangażować zasoby potrzebne do realizacji [Planu Etapu](/prince2/opisy-produktow-zarzadczych/plan-etapu) inicjowania,
     * zapewnić, aby podczas etapu inicjowania istniały odpowiednie mechanizmy raportowania i kontroli oraz ustalić
 tolerancje dla tego etapu;
   * poinformowanie wszystkich interesariuszy, że zainicjowano projekt,

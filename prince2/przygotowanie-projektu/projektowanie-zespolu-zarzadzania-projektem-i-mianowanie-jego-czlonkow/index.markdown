@@ -27,11 +27,11 @@ Schemat działania projektowania zespołu zarządzania projektem jest przedstawi
 
 W tym działaniu PRINCE2 zaleca wykonanie następujących czynności:
 
-  * dokonanie przeglądu [Dziennika Doświadczeń](/prince2/dziennik-doswiadczen) pod kątem doświadczeń dotyczących struktury zespołu zarządzania projektem,
+  * dokonanie przeglądu [Dziennika Doświadczeń](/prince2/opisy-produktow-zarzadczych/dziennik-doswiadczen) pod kątem doświadczeń dotyczących struktury zespołu zarządzania projektem,
   * zaprojektowanie zespołu zarządzania projektem, w tym celu:
     * opracować strukturę zespołu,
     * stworzyć opisy ról w [Komitecie Sterującycm](/prince2/komitet-sterujacy) (oprócz roli [Przewodniczącego](/prince2/przewodniczacy), bo ten opis znajduje
-się już w [Założeniach Projektu](/prince2/zalozenia-projektu)),
+się już w [Założeniach Projektu](/prince2/opisy-produktow-zarzadczych/zalozenia-projektu)),
     * ustalić, czy członkowie [Komitetu Sterującego](/prince2/komitet-sterujacy) zamierzają delegować swoje obowiązki dotyczące nadzoru i stworzyć opis roli
 [Nadzoru Projektu](/prince2/nadzor-projektu),
     * rozważyć, czy będą potrzebne odrębne osoby do pełnienia roli [Kierownika(-ów) Zespołu(-ów)](/prince2/kierownik-zespolu), czy też
@@ -45,7 +45,7 @@ odrębna osoba(-y) do pełnienia tej roli, oraz, o ile to właściwie, stworzyć
       * przeprowadzić ewentualne szkolenie w celu wyjaśnienia kompetencji poszczególnych ról kandydatom;
     * potwierdzenie dostępności wybranych osób, uzyskanie ich zrozumienia i akceptacji ról,
     * wyznaczenie wybranych osob do każdej ze zidentyfikowanych ról i uzyskanie potwierdzenia ich mianowania przez kierownictwo organizacji
-  * w razie zidentyfikowania ryzyk dodanie ich do [Dziennika Projektu](/prince2/dziennik-projektu)
+  * w razie zidentyfikowania ryzyk dodanie ich do [Dziennika Projektu](/prince2/opisy-produktow-zarzadczych/dziennik-projektu)
 
 Nie ma potrzeby tworzenia opisów dla wszystkich ról na tym etapie. Niektóre opisy mogą powstać później np. opis roli [Kierownika Zespołu](/prince2/kierownik-zespolu)
 nie jest w tym momencie wymagany, podobnie jak opisy ról [Nadzoru Projektu](/prince2/nadzor-projektu) czy [Wsparcia Projektu](/prince2/wsparcie-projektu). W przypadku
