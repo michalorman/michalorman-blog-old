@@ -14,7 +14,7 @@ innych procesów.
 
 Proces ten jest rozpoczyna się, jeszcze w fazie przedprojektowej, z chwilą zakończenia procesu [Przygotowania Proektu](/prince2/przygotowanie-projektu)
 i jest uruchamiany wnioskiem o zezwolenie na zainicjowanie projektu. Stąd pierwszym dzialaniem w tym procesie jest przeglądnięcie
-[Planu Etapu inicjowania](/prince2/opisy-produktow-zarzadczych/plan-etapu) oraz wydanie, lub nie zezwolenia na zainicjowanie projektu.
+[Planu Etapu inicjowania](/prince2/opisy-produktow-zarzadczych/plan) oraz wydanie, lub nie zezwolenia na zainicjowanie projektu.
 
 Proces Zarządzanie Strategiczne Projektem obejmuje działania na szczeblu zarządzania ponad [Kierownikiem Projektu](/prince2/kierownik-projektu), czyli
 [Komitetu Sterującego](/prince2/komitet-sterujacy). Komitet ten monitoruje postępy projektu korzystając z raportów i steruje nim, wykorzystując niewielką

@@ -9,13 +9,13 @@ navbar_pos: 1
 
 Zarządzanie etapowe jest fundamentalną zasadą PRINCE2. Żaden etap nie może się jednak rozpocząć
 bez zgody [Komitetu Sterującego](/prince2/komitet-sterujacy). Pod koniec każdego etpu (poza ostatnim)
-Komitet Sterujący dokonuje przeglądu osiągnięć bieżącego etapu i zatwierdza [Plan Etapu](/prince2/opisy-produktow-zarzadczych/plan-etapu)
+Komitet Sterujący dokonuje przeglądu osiągnięć bieżącego etapu i zatwierdza [Plan Etapu](/prince2/opisy-produktow-zarzadczych/plan)
 dla następnego etapu oraz podejmuje decyzję o rozpoczęciu następnego etapu. Tym właśnie zajmuje się
 działanie zezwalania na realizację Planu Etapu lub [Planu Nadzwyczajnego](/prince2/opisy-produktow-zarzadczych/plan-nadzwyczajny) w
 procesie [Zarządzanie Strategiczne Projektem](/prince2/zarzadzanie-strategiczne-projektem).
 
 Jeżeli w trakcie realizacji etapu nastąpi sytuacja nadzwyczajna, która wpływałaby na przekroczenie tolerancji
-dla Planu Etapu albo [Planu Projektu](/prince2/opisy-produktow-zarzadczych/plan-projektu) Komitet Sterujący, po otrzymaniu
+dla Planu Etapu albo [Planu Projektu](/prince2/opisy-produktow-zarzadczych/plan) Komitet Sterujący, po otrzymaniu
 [Raportu Nadzwyczajnego](/prince2/opisy-produktow-zarzadczych/raport-nadzwyczajny) może zlecić [Kierownikowi Projektu](/prnice2/kierownik-projektu)
 sporządzenie Planu Nadzwyczajnego. Plan ten musi zostać zatwierdzony przez Komitet Sterujący a w przypadku
 przekraczania tolerancji dla projektu przez kierownictwo organizacji lub programu. Zatwierdzony Plan Nadzwyczajny

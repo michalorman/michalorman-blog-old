@@ -100,21 +100,6 @@ layout: nil
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>http://michalorman.pl/prince2/dokumentacja-inicjowania-projektu/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>http://michalorman.pl/prince2/dziennik-doswiadczen/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>http://michalorman.pl/prince2/dziennik-projektu/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>http://michalorman.pl/prince2/inicjowanie-projektu/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -145,32 +130,87 @@ layout: nil
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>http://michalorman.pl/prince2/opis-produktu-koncowego-projektu/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>http://michalorman.pl/prince2/opis-produktu/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>http://michalorman.pl/prince2/opisy-produktow-zarzadczych/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>http://michalorman.pl/prince2/plan-etapu/</loc>
+    <loc>http://michalorman.pl/prince2/opisy-produktow-zarzadczych/dokumentacja-inicjowania-projektu/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>http://michalorman.pl/prince2/plan-projektu/</loc>
+    <loc>http://michalorman.pl/prince2/opisy-produktow-zarzadczych/dziennik-doswiadczen/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>http://michalorman.pl/prince2/plan-przegladu-korzysci/</loc>
+    <loc>http://michalorman.pl/prince2/opisy-produktow-zarzadczych/dziennik-projektu/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>http://michalorman.pl/prince2/opisy-produktow-zarzadczych/opis-produktu-koncowego-projektu/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>http://michalorman.pl/prince2/opisy-produktow-zarzadczych/opis-produktu/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>http://michalorman.pl/prince2/opisy-produktow-zarzadczych/plan-etapu/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>http://michalorman.pl/prince2/opisy-produktow-zarzadczych/plan-projektu/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>http://michalorman.pl/prince2/opisy-produktow-zarzadczych/plan-przegladu-korzysci/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>http://michalorman.pl/prince2/opisy-produktow-zarzadczych/plan/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>http://michalorman.pl/prince2/opisy-produktow-zarzadczych/raport-doswiadczen/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>http://michalorman.pl/prince2/opisy-produktow-zarzadczych/strategia-zarzadzania-jakoscia/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>http://michalorman.pl/prince2/opisy-produktow-zarzadczych/strategia-zarzadzania-komunikcja/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>http://michalorman.pl/prince2/opisy-produktow-zarzadczych/strategia-zarzadzania-konfiguracja/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>http://michalorman.pl/prince2/opisy-produktow-zarzadczych/strategia-zarzadzania-ryzykiem/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>http://michalorman.pl/prince2/opisy-produktow-zarzadczych/uzasadnienie-biznesowe/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>http://michalorman.pl/prince2/opisy-produktow-zarzadczych/zalozenia-projektu/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -215,47 +255,12 @@ layout: nil
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>http://michalorman.pl/prince2/raport-doswiadczen/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>http://michalorman.pl/prince2/sterowanie-etapem/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>http://michalorman.pl/prince2/strategia-zarzadzania-jakoscia/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>http://michalorman.pl/prince2/strategia-zarzadzania-komunikcja/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>http://michalorman.pl/prince2/strategia-zarzadzania-konfiguracja/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>http://michalorman.pl/prince2/strategia-zarzadzania-ryzykiem/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>http://michalorman.pl/prince2/uzasadnienie-biznesowe/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>http://michalorman.pl/prince2/wsparcie-projektu/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>http://michalorman.pl/prince2/zalozenia-projektu/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>

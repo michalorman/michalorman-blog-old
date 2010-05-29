@@ -23,9 +23,9 @@ realizacji projektu), w tym celu należy:
     * dokonać przeglądu [Dziennika Doświadczeń](/prince2/opisy-produktow-zarzadczych/dziennik-doswiadczen) pod kątem doświadczeń związanych z mechanizmami sterowania
 projektem,
     * określić sposoby raportowania i kontroli dla etapu inicjowania;
-  * zidentyfikować wszelkie ograniczenia czasowe i kosztowe dla etapu inicjowania oraz opracować [Plan Etapu](/prince2/opisy-produktow-zarzadczych/plan-etapu) dla
+  * zidentyfikować wszelkie ograniczenia czasowe i kosztowe dla etapu inicjowania oraz opracować [Plan Etapu](/prince2/opisy-produktow-zarzadczych/plan) dla
 tego etapu,
-  * dokonać przeglądu wszelkich ryzyk w [Dzienniku Projektu](/prince2/opisy-produktow-zarzadczych/dziennik-projektu) i ocenić ich wpływ na [Plan Etapu](/prince2/opisy-produktow-zarzadczych/plan-etapu)
+  * dokonać przeglądu wszelkich ryzyk w [Dzienniku Projektu](/prince2/opisy-produktow-zarzadczych/dziennik-projektu) i ocenić ich wpływ na [Plan Etapu](/prince2/opisy-produktow-zarzadczych/plan)
 inicjowania,
   * dokonać aktualizacji [Dziennika Projektu](/prince2/opisy-produktow-zarzadczych/dziennik-projektu) o ewentualne nowe, zidentyfikowane ryzyka,
   * wystąpić z wnioskiem o zezwolenie na zainicjowanie projektu.

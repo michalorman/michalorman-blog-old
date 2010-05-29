@@ -15,7 +15,7 @@ projektu.
 Celem podjęcia decyzji o rozpoczęciu bądź nie prac projektowych, Komitet Sterujący powinien potwierdzić, że:
 
   * istnieje wystarczające i odpowiednie [Uzasadnienie Biznesowe](/prince2/opisy-produktow-zarzadczych/uzasadnienie-biznesowe) przedstawiające zasadny projekt;
-  * [Plan Projektu](/prince2/opisy-produktow-zarzadczych/plan-projektu) jest wystarczający do zrealizowania Uzasadnienia Biznesowego;
+  * [Plan Projektu](/prince2/opisy-produktow-zarzadczych/plan) jest wystarczający do zrealizowania Uzasadnienia Biznesowego;
   * strategie projektu i mechanizmy sterowania projektem wspierają realizację Planu Projektu;
   * mechanizmy służące do mierzenia i przeglądu oczekiwanych korzyści zostały ustalone i zaplanowane;
 

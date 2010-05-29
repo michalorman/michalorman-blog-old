@@ -16,7 +16,7 @@ komitetu się na to zgodzą. Ważne jest, aby [Kierownik Projektu](/prince2/kier
 inicjowania projektu.
 
 [Komitet Sterujący](/prince2/komitet-sterujacy) może wyznaczyć [Nadzór Projektu](/prince2/nadzor-projektu) aby podjął niektóre czynności
-przeglądu i oceny (np. [Planu Etapu](/prince2/opisy-produktow-zarzadczych/plan-etapu) pod względem jego wykonalności).
+przeglądu i oceny (np. [Planu Etapu](/prince2/opisy-produktow-zarzadczych/plan) pod względem jego wykonalności).
 
 Do podjęcia decyzji o zainicjowaniu projektu nie są potrzebni wszyscy członkowie Komitetu Sterującego. Przykładowo rola
 [Głównego Dostawcy](/prince2/glowny-dostawca) może być do tego momentu w ogóle nie obsadzona.
@@ -38,9 +38,9 @@ zgodzili się pełnić swoje role;
     * potwierdzić oczekiwania jakościowe klienta,
     * potwierdzić kryteria akceptacji;
   * sprawdzenie, czy zarys [Uzasadnienia Biznesowego](/prince2/opisy-produktow-zarzadczych/uzasadnienie-biznesowe) przedstawia zasadny projekt,
-  * dokonanie przeglądu i zatwierdzenia [Planu Etapu](/prince2/opisy-produktow-zarzadczych/plan-etapu) inicjowania, w tym celu należy:
+  * dokonanie przeglądu i zatwierdzenia [Planu Etapu](/prince2/opisy-produktow-zarzadczych/plan) inicjowania, w tym celu należy:
     * zrozumieć wszelkie ryzyka, które mogą mieć wpływ na decyzję o zezwoleniu na rozpoczęcie etapu inicjowania,
-    * pozyskać lub zaangażować zasoby potrzebne do realizacji [Planu Etapu](/prince2/opisy-produktow-zarzadczych/plan-etapu) inicjowania,
+    * pozyskać lub zaangażować zasoby potrzebne do realizacji [Planu Etapu](/prince2/opisy-produktow-zarzadczych/plan) inicjowania,
     * zapewnić, aby podczas etapu inicjowania istniały odpowiednie mechanizmy raportowania i kontroli oraz ustalić
 tolerancje dla tego etapu;
   * poinformowanie wszystkich interesariuszy, że zainicjowano projekt,
