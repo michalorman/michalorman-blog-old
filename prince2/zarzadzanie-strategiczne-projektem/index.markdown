@@ -40,6 +40,6 @@ W ramach procesu Zarządzanie Strategiczne Projektem PRINCE2 wyróznia następuj
 
   * [zezwolenie na zainicjowanie projektu](/prince2/zarzadzanie-strategiczne-projektem/zezwalanie-na-zainicjowanie-projektu),
   * [zezwolenie na realizację projektu](/prince2/zarzadzanie-strategiczne-projektem/zezwalanie-na-realizacje-projektu),
-  * zezwolenie na realizację Planu Etapu lub Planu Nadzwyczajnego,
+  * [zezwolenie na realizację Planu Etapu lub Planu Nadzwyczajnego](/prince2/zarzadzanie-strategiczne-projektem/zezwalanie-na-realizacje-planu-etapu-lub-planu-nadzwyczajnego),
   * podejmowanie decyzji doraźnej, oraz
   * zezwolenie na zamknięcie projektu.
