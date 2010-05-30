@@ -5,7 +5,7 @@ description: Opis wzorca projektowego Metoda Szablonowa (ang. Template Method).
 keywords: design pattern wzorzec projektowy metoda szablonowa template method
 navbar_pos: 1
 ---
-Dawno nie pisałem o żadnym wzorcu projektowym. Ostatnio było o [MVC](/blog/2010/03/model-widok-kontroler) a potem
+Dawno nie pisałem o żadnym wzorcu projektowym. Ostatnio było o [MVC](/blog/2010/03/model-widok-kontroler), a potem
 długo, długo nic. Czas zatem nadrobić zaległości. Tym razem będzie o jednym z moich ulubionych wzorców **Metodzie Szablonowej**
 (ang. template method).
 
@@ -16,7 +16,7 @@ W przypadku Metody Szablonowej hermetyzowany jest algorytm.
 
 ## Metoda Szablonowa od kuchni
 
-Dobra, co to znaczy, że hermetyzowany jest algorytm? Spróbujmy zrozumieć to na przykładzie robienia pizzy. Ta z jednej
+Dobra, co to znaczy, że "hermetyzowany jest algorytm"? Spróbujmy zrozumieć to na przykładzie robienia pizzy. Ta z jednej
 strony bardzo smaczna, a z drugiej bardzo kaloryczna potrawa kuchni włoskiej występuje obecnie w wielu odmianach. Odmiany
 te różnią się składnikami, grubością ciasta, kształtem itd. Przyjrzyjmy się procesowi tworzenia pizzy (od razu zaznaczam, że
 nigdy w życiu żadnej pizzy nie zrobiłem i mam małe pojęcie jak to się robi, a poniższe opisy mają charakter poglądowy i nie
@@ -45,7 +45,7 @@ public class Margherita {
 
     public void prepare() {
         prepareThinCake();
-        addTomatoeSauce();
+        addTomatoSauce();
         addMozarellaCheese();
         addBasilAndOil();
         bake();
@@ -63,8 +63,8 @@ public class Margherita {
         System.out.println("Adding mozarella cheese...");
     }
 
-    private void addTomatoeSauce() {
-        System.out.println("Adding tomatoe sauce...");
+    private void addTomatoSauce() {
+        System.out.println("Adding tomato sauce...");
     }
 
     private void prepareThinCake() {
@@ -81,7 +81,7 @@ public class Sicilian {
 
     public void prepare() {
         prepareThickCake();
-        addTomatoeSauce();
+        addTomatoSauce();
         addOlivesAndCapers();
         addSpices();
         bake();
@@ -99,8 +99,8 @@ public class Sicilian {
         System.out.println("Adding olives and capers...");
     }
 
-    private void addTomatoeSauce() {
-        System.out.println("Adding tomatoe sauce...");
+    private void addTomatoSauce() {
+        System.out.println("Adding tomato sauce...");
     }
 
     private void prepareThickCake() {
@@ -110,7 +110,7 @@ public class Sicilian {
 }
 {% endhighlight %}
 
-Analizując powyższe klasy widzimy, że metody ``bake()`` oraz ``addTomatoeSauce()`` są takie same w obu klasach przez
+Analizując powyższe klasy widzimy, że metody ``bake()`` oraz ``addTomatoSauce()`` są takie same w obu klasach przez
 co mamy zduplikowany kod. Ale co więcej metody ``prepare()`` w oby klasach są bardzo podobne. Jeżeli bliżej im się przyjrzeć
 możemy zauważyć, że generalnie realizują one ten sam algorytm różnią się jedynie w implementacji. Uogólniając nasz przepis
 przygotowania pizzy moglibyśmy zapisać tak:
@@ -123,7 +123,7 @@ Pizza:
   4. Dodaj przyprawy.
   5. Upiecz.
 
-Przepis ten jest na tyle ogólne, że nadawałby się także do przygotowania pizzy Pepperoni czy każdej innej.
+Przepis ten jest na tyle ogólny, że nadawałby się także do przygotowania pizzy Pepperoni czy każdej innej.
 
 Otrzymaliśmy zatem
 szablon algorytmu przygotowania pizzy, a ponieważ algorytmy implementujemy w postaci metod, rozszyfrowaliśmy nazwę naszego
@@ -145,7 +145,7 @@ public abstract class Pizza {
 
     public void prepare() {
         prepareCake();
-        addTomatoeSauce();
+        addTomatoSauce();
         addAdditions();
         addSpices();
         bake();
@@ -159,8 +159,8 @@ public abstract class Pizza {
 
     protected abstract void addAdditions();
 
-    private void addTomatoeSauce() {
-        System.out.println("Adding tomatoe sauce...");
+    private void addTomatoSauce() {
+        System.out.println("Adding tomato sauce...");
     }
 
     protected abstract void prepareCake();
@@ -220,7 +220,7 @@ public abstract class Pizza {
     }
 
     protected void addSauce() {
-        addTomatoeSauce();
+        addTomatoSauce();
     }
 
     private void bake() {
@@ -235,8 +235,8 @@ public abstract class Pizza {
 
     protected abstract void addAdditions();
 
-    private void addTomatoeSauce() {
-        System.out.println("Adding tomatoe sauce...");
+    private void addTomatoSauce() {
+        System.out.println("Adding tomato sauce...");
     }
 
     protected abstract void prepareCake();
@@ -247,7 +247,7 @@ public abstract class Pizza {
 Ta implementacja działa dokładnie tak samo jak poprzednia, jednak dzięki haczykom możemy zmienić jej domyślne zachowanie jeżeli
 zajdzie taka potrzeba. Przykładowo przeciążając metodę ``addSauce()`` możemy zmienić domyślny sos pomidorowy na inny, przeładowując
 ``getBakeTime()`` możemy zmienić domyślną długość pieczenia. Oczywiście w poprzedniej wersji mogliśmy przeciążyć bezpośrednio metody
-``addTomatoeSauce()`` albo ``bake()`` jednakże nie byłoby to do końca dobrym pomysłem, ponieważ metody te mógłby realizować jakąś logikę
+``addTomatoSauce()`` albo ``bake()`` jednakże nie byłoby to do końca dobrym pomysłem, ponieważ metody te mógłby realizować jakąś logikę
 którą musielibyśmy skopiować w naszej klasie potomnej.
 
 Haczyki to rzeczywiste metody zadeklarowane w klasie abstrakcyjnej posiadające albo domyślną implementację, albo pustą. Metody te pozwalają
@@ -286,7 +286,7 @@ Teraz nasza pizza będzie pieczona przed 20 a nie 15 minut.
 ## Podsumowanie
 
 Metoda szablonowa to bardzo fajny wzorzec projektowy pozwalający na wyniesienie algorytmy na wyższy poziom abstrakcji. Tworzymy ogólny
-algorytm szablonowy a klasom potomnym zostawiamy implementację poszczególnych jego kroków. Dzięki temu nasz kod nie jest duplikowany,
+algorytm szablonowy, a klasom potomnym zostawiamy implementację poszczególnych jego kroków. Dzięki temu nasz kod nie jest duplikowany,
 jest przejrzysty a dodawanie nowych klas realizujących podobny algorytm jest szybsze, ponieważ definiujemy tylko niektóre jego kroki a nie cały algorytm.
 
 Metody szablonowe posiadaj pewne domyślne działanie na które możemy wpływać za pomocą haczyków. Haczyki to są metody z konkretną, domyślną
