@@ -11,22 +11,29 @@ navbar_pos: 3
 Jak nazwa blogu sugeruje nazywam się **Michał Orman**. Moją pasją jest inżynieria
 oprogramowania, czyli wszelkiego rodzaju metodyki i techniki pozwalające nam
 tworzyć dobry i działający kod. Obecnie moje zainteresowania oscylują wokół
-tworzenia oprogramowania w korporacyjnej wersji Javy EE oraz skryptowego
-języka Ruby.
+tworzenia oprogramowania w korporacyjnej wersji Javy EE, skryptowego
+języka Ruby wraz z frameworkiem Rails oraz platformy Android.
+
+Obecnie zawodowo zajmuję się tak zwanym konsultingiem, głównie dotyczącym technologii
+Java EE oraz e-commerce. Prywatnie natomiast zajmuje się tzw. ojcostwem spowodowanym
+narodzeniem się mojego syna Wojciecha. Wraz z dniem 15.03.2010 dołączyłem do grupy ludzi
+generalnie niewyspanych ;). Niestety dla tej roli nikt nie opracował jeszcze wzorców
+i szablonów...
 
 Moje zainteresowania wykraczają poza ramy inżynierii oprogramowania, jednak
-ograniczenia czasowe nie pozwalają mi rozwijać się we wszystkich dziedzinach.
+ograniczenia czasowe nie pozwalają mi rozwijać się we wszystkich.
 Interesuję (bądź interesowałem ;)) się systemami operacyjnymi, bezpieczeństwem,
-e-commerce i web analytics oraz programowanie gier.
+e-commerce i web analytics oraz programowanie gier. Hobbystycznie interesuję się
+fizyką (cząstkami elementarnymi) oraz astronomią, czasem grywam też w piłkę nożną.
 
-Obecnie zajmuję się tak zwanym konsultingiem, głównie dotyczącym technologii
-Java EE oraz e-commerce. Prywatnie przygotowuję się do narodzin mojego pierworodnego
-syna o nieznanym jeszcze imieniu wraz z moją partnerką Emilią. Ponoć chwila ta
-przewraca świat do góry nogami, ale zobaczymy jak to wyjdzie w praktyce.
-Jak w każdym problemie trzeba będzie zapoznać się metodykami i wzorcami projektowymi
-wychowania dziecka :).
+Aktualnie coraz więcej czasu poświęcam na poszerzanie swojej wiedzy w dziedzinie
+zarządzania projektami. Ukończyłem kurs PRINCE2 (jeszcze jeden przede mną),
+zdałem certyfikat PRINCE2 Foundation i przygotowuję się do zdania certyfikatu
+PRINCE2 Practitioner. Rozpocząłem także studia podyplomowe na kierunku zarządzania
+projektami informatycznymi. Mam jeszcze parę planów na dalszą edukację w tej
+dziedzinie, ale zobaczymy co z tego wyjdzie.
 
-Na tę chwilę założyłem działalność gospodarczą pod bardzo oryginalną nazwą
+Posiadam działalność gospodarczą pod bardzo oryginalną nazwą
 **Neosoft** (z każdym dniem nazwa ta coraz bardziej mi się nie podoba ;)) i
 współpracuję z firmą <a href="http://consileon.pl">Consileon</a>. Prowadzę różne
 prace badawcze na temat technologii i frameworków, oraz czekam na genialny
