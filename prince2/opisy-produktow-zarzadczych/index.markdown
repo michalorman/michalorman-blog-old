@@ -29,7 +29,7 @@ procedurze sterowania zmianami. Są to:
   * [Strategia Zarządzania Komunikacją](/prince2/opisy-produktow-zarzadczych/strategia-zarzadzania-komunikacja);
   * [Plan](/prince2/opisy-produktow-zarzadczych/plan) obejmuje Plan Projektu, Plan Etapu i opcjonalnie Plan Zespołu;
   * [Opis Produktu](/prince2/opisy-produktow-zarzadczych/opis-produktu);
-  * [Założenia Projektu](/prince2/opisy-produktow-zarzadczych/zalozenia-projektu)
+  * [Założenia Projektu](/prince2/opisy-produktow-zarzadczych/zalozenia-projektu);
   * [Dokuemnacja Inicjowania Projektu](/prince2/opisy-produktow-zarzadczych/dokumentacja-inicjowania-projektu);
   * [Opis Produktu Końcowego Projektu](/prince2/opisy-produktow-zarzadczych/opis-produktu-koncowego-projektu);
   * [Strategia Zarządzania Jakością](/prince2/opisy-produktow-zarzadczych/strategia-zarzadzania-jakoscia);
