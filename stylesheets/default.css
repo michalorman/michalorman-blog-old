@@ -95,6 +95,7 @@ h1 a, h1 a:visited, h1 a:hover {
 pre {
     background-color: #1f1f1f;
     -moz-border-radius: 0.4em;
+    -webkit-border-radius: 0.4em;
     padding: 0.5em 0.7em;
     display: block;
     word-wrap: break-word;
@@ -112,6 +113,7 @@ blockquote {
     background-color: #f4eee2;
     padding: 1.5em 1.5em 0.5em 2em;
     -moz-border-radius: 0.4em;
+    -webkit-border-radius: 0.4em;
     margin: 0 1.5em 1em 1em;
     vertical-align: baseline;
     font-style: italic;
@@ -305,6 +307,7 @@ div.hola_dog p {
     padding: 0.75em;
     border: 1px solid #e2d3bb;
     -moz-border-radius: 0.4em;
+    -webkit-border-radius: 0.4em;
     vertical-align: baseline;
     font-style: italic;
 }
@@ -322,6 +325,7 @@ div.wise_owl p {
     padding: 0.75em;
     border: 1px solid #e2d3bb;
     -moz-border-radius: 0.4em;
+    -webkit-border-radius: 0.4em;
     vertical-align: baseline;
     font-style: italic;
 }
