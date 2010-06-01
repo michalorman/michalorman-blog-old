@@ -96,6 +96,7 @@ pre {
     background-color: #1f1f1f;
     -moz-border-radius: 0.4em;
     -webkit-border-radius: 0.4em;
+    border-radius: 0.4em;
     padding: 0.5em 0.7em;
     display: block;
     word-wrap: break-word;
@@ -114,6 +115,7 @@ blockquote {
     padding: 1.5em 1.5em 0.5em 2em;
     -moz-border-radius: 0.4em;
     -webkit-border-radius: 0.4em;
+    border-radius: 0.4em;
     margin: 0 1.5em 1em 1em;
     vertical-align: baseline;
     font-style: italic;
@@ -122,6 +124,10 @@ blockquote {
 ul, ol {
     margin: 0 0 1em 2em;
     list-style-position: outside;
+}
+
+li ul {
+    margin-bottom: 0;
 }
 
 table {
@@ -140,10 +146,40 @@ th {
     background-color: #f9f3eb;
 }
 
+img {
+    max-width: 980px;
+}
+
+#navbar {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar li {
+    list-style: none;
+    float: left;
+}
+
+#navbar li ul {
+    margin: 0 0 0 -1em;
+    padding: 0 0.5em 0.5em 1em;
+    visibility: hidden;
+    position: absolute;
+    background-color: #222;
+    -moz-border-radius: 0.4em;
+    -webkit-border-radius: 0.4em;
+    border-radius: 0.4em;
+}
+
+#navbar li ul li {
+    float: none;
+}
+
 #header {
     background-color: #222;
-    padding: 0.7em 0;
+    padding: 0.4em 0;
     font-size: 12pt;
+    height: 2em;
 }
 
 #header a, #header a:visited {
@@ -287,8 +323,11 @@ th {
     text-decoration: line-through;
 }
 
-.image-caption {
+.image-wrapper {
     text-align: center;
+}
+
+.image-caption {
     font-size: 0.8em;
 }
 
@@ -308,6 +347,7 @@ div.hola_dog p {
     border: 1px solid #e2d3bb;
     -moz-border-radius: 0.4em;
     -webkit-border-radius: 0.4em;
+    border-radius: 0.4em;
     vertical-align: baseline;
     font-style: italic;
 }
@@ -326,6 +366,7 @@ div.wise_owl p {
     border: 1px solid #e2d3bb;
     -moz-border-radius: 0.4em;
     -webkit-border-radius: 0.4em;
+    border-radius: 0.4em;
     vertical-align: baseline;
     font-style: italic;
 }
