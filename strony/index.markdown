@@ -10,4 +10,3 @@ navbar_pos: 1
 Lista stron na rózne opracowania, które nie powstały jako posty na blogu:
 
   1. [Moje prezentacje](/prezentacje/)
-  2. [Metodyka PRINCE2](/prince2/)
