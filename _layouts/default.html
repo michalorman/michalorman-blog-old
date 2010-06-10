@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="/stylesheets/default.css" type="text/css"/>
     <link rel="stylesheet" href="/stylesheets/highlight.css" type="text/css"/>
     <link rel="stylesheet" href="/stylesheets/colorbox.css" type="text/css"/>
+    {% if page.stylesheet %}
+    <link rel="stylesheet" href="/stylesheets/{{ page.stylesheet }}.css" type="text/css" />
+    {% endif %}
     {% if page.description %}
     <meta name="description" content="{{ page.description }}"/>
     {% endif  %}{% if page.keywords %}

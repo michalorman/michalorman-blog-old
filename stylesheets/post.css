@@ -1,0 +1,44 @@
+.content-wrapper img {
+    display: block;
+    margin: 0 auto;
+}
+
+/****** ZOO ***************/
+
+div.hola_dog {
+    background: url('/images/hola_dog.png') bottom left no-repeat;
+    min-height: 175px;
+    padding: 1em 0 0 205px;
+    margin: 1em 3em 2em 2em;
+    vertical-align: middle;
+}
+
+div.hola_dog p {
+    background-color: #f4eee2;
+    padding: 0.75em;
+    border: 1px solid #e2d3bb;
+    -moz-border-radius: 0.4em;
+    -webkit-border-radius: 0.4em;
+    border-radius: 0.4em;
+    vertical-align: baseline;
+    font-style: italic;
+}
+
+div.wise_owl {
+    background: url('/images/wise_owl.png') bottom right no-repeat;
+    min-height: 175px;
+    padding: 1em 205px 0 0;
+    margin: 1em 3em 2em 2em;
+    vertical-align: middle;
+}
+
+div.wise_owl p {
+    background-color: #f4eee2;
+    padding: 0.75em;
+    border: 1px solid #e2d3bb;
+    -moz-border-radius: 0.4em;
+    -webkit-border-radius: 0.4em;
+    border-radius: 0.4em;
+    vertical-align: baseline;
+    font-style: italic;
+}

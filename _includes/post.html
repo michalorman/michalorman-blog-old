@@ -1,12 +1,7 @@
-<div class="post-wrapper">
-	<!--<div class="post-calendar">
-		<p class="post-month">{{ page.date | date: "%b" }}</p>
-		<p class="post-year">{{ page.date | date: "%Y" }}</p>
-		<p class="post-day">{{ page.date | date: "%d" }}</p>
-	</div>-->
-  <h1 class="post-title"><a href="{{ page.url }}" title="Czytaj post {{ page.title }}">{{ page.title }}</a></h1>
-  <h2 class="post-subtitle">{{ page.date | date_to_string }} &middot; {% for category in page.categories %}{% unless category == 'blog' and page.categories.size > 1 %}<a href="{% unless category == 'blog' %}/blog{% endunless %}/{{category}}/" title="Czytaj wszystkie posty w kategorii {{ category }}">{{ category }}</a>{% endunless %}{% endfor %} &middot; <a href="{{ page.url }}/#disqus_thread" title="Komentuj">Komentuj</a></h2>
-  <div class="post-content-wrapper">
-    {{ body }}
-  </div>
+<div class="page-header-wrapper">
+  <h1><a href="{{ page.url }}" title="Czytaj post {{ page.title }}">{{ page.title }}</a></h1>
+  <h2>{{ page.date | date_to_string }} &middot; {% for category in page.categories %}{% unless category == 'blog' and page.categories.size > 1 %}<a href="{% unless category == 'blog' %}/blog{% endunless %}/{{category}}/" title="Czytaj wszystkie posty w kategorii {{ category }}">{{ category }}</a>{% endunless %}{% endfor %} &middot; <a href="{{ page.url }}/#disqus_thread" title="Komentuj">Komentuj</a></h2>
+</div>
+<div class="page-content-wrapper">
+  {{ body }}
 </div>

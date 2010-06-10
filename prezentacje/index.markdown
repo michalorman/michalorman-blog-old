@@ -5,8 +5,6 @@ description: Moje prezentacje jakie dotychczas udało mi się stworzyć.
 keywords:  Prezentacje
 navbar_pos: 1
 ---
-#  Prezentacje
-
 Moje prezentacje, które udało mi się stworzyć.
 
 ## Platforma Java
