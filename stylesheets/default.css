@@ -332,6 +332,27 @@ img {
     font-size: 0.8em;
 }
 
+.presentation-wrapper {
+    margin: 0 auto;
+}
+
+.article-header-wrapper {
+    margin-top: 4em;
+}
+
+.article-header-wrapper h1 {
+    border-bottom: 1px solid #e2d3bb;
+    padding-bottom: 0.4em;
+    margin: 0;
+    font-size: 1.7em;
+}
+
+.article-header-wrapper h2 {
+    margin: 0 0 0.5em 0;
+    padding-top: 0.2em;
+    font-size: 1em;
+}
+
 /****** ZOO ***************/
 
 div.hola_dog {
@@ -370,8 +391,4 @@ div.wise_owl p {
     border-radius: 0.4em;
     vertical-align: baseline;
     font-style: italic;
-}
-
-.presentation-wrapper {
-    margin: 0 auto;
 }

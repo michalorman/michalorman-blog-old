@@ -1,9 +1,10 @@
 ---
-layout: post
+layout: article
 title: Dlaczego realizowany jest projekt
 description: Powód podjęcia projektu to jedna z najważniejszych informacji w każdym realizowanym projekcie. Bez ważnego powodu nie ma sensu dalsze realizowanie projektu.
-keywords: Zarządzanie Projektami Uzasadnienie Biznesowe Business Case
-navbar_pos: 1
+keywords: Zarządzanie Projektami Uzasadnienie Biznesowe Business Case Dlaczego realizowany jest projekt
+date: 2010-06-10
+url: /artykuly/zarzadzanie-projektami/dlaczego-realizowany-jest-projekt
 ---
 Jeżeli klient przychodzi do sklepu i pyta o półcentymetrowe wiertła, to dlatego, że chce zakupić wiertła? Nie! Pyta dlatego,
 że potrzebuje półcentymetrowych otworów a zakup wierteł jest jedynie środkiem do ich uzyskania. Można powiedzieć, że potrzeba
@@ -83,4 +84,3 @@ przynajmniej trzech rozwiązań biznesowych:
   * nie robienie niczego;
   * ograniczenie się do minimum;
   * zrobienie coś ponad minimum;
-

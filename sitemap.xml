@@ -90,6 +90,11 @@ layout: nil
 
   <!-- Pages -->
   <url>
+    <loc>http://michalorman.pl/artykuly/zarzadzanie-projektami/dlaczego-realizowany-jest-projekt/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>http://michalorman.pl/prezentacje/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
