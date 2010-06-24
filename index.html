@@ -6,5 +6,5 @@ keywords: Michał Michal Orman Blog Java J2EE EE Ruby Rails Inżynieria Oprogram
 navbar_pos: 1
 ---
 <div id="recent-posts">
-{% for page in site.posts limit:5 %}{% assign body = page.content %}{% include post.html %}{% endfor %}
+{% for page in site.posts limit:5 %}{% assign body = page.content %}<div class="recent-post">{% include post.html %}</div>{% endfor %}
 </div>

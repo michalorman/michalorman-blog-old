@@ -1,2 +1,2 @@
 <h3>ostatnie wpisy</h3>
-<ul>{% for post in site.posts limit: 10 %}<li><a href="{{ post.url }}" title="Przejdź do posta {{ post.title }}">{{ post.title }}</a></li>{% endfor %}</ul>
+<ul>{% for post in site.posts limit: 10 %}<li>{{ post.date | date_to_string }} &middot; <a href="{{ post.url }}" title="Przejdź do posta {{ post.title }}">{{ post.title }}</a></li>{% endfor %}</ul>

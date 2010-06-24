@@ -90,6 +90,16 @@ layout: nil
 
   <!-- Pages -->
   <url>
+    <loc>http://michalorman.pl/artykuly/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>http://michalorman.pl/artykuly/zarzadzanie-projektami/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>http://michalorman.pl/artykuly/zarzadzanie-projektami/dlaczego-realizowany-jest-projekt/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -158,11 +168,6 @@ layout: nil
   </url>
   <url>
     <loc>http://michalorman.pl/blog/prince2/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://michalorman.pl/blog/project-management/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

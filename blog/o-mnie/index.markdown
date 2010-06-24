@@ -3,7 +3,6 @@ layout: page
 title: O Mnie
 description: Informacje o tym kim jest i czym się zajmuje Michał Orman.
 keywords: Michał Orman blog profil
-navbar_pos: 3
 ---
 <a href="/images/avatar.jpg" rel="colorbox" title="Powiększ zdjęcie"><img src="/images/avatar_mid.jpg" class="avatar" alt="Michał Orman" /></a>
 Jak nazwa blogu sugeruje nazywam się **Michał Orman**. Moją pasją jest inżynieria

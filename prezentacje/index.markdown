@@ -1,9 +1,8 @@
 ---
 layout: page
-title:  Prezentacje
+title: Prezentacje
 description: Moje prezentacje jakie dotychczas udało mi się stworzyć.
-keywords:  Prezentacje
-navbar_pos: 1
+keywords: Prezentacje
 ---
 Moje prezentacje, które udało mi się stworzyć.
 

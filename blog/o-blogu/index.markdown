@@ -3,7 +3,6 @@ layout: page
 title: O Blogu
 description: Tematyka blogu.
 keywords: michał orman blog
-navbar_pos: 2
 ---
 Tematyka blogu jest ściśle związana z IT. Wpisy dotyczą głównie tematów jakimi się aktualnie zajmuję, a także różnych
 moich przemyśleń i doświadczeń. Jako, że interesuję się wieloma rzeczami tematyka blogu nie skupia się tylko na jednym

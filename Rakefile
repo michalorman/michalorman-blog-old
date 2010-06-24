@@ -58,7 +58,6 @@ layout: default
 title: Michał Orman -
 description: Posty w kategorii
 keywords:
-navbar_pos: 1
 ---
 # Posty w kategorii
 {% assign category = site.categories. #@name  %}{% include post-link.html %}
@@ -103,7 +102,6 @@ layout: post
 title:
 description:
 keywords:
-navbar_pos: 1
 ---
     END
   end
@@ -149,7 +147,6 @@ class Archive
 layout: default
 title: Archiwum @#year
 description: Posty z roku  #@year
-navbar_pos: 1
 ---
 {% assign year = ' #@year ' %}{% include archive-year.html %}
     END
@@ -161,7 +158,6 @@ navbar_pos: 1
 layout: default
 title: Archiwum  #@month / #@year
 description: Posty z miesiąca  #@month / #@year
-navbar_pos: 1
 ---
 {% assign month = ' #@month / #@year ' %}{% include archive-year-month.html %}
     END
@@ -210,7 +206,6 @@ layout: page
 title: #@title
 description:
 keywords: #@title
-navbar_pos: 1
 ---
 # #@title
     END
