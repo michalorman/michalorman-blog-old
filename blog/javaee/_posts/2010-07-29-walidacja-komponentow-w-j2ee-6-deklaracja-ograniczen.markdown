@@ -5,7 +5,7 @@ description: Analiza drugiej sekcji specyfikacji JSR 303 dotyczącej deklaracji 
 keywords: JSR 303 bean validation constraint deklaracja ograniczenie walidacja J2EE 6
 ---
 Kolejna sekcja specyfikacji **JSR 303 Bean Validation** dotyczy formalnych wymagań dotyczących
-deklaracji ograniczeń w komponentach, oraz samemu procesowi walidacji. Sekcja ta mimo iż któtka, to
+deklaracji ograniczeń w komponentach, oraz samemu procesowi walidacji. Sekcja ta mimo iż krótka, to
 czyta się ją dość długo, głównie ze względu na "suchość" i formalność podanych informacji. No ale
 nie ma co przedłużać, przejdźmy od razu do rzeczy.
 
@@ -22,12 +22,12 @@ Specyfikacja JSR 303 określa, że adnotacje ograniczeń mogą zostać zadeklaro
 klasy, gettera zgodnego ze specyfikacją JavaBeans oraz na poziomie całej klasy. Jeżeli adnotacja
 jest zadeklarowana na poziomie pola to wartość tego pola jest przesyłana jako parametr do walidatora
 (klasy implementującej interfejs ``javax.validation.ConstraintValidator`` zadeklarowanej w definicji
-adnotacji ograniczenia). Jeżeli adntoacja zadeklarowana jest na poziomie gettera to przesyłana jest
+adnotacji ograniczenia). Jeżeli adnotacja zadeklarowana jest na poziomie gettera to przesyłana jest
 wartość zwracana przez ten getter. Jeżeli natomiast adnotacja jest na poziomie całej klasy, to referencja
 do obiektu tej klasy zostanie przesłana do walidacji.
 
 Jest to w pewnym sensie rozwiązanie problemu walidacji pól, których wartości zależą od siebie nawzajem
-(tak jak pisałem w [poprzednim poście](/blog/2010/07/walidacja-komponentow-w-j2ee-6-ograniczenia/)). Jeżeli
+(tak jak pisałem w [poprzednim poście](/blog/2010/07/walidacja-komponentów-w-j2ee-6-ograniczenia/)). Jeżeli
 potrzebujemy walidować takie pola to adnotację powinniśmy umieścić na poziomie klasy. Przykładowo, mając taki
 model:
 
@@ -103,10 +103,10 @@ Walidator dla ograniczenia ``@True`` sprawdzałby czy walidowana wartość wynos
 dla zmiennej typu ``Boolean``) walidowana jest wartość zwracana przez te gettery, to powyższa konstrukcja powinna
 działać. I jest to rozwiązanie generalnie lepsze niż poprzednie, ponieważ nie mnożymy walidatorów (ani dla innych klas
 ani dla innych kombinacji zależnych atrybutów) i możemy podpiąć
-je do wielu zależnych atrybutów jednocześnie (w różnych kombinacjach). Pozatym o sposobie walidacji poszczególnych
+je do wielu zależnych atrybutów jednocześnie (w różnych kombinacjach). Poza tym o sposobie walidacji poszczególnych
 pól decyduje sama klasa modelu, przez co nie musimy niszczyć enkapsulacji getterami i setterami i zapisywać logiki
 gdzieś indziej. Możemy też łatwo ręcznie odpalić taką walidację bez potrzeby tworzenia instancji walidatora.
-Jednak jak już wspomniałem, działanie powyższej techniki trzebaby sprawdzić w praktyce.
+Jednak jak już wspomniałem, działanie powyższej techniki trzeba by sprawdzić w praktyce.
 
 ## Dziedziczenie
 
@@ -124,7 +124,7 @@ są to ograniczenia językowe, które utrudniałyby pewne sprawy w wszelkiego ro
 a nie traktować tego jako błąd.
 
 Wróćmy zatem do adnotacji ograniczeń. Specyfikacja Bean Validation mówi, że każda adnotacja ograniczenia zadeklarowana
-na poziomie klasy czy interfejsu będzie dotyczyła klas rozszeżających albo implementujących interfejs (nie wspomina
+na poziomie klasy czy interfejsu będzie dotyczyła klas rozszerzających albo implementujących interfejs (nie wspomina
 przy tym o potrzebie użycia meta-adnotacji ``@Inherited``). Podobnie
 ma się sytuacja w przypadku getterów. Adnotacje zadeklarowane na getterze będą brane pod uwagę przy walidacji wraz
 z adnotacjami zadeklarowanymi w klasie potomnej, na przeciążonej wersji gettera. Przykładowo:
