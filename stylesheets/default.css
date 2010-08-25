@@ -290,11 +290,6 @@ img {
     max-width: 40em;
 }
 
-.avatar {
-    float: left;
-    margin: 0.4em 1em 1em 0;
-}
-
 .striked {
     text-decoration: line-through;
 }
@@ -335,6 +330,11 @@ img {
 .content-wrapper img {
     display: block;
     margin: 0 auto;
+}
+
+.avatar {
+    float: left;
+    margin: 0.4em 1em 1em 0;
 }
 
 /****** ZOO ***************/
