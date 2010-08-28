@@ -178,3 +178,4 @@ z resztą.
 
 Kod aplikacji można podejrzeć tutaj:
 [http://github.com/michalorman/parcelscout/tree/master/work/spu-service/](http://github.com/michalorman/parcelscout/tree/master/work/spu-service/)
+Kod może się nieco różnić od tego przedstawionego w tym wpisie, ponieważ rozwijam dalej tę aplikację.
