@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ParcelScout ORM i Log4J dla aplikacji SPU
+title: ParcelScout - ORM i Log4J dla aplikacji SPU
 description: Konfiguracja ORM (JPA i Hibernate EntityManager) w Spring.
 keywords: Spring MVC ORM JPA Log4J Hibernate EntityManager
 ---
