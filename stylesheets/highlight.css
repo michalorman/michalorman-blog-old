@@ -1,9 +1,17 @@
-.k, .kd, .kt, .kn, .nb, .nt {
+.k, .kd, .kt, .kn, .nb, .nt, .kc {
     color: #cdb178;
 }
 
 .nc, .no {
     color: #927d94;
+}
+
+.nf {
+    color: #dfcbac;
+}
+
+.na {
+    color: #bac0c3;
 }
 
 .o, .cp, .p {
@@ -39,8 +47,10 @@
     color: #9d5c49;
 }
 
-/* Java */
-
 code.java .nd {
     color: #888;
+}
+
+code.xml .na {
+    color: white;
 }
