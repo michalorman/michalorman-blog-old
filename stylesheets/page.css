@@ -1,3 +1,8 @@
+#avatar {
+    float: left;
+    margin: 0.5em 1em 0 0;
+}
+
 .page-header-wrapper h1 {
   border: none;
 }

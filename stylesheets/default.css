@@ -176,6 +176,11 @@ img {
     float: none;
 }
 
+#navbar a b {
+    color: #cbb4a3;
+    font-weight: normal;
+}
+
 #header {
     background-color: #222;
     padding: 0.4em 0;
@@ -332,12 +337,7 @@ img {
     margin: 0 auto;
 }
 
-.avatar {
-    float: left;
-    margin: 0.4em 1em 1em 0;
-}
-
-/****** ZOO ***************/
+/******* ZOO ***************/
 
 div.hola_dog {
     background: url('/images/hola_dog.png') bottom left no-repeat;
