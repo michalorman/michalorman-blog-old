@@ -16,7 +16,8 @@ pomiędzy pracą zawodową, a obowiązkami świeżo upieczonego taty.
 Jestem absolwentem [Wydziału Informatyki](http://www.wi.zut.edu.pl/) [Zachodniopomorskiego Uniwersytetu Szczecińskiego](http://www.zut.edu.pl/) (który za moich czasów
 nazywał się Politechniką Szczecińską). Pracę zawodową rozpocząłem już pod koniec 3-go roku studiów i zajmowałem się główniem pisaniem modułów dla systemów wbudowanych
 (Linux RTOS) dla zastosowań telekomunikacyjnych. Od 2008 roku prowadzę działalność gospodarczą pod nazwą **NEOSOFT Michał Orman** tworząc aplikacje w technologiach
-Java EE (głównie), Rails oraz Android. Na codzień współpracuję z firmą [Consileon](http://www.consileon.pl).
+Java EE (głównie), Rails oraz Android. Na codzień współpracuję z firmą [Consileon](http://www.consileon.pl). Jestem także członkiem [Stowarzyszenia Project
+Management Polska](http://www.spmp.org.pl/).
 
 W skrócie specjalizuję się w:
 

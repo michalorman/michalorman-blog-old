@@ -52,5 +52,6 @@ code.java .nd {
 }
 
 code.xml .na {
-    color: white;
+    color: #6a886a;
+    font-style: italic;
 }
