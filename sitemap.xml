@@ -207,6 +207,11 @@ layout: nil
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>http://michalorman.pl/blog/spring/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>http://michalorman.pl/blog/tools/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
