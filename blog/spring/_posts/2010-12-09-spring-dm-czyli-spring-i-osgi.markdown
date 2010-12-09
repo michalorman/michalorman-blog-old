@@ -196,7 +196,7 @@ OSGi a także używać dostępnych komponentów i wstrzykiwać je do komponentó
 dzieje się jedynie z pomocą odrobiny deklaracji w plikach XML-owych.
 
 Działający kod aplikacji powstałej do tego posta można znaleźć pod adresem:
-[https://github.com/michalorman/michalorman.github.com/przyklady/spring-dm-czyli-spring-i-osgi/](https://github.com/michalorman/michalorman.github.com).
+[https://github.com/michalorman/michalorman.github.com/tree/master/przyklady/spring-dm-czyli-spring-i-osgi](https://github.com/michalorman/michalorman.github.com/tree/master/przyklady/spring-dm-czyli-spring-i-osgi)
 
 Znajduje się tam także Equinox skonfigurowany pod Spring DM 2.0.0.M1 oraz Spring'a 3.0.5.RELEASE
 (a nie 3.0.0.RC1 z jaką domyślnie jest Spring DM).
