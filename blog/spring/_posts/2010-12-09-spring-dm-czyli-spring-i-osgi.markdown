@@ -5,14 +5,14 @@ description: Integracja komponentów springa z technologią OSGi z użyciem Spri
 keywords: Spring DM Dynamic Modules OSGi Equinox
 ---
 Uff, ale dawno nie wrzuciłem żadnego posta na bloga. Czas nadrobić nieco zaległości, a ostatnie tygodnie stały u
-mnie pod znakiem **Spring'a**. Obecnie przyglądam się integracji z ciekawą technologią [OSGi](http://en.wikipedia.org/wiki/OSGi),
-która ostatnio staje się coraz bardziej modniejsza. Spring w swojej rodzinie frameworków posiada jeden o nazwie
+mnie pod znakiem **Spring'a**. Obecnie przyglądam się integracji tego frameworka z ciekawą technologią [OSGi](http://en.wikipedia.org/wiki/OSGi),
+która ostatnio staje się coraz bardziej modna. Spring w swojej rodzinie frameworków posiada jeden o nazwie
 [Spring Dynamic Modules](http://www.springsource.org/osgi), który służy do integracji komponentów Spring'owych z
 platformą OSGi (i na odwrót).
 
 ## Krótko o platformie OSGi
 
-Jak dotąd platforma Java nie dorobiła się porządnego wsparcia dla modularności aplikacji. Oczywiście istnieją
+Jak dotąd platforma Java nie dorobiła się porządnego wsparcia dla modularnych aplikacji. Oczywiście istnieją
 wzorce pozwalające nam na modularyzację aplikacji, jednakże z punktu widzenia maszyny wirtualnej jest to wciąż
 jedna, monolityczna aplikacja. Czego zatem brakuje Javie, do pełnej modularyzacji?
 
@@ -186,4 +186,17 @@ gotowa.
 
 ## Podsumowanie
 
+Platforma OSGi ma na celu wypełnienie luki jaka istnieje w Javie dotyczącej wsparcia dla
+aplikacji wielomodułowych. To co oferuje nam Java, czyli różne typy archiwów (JAR, WAR czy EAR)
+okazują się niewystarczające. OSGi jasno definiuje czym jest moduł, jaki jest jego cykl życia
+oraz izoluje moduły od siebie udostępniając tylko te usługi, które trzeba.
 
+Spring Dynamic Modules to framework, który pozwala instalować komponenty Springo'we w kontenerze
+OSGi a także używać dostępnych komponentów i wstrzykiwać je do komponentów Springa. Całość
+dzieje się jedynie z pomocą odrobiny deklaracji w plikach XML-owych.
+
+Działający kod aplikacji powstałej do tego posta można znaleźć pod adresem:
+[https://github.com/michalorman/michalorman.github.com/przyklady/spring-dm-czyli-spring-i-osgi/](https://github.com/michalorman/michalorman.github.com).
+
+Znajduje się tam także Equinox skonfigurowany pod Spring DM 2.0.0.M1 oraz Spring'a 3.0.5.RELEASE
+(a nie 3.0.0.RC1 z jaką domyślnie jest Spring DM).
