@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <artifactId>spring-dm-demo</artifactId>
+        <groupId>demo.springdm</groupId>
+        <version>1.0</version>
+    </parent>
+
+    <groupId>demo.springdm</groupId>
+    <artifactId>spring-dm-demo-consumer</artifactId>
+    <version>1.0</version>
+    <name>Spring DM demo :: Consumer</name>
+    <packaging>bundle</packaging>
+
+    <dependencies>
+        <dependency>
+            <groupId>demo.springdm</groupId>
+            <artifactId>spring-dm-demo-producer</artifactId>
+        </dependency>
+    </dependencies>
+</project>
