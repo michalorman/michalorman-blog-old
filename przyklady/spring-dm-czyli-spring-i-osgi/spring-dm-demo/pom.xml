@@ -103,5 +103,6 @@
     <modules>
         <module>spring-dm-demo-producer</module>
         <module>spring-dm-demo-consumer</module>
+        <module>logback-config</module>
     </modules>
 </project>

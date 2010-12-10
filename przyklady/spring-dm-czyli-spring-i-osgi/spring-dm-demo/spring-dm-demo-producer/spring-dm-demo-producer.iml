@@ -1,16 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Osmorc" name="OSGi">
+      <configuration osmorcControlsManifest="true" manifestLocation="" jarfileLocation="$MODULE_DIR$/target//usr/local/share/idea-IU-99.18/bin/spring-dm-demo-producer.jar" outputPathType="CompilerOutputPath" useBndFile="false" bndFileLocation="" useBundlorFile="false" bundlorFileLocation="" bundleActivator="" bundleSymbolicName="demo.springdm.spring-dm-demo-producer" bundleVersion="1.0" ignoreFilePattern="" useProjectDefaultManifestFileLocation="true" alwaysRebuildBundleJAR="false">
+        <additionalProperties />
+        <additionalJARContents />
+      </configuration>
+    </facet>
+    <facet type="Spring" name="Spring">
+      <configuration />
+    </facet>
+  </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_6" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/target/generated-sources/annotations" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/target/generated-sources/annotations" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target/classes" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: ch.qos.logback:com.springsource.ch.qos.logback.classic:0.9.24" level="project" />
+    <orderEntry type="library" name="Maven: ch.qos.logback:com.springsource.ch.qos.logback.core:0.9.24" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:com.springsource.slf4j.api:1.6.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.osgi:org.osgi.core:4.2.0" level="project" />
     <orderEntry type="library" name="Maven: org.osgi:org.osgi.compendium:4.2.0" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.osgi:spring-osgi-extender:2.0.0.M1" level="project" />

@@ -21,5 +21,9 @@
             <groupId>demo.springdm</groupId>
             <artifactId>spring-dm-demo-producer</artifactId>
         </dependency>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>com.springsource.ch.qos.logback.classic</artifactId>
+        </dependency>
     </dependencies>
 </project>

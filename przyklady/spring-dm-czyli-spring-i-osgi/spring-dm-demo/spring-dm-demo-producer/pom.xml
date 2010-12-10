@@ -15,4 +15,11 @@
     <version>1.0</version>
     <name>Spring DM demo :: Producer</name>
     <packaging>bundle</packaging>
+
+    <dependencies>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>com.springsource.ch.qos.logback.classic</artifactId>
+        </dependency>
+    </dependencies>
 </project>
