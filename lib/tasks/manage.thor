@@ -1,3 +1,6 @@
+require "rubygems"
+require "jekyll"
+
 module Utils
   def normalize(s)
     from = %w{ ó ą ę ł ź ś ń ć ż Ó Ą Ę Ł Ź Ś Ń Ć Ż }
@@ -10,6 +13,18 @@ module Utils
 end
 
 POSTS_ROOT = "blog"
+
+#class Site
+#  def initialize
+#    @options = Jekyll.configuration({})
+#    @site    = Jekyll::Site.new(@options)
+#    @site.read_directories
+#  end
+#
+#  def categories
+#    @site.categories
+#  end
+#end
 
 class Category
   include Utils
@@ -58,10 +73,10 @@ class Post
   include FileUtils
 
   def initialize(title, category)
-    @title    = title
-    @category = Category.new(category)
+    @title      = title
+    @category   = Category.new(category)
     @posts_path = "#{@category.path}/_posts"
-    @path = "#{@posts_path}/#{normalize(@title)}.markdown"
+    @path       = "#{@posts_path}/#{normalize(@title)}.markdown"
   end
 
   def create
@@ -101,12 +116,14 @@ class Blog < Thor
     post = Post.new(title, category)
     unless post.exists?
       post.create
+      rebuild_categories_file
     else
       puts "Post '#{title}' in category '#{category}' already exists"
     end
   end
 
   desc 'remove_post TITLE CATEGORY', 'Removes post with specified TITLE in given CATEGORY'
+
   def remove_post(title, category)
     post = Post.new(title, category)
     if post.exists?
@@ -122,6 +139,7 @@ class Blog < Thor
     category = Category.new(name)
     unless category.exists?
       category.create
+      rebuild_categories_file
     else
       puts "Category '#{name}' already exists"
     end
@@ -134,9 +152,33 @@ class Blog < Thor
     category = Category.new(name)
     if category.exists?
       category.remove options[:force]
+      rebuild_categories_file
     else
       puts "Category '#{name}' not exists"
     end
   end
 
+  desc 'rebuild_categories_file', 'Rebuilds the categories file'
+  def rebuild_categories_file
+    puts 'Rebuilding categories file'
+    File.open('_includes/categories.html', 'w+') do |f|
+      puts "W pliku #{f}"
+      f.puts categories_content(categories)
+    end
+  end
+
+  no_tasks do
+    def categories_content(categories)
+      content = "<ul>\n"
+      categories.sort.each do |category, post|
+        content += "  <li><a href=\"/blog/#{category}/\" title=\"Zobacz wszystkie posty w kategorii #{category}\">#{category} ({{ site.categories.#{category}.size }})</a></li>\n" unless category =~ /^#{POSTS_ROOT}/
+      end
+      content + "</ul>\n"
+    end
+
+    def categories
+      Dir['blog/*/_posts'].each.collect { |d| d =~ /^blog\/(.+)\/_posts$/; $1 }.sort
+      #Site.new.categories.sort
+    end
+  end
 end
