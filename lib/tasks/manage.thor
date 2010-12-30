@@ -14,18 +14,6 @@ end
 
 POSTS_ROOT = "blog"
 
-#class Site
-#  def initialize
-#    @options = Jekyll.configuration({})
-#    @site    = Jekyll::Site.new(@options)
-#    @site.read_directories
-#  end
-#
-#  def categories
-#    @site.categories
-#  end
-#end
-
 class Category
   include Utils
   include FileUtils
@@ -162,7 +150,6 @@ class Blog < Thor
   def rebuild_categories_file
     puts 'Rebuilding categories file'
     File.open('_includes/categories.html', 'w+') do |f|
-      puts "W pliku #{f}"
       f.puts categories_content(categories)
     end
   end
@@ -178,7 +165,6 @@ class Blog < Thor
 
     def categories
       Dir['blog/*/_posts'].each.collect { |d| d =~ /^blog\/(.+)\/_posts$/; $1 }.sort
-      #Site.new.categories.sort
     end
   end
 end

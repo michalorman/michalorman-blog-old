@@ -3,230 +3,30 @@ layout: nil
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-  <!-- Blog/About -->
   <url>
-    <loc>http://michalorman.pl/</loc>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-  </url>
-  <url>
-    <loc>http://michalorman.pl/blog/</loc>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-  </url>
-  <url>
-    <loc>http://michalorman.pl/blog/o-blogu/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://michalorman.pl/blog/o-mnie/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://michalorman.pl/blog/o-mnie/neosoft/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://michalorman.pl/blog/o-mnie/moje-projekty/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>http://michalorman.pl</loc>
+    <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
   </url>
 
-  <!-- Archives -->
+  <!-- Entries -->
+  {% for post in site.posts %}
   <url>
-    <loc>http://michalorman.pl/blog/2009/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.4</priority>
+    <loc>http://michalorman.pl{{ post.url }}</loc>
+    <lastmod>{{ post.date | date: "%Y-%m-%d" }}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
   </url>
-  <url>
-    <loc>http://michalorman.pl/blog/2009/10/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>http://michalorman.pl/blog/2009/11/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>http://michalorman.pl/blog/2009/12/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>http://michalorman.pl/blog/2010/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>http://michalorman.pl/blog/2010/01/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>http://michalorman.pl/blog/2010/02/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>http://michalorman.pl/blog/2010/03/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>http://michalorman.pl/blog/2010/04/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>http://michalorman.pl/blog/2010/05/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.4</priority>
-  </url>
+  {% endfor %}
 
   <!-- Pages -->
+  {% for page in site.html_pages %}
   <url>
-    <loc>http://michalorman.pl/artykuly/</loc>
+    <loc>http://michalorman.pl{{ page.url }}</loc>
+    <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://michalorman.pl/artykuly/zarzadzanie-projektami/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>http://michalorman.pl/artykuly/zarzadzanie-projektami/dlaczego-realizowany-jest-projekt/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>http://michalorman.pl/kontakt/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>http://michalorman.pl/prezentacje/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>http://michalorman.pl/strony/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Categories -->
-  <url>
-    <loc>http://michalorman.pl/blog/android/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://michalorman.pl/blog/architektura/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://michalorman.pl/blog/blog/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://michalorman.pl/blog/certyfikaty/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://michalorman.pl/blog/general/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://michalorman.pl/blog/git/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://michalorman.pl/blog/javaee/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://michalorman.pl/blog/jboss/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://michalorman.pl/blog/oop/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://michalorman.pl/blog/parcelscout/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://michalorman.pl/blog/patterns/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://michalorman.pl/blog/prince2/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://michalorman.pl/blog/ruby/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://michalorman.pl/blog/scrum/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://michalorman.pl/blog/seam/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://michalorman.pl/blog/security/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://michalorman.pl/blog/seo/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://michalorman.pl/blog/spring/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://michalorman.pl/blog/tools/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://michalorman.pl/blog/web/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-    <!-- Entries -->
-{% for page in site.posts %}  <url>
-    <loc>http://michalorman.pl{{ page.url }}/</loc>
-    <lastmod>{{ page.date | date: "%Y-%m-%d" }}</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-{% endfor %}</urlset>
+  {% endfor %}
+</urlset>
