@@ -77,5 +77,6 @@ nasz formularz działał poprawnie musimy dokonać następującej modyfikacji fo
   = f.button :submit
 {% endhighlight %}
 
-W tej sytuacji pole ``_method`` nie będzie renderowane. Oczywiście moglibyśmy zmienić nasz routing na ``put`` zamiast ``post``
-co również by zadziałało.
+W tej sytuacji pole ``_method`` nie będzie renderowane. Oczywiście moglibyśmy dodać routing dla metody ``put`` co również
+by zadziałało. Trzeba jednak pamiętać, że potrzebować będziemy zarówno routingu dla metody ``post``, dla nowych rekordów,
+jak i dla metody ``put`` dla aktualizacji.
