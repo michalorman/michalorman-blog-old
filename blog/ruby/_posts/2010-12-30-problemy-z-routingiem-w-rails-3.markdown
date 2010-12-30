@@ -78,5 +78,5 @@ nasz formularz działał poprawnie musimy dokonać następującej modyfikacji fo
 {% endhighlight %}
 
 W tej sytuacji pole ``_method`` nie będzie renderowane. Oczywiście moglibyśmy dodać routing dla metody ``put`` co również
-by zadziałało. Trzeba jednak pamiętać, że potrzebować będziemy zarówno routingu dla metody ``post``, dla nowych rekordów,
-jak i dla metody ``put`` dla aktualizacji.
+by zadziałało. Trzeba jednak pamiętać, że w tym przypadku potrzebować będziemy zarówno routingu dla metody ``post`` - dla nowych rekordów -
+jak i dla metody ``put`` - dla aktualizacji.
