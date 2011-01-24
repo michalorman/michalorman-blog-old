@@ -64,7 +64,7 @@ class Post
     @title      = title
     @category   = Category.new(category)
     @posts_path = "#{@category.path}/_posts"
-    @path       = "#{@posts_path}/#{normalize(@title)}.markdown"
+    @path       = "#{@posts_path}/#{Time.now.strftime('%Y-%m-%d-')}#{normalize(@title)}.markdown"
   end
 
   def create
@@ -147,6 +147,7 @@ class Blog < Thor
   end
 
   desc 'rebuild_categories_file', 'Rebuilds the categories file'
+
   def rebuild_categories_file
     puts 'Rebuilding categories file'
     File.open('_includes/categories.html', 'w+') do |f|
