@@ -4,7 +4,7 @@ title: Niestandardowe typy pól w simple_form
 description: Jak prosto dodać nowy typ pola formularza korzystając z frameworka simple_form
 keywords: ruby rails simple_form input form pole formularz typ string text zip zip_code input HTML5
 ---
-Standard HTML5 definiuje nam [nowe](http://www.w3schools.com/html5/att_input_type.asp) wartości atrybutu
+Standard HTML5 definiuje nam [nowe](http://www.w3.org/TR/html5/the-input-element.html#the-input-element) wartości atrybutu
 ``type`` dla elementu ``<input>``. Na podstawie wartości tego pola przeglądarki mogą w odpowiedni sposób
 renderować pola formularzy. Ma to jeszcze większe znaczenie dla urządzeń mobilnych, gdzie poza samym
 polem urządzenia te mogą dostosować wygląd klawiatury za pomocą której wprowadzamy dane.
