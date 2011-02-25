@@ -4,7 +4,7 @@ title: Bullshit Bingo - REST i RESTful
 description: Wpis o tym dlaczego REST i RESTful należy często traktować w kategorii buzzwordu niż czegoś co nasza aplikacja ma wspierać.
 keywords: REST RESTful Bullshit Bingo
 ---
-Ostatnio nie mam trochę czasu na techniczne wpisy, także tym razem będzie bardziej filozoficzny. Wczoraj zostałem zapytany co myślę
+Ostatnio nie mam trochę czasu na techniczne wpisy, także tym razem wpis będzie bardziej filozoficzny. Wczoraj zostałem zapytany co myślę
 na temat konwencji [REST](http://en.wikipedia.org/wiki/Representational_State_Transfer) co zainspirowało mnie do stworzenia tego wpisu,
 ku przestrodze przed bezmyślnym wciskaniem tej architektury do każdej aplikacji. 
 
