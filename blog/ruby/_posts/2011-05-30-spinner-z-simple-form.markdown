@@ -78,4 +78,4 @@ formularza.
 Gotowy skrypt jest dostępny tutaj:
 [https://github.com/michalorman/simple_form_spinner](https://github.com/michalorman/simple_form_spinner).
 
-Jest tam kilka drobnych usprawnień konfiguracyjnych.
+Jest w nim też kilka drobnych usprawnień konfiguracyjnych.
