@@ -122,6 +122,61 @@ layout: nil
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
+  <url>
+    <loc>http://michalorman.pl/blog/2011/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>http://michalorman.pl/blog/2011/01/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>http://michalorman.pl/blog/2011/02/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>http://michalorman.pl/blog/2011/03/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>http://michalorman.pl/blog/2011/04/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>http://michalorman.pl/blog/2011/05/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>http://michalorman.pl/blog/2011/06/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>http://michalorman.pl/blog/2011/07/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>http://michalorman.pl/blog/2011/08/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>http://michalorman.pl/blog/2011/09/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>http://michalorman.pl/blog/2011/10/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
 
   <!-- Pages -->
   <url>
